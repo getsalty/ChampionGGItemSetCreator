@@ -1,0 +1,34 @@
+E:\workspace\championGG parser\championGG parser\bin\Debug\championGG parser.exe.config
+E:\workspace\championGG parser\championGG parser\obj\Debug\championGG parser.csprojResolveAssemblyReference.cache
+E:\workspace\championGG parser\championGG parser\obj\Debug\MainWindow.baml
+E:\workspace\championGG parser\championGG parser\obj\Debug\MainWindow.g.cs
+E:\workspace\championGG parser\championGG parser\obj\Debug\App.g.cs
+E:\workspace\championGG parser\championGG parser\obj\Debug\championGG parser_MarkupCompile.cache
+E:\workspace\championGG parser\championGG parser\obj\Debug\championGG parser.g.resources
+E:\workspace\championGG parser\championGG parser\obj\Debug\championGG_parser.Properties.Resources.resources
+E:\workspace\championGG parser\championGG parser\obj\Debug\championGG parser.csproj.GenerateResource.Cache
+E:\workspace\championGG parser\championGG parser\bin\Debug\championGG parser.exe
+E:\workspace\championGG parser\championGG parser\bin\Debug\championGG parser.pdb
+E:\workspace\championGG parser\championGG parser\obj\Debug\championGG parser.exe
+E:\workspace\championGG parser\championGG parser\obj\Debug\championGG parser.pdb
+E:\workspace\championGG parser\championGG parser\bin\Debug\Resources\ajax-loader.gif
+E:\workspace\championGG parser\championGG parser\obj\Debug\SettingsWindow.baml
+E:\workspace\championGG parser\championGG parser\obj\Debug\SettingsWindow.g.cs
+E:\workspace\championGG parser\championGG parser\bin\Debug\Resources\G.ico
+E:\workspace\ChampionGGItemSetCreator\championGG parser\bin\Debug\championGG parser.exe.config
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.exe
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.pdb
+E:\workspace\ChampionGGItemSetCreator\championGG parser\bin\Debug\Resources\ajax-loader.gif
+E:\workspace\ChampionGGItemSetCreator\championGG parser\bin\Debug\Resources\G.ico
+E:\workspace\ChampionGGItemSetCreator\championGG parser\bin\Debug\championGG parser.exe
+E:\workspace\ChampionGGItemSetCreator\championGG parser\bin\Debug\championGG parser.pdb
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.csprojResolveAssemblyReference.cache
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\MainWindow.baml
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\SettingsWindow.baml
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\MainWindow.g.cs
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\SettingsWindow.g.cs
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\App.g.cs
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser_MarkupCompile.cache
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.g.resources
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG_parser.Properties.Resources.resources
+E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.csproj.GenerateResource.Cache
