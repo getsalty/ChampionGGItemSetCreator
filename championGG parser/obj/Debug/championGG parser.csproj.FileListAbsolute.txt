@@ -32,3 +32,6 @@ E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG par
 E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.g.resources
 E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG_parser.Properties.Resources.resources
 E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.csproj.GenerateResource.Cache
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Debug\championGG parser.exe.config
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.exe
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.pdb
