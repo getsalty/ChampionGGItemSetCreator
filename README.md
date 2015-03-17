@@ -2,7 +2,7 @@
 ### Created by Garrett Long - www.garrettlongonline.com
 ######Email - xelfarcherdv@aol.com
 ######Reddit - Warrior3500
-######Leauge (NA) - ILoveNate
+######League (NA) - ILoveNate
 
 ---
 
