@@ -169,6 +169,98 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1036.png" />
+    <Resource Include="Resources\Item Images\1055.png" />
+    <Resource Include="Resources\Item Images\1056.png" />
+    <Resource Include="Resources\Item Images\2003.png" />
+    <Resource Include="Resources\Item Images\3020.png" />
+    <Resource Include="Resources\Item Images\3022.png" />
+    <Resource Include="Resources\Item Images\3026.png" />
+    <Resource Include="Resources\Item Images\3047.png" />
+    <Resource Include="Resources\Item Images\3065.png" />
+    <Resource Include="Resources\Item Images\3089.png" />
+    <Resource Include="Resources\Item Images\3100.png" />
+    <Resource Include="Resources\Item Images\3102.png" />
+    <Resource Include="Resources\Item Images\3116.png" />
+    <Resource Include="Resources\Item Images\3135.png" />
+    <Resource Include="Resources\Item Images\3143.png" />
+    <Resource Include="Resources\Item Images\3146.png" />
+    <Resource Include="Resources\Item Images\3153.png" />
+    <Resource Include="Resources\Item Images\3157.png" />
+    <Resource Include="Resources\Item Images\3165.png" />
+    <Resource Include="Resources\Item Images\3710.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\2004.png" />
+    <Resource Include="Resources\Item Images\2049.png" />
+    <Resource Include="Resources\Item Images\3075.png" />
+    <Resource Include="Resources\Item Images\3083.png" />
+    <Resource Include="Resources\Item Images\3110.png" />
+    <Resource Include="Resources\Item Images\3111.png" />
+    <Resource Include="Resources\Item Images\3117.png" />
+    <Resource Include="Resources\Item Images\3190.png" />
+    <Resource Include="Resources\Item Images\3302.png" />
+    <Resource Include="Resources\Item Images\3401.png" />
+    <Resource Include="Resources\Item Images\3725.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3003.png" />
+    <Resource Include="Resources\Item Images\3006.png" />
+    <Resource Include="Resources\Item Images\3027.png" />
+    <Resource Include="Resources\Item Images\3031.png" />
+    <Resource Include="Resources\Item Images\3035.png" />
+    <Resource Include="Resources\Item Images\3072.png" />
+    <Resource Include="Resources\Item Images\3087.png" />
+    <Resource Include="Resources\Item Images\3092.png" />
+    <Resource Include="Resources\Item Images\3285.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3046.png" />
+    <Resource Include="Resources\Item Images\3115.png" />
+    <Resource Include="Resources\Item Images\3151.png" />
+    <Resource Include="Resources\Item Images\3800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3001.png" />
+    <Resource Include="Resources\Item Images\3068.png" />
+    <Resource Include="Resources\Item Images\3069.png" />
+    <Resource Include="Resources\Item Images\3074.png" />
+    <Resource Include="Resources\Item Images\3078.png" />
+    <Resource Include="Resources\Item Images\3156.png" />
+    <Resource Include="Resources\Item Images\3723.png" />
+    <Resource Include="Resources\Item Images\3724.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3004.png" />
+    <Resource Include="Resources\Item Images\3139.png" />
+    <Resource Include="Resources\Item Images\3158.png" />
+    <Resource Include="Resources\Item Images\3708.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3009.png" />
+    <Resource Include="Resources\Item Images\3071.png" />
+    <Resource Include="Resources\Item Images\3142.png" />
+    <Resource Include="Resources\Item Images\3174.png" />
+    <Resource Include="Resources\Item Images\3707.png" />
+    <Resource Include="Resources\Item Images\3718.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1039.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3041.png" />
+    <Resource Include="Resources\Item Images\3085.png" />
+    <Resource Include="Resources\Item Images\3152.png" />
+    <Resource Include="Resources\Item Images\3172.png" />
+    <Resource Include="Resources\Item Images\3222.png" />
+    <Resource Include="Resources\Item Images\3512.png" />
+    <Resource Include="Resources\Item Images\3709.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3198.png" />
+    <Resource Include="Resources\Item Images\3726.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

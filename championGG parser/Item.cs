@@ -12,6 +12,7 @@ namespace championGG_parser
     {
         private short _id;
         private string _name;
+        private string _img;
 
         /// <summary>
         /// Id of the item.
@@ -19,13 +20,22 @@ namespace championGG_parser
         public short id
         {
             get { return _id; }
-            set { _id = value; }
+            set
+            {
+                _id = value;
+                _img = "Resources/Item Images/" + value + ".png";
+            }
         }
 
         public string name
         {
             get { return _name; }
             set { _name = value; }
+        }
+
+        public string img
+        {
+            get { return _img; }
         }
 
     }

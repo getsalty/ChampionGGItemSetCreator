@@ -28,6 +28,7 @@ namespace championGG_parser
             champions.Add(new Champion("Annie", new string[] { Helper.Support, Helper.Middle }));
             champions.Add(new Champion("Ashe", new string[] { Helper.ADC }));
             champions.Add(new Champion("Azir", new string[] { Helper.Top, Helper.Middle }));
+            champions.Add(new Champion("Bard", new string[] { Helper.Support }));
             champions.Add(new Champion("Blitzcrank", new string[] { Helper.Support }));
             champions.Add(new Champion("Brand", new string[] { Helper.Support, Helper.Middle }));
             champions.Add(new Champion("Braum", new string[] { Helper.Support }));
