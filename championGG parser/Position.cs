@@ -7,6 +7,7 @@
 //You should have received a copy of the GNU General Public License along with ChampionGG Item Set Creator. If not, see http://www.gnu.org/licenses/.
 
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 
@@ -14,10 +15,10 @@ namespace championGG_parser
 {
     class Position
     {
-        public ObservableCollection<Item> popularItemList;
-        public ObservableCollection<Item> highestWinItemList;
-        public ObservableCollection<Item> popularStarterList;
-        public ObservableCollection<Item> highestWinStarterList;
+        public List<Item> popularItemList { get; set; }
+        public List<Item> highestWinItemList { get; set; }
+        public List<Item> popularStarterList { get; set; }
+        public List<Item> highestWinStarterList { get; set; }
         public Website website;
         public string patch
         {
@@ -33,20 +34,20 @@ namespace championGG_parser
         #region constructors
         public Position(string name)
         {
-            popularItemList = new ObservableCollection<Item>();
-            highestWinItemList = new ObservableCollection<Item>();
-            popularStarterList = new ObservableCollection<Item>();
-            highestWinStarterList = new ObservableCollection<Item>();
+            popularItemList = new List<Item>();
+            highestWinItemList = new List<Item>();
+            popularStarterList = new List<Item>();
+            highestWinStarterList = new List<Item>();
             website = new Website();
             this.name = name;
         }
 
         public Position()
         {
-            popularItemList = new ObservableCollection<Item>();
-            highestWinItemList = new ObservableCollection<Item>();
-            popularStarterList = new ObservableCollection<Item>();
-            highestWinStarterList = new ObservableCollection<Item>();
+            popularItemList = new List<Item>();
+            highestWinItemList = new List<Item>();
+            popularStarterList = new List<Item>();
+            highestWinStarterList = new List<Item>();
             website = new Website();
             this.name = "";
         }
@@ -321,7 +322,7 @@ namespace championGG_parser
         /// <param name="from">The starting point of where to parse.</param>
         /// <param name="to">The ending point of where to parse.</param>
         /// <param name="itemList">The list in which the items will be stored.</param>
-        void PopulateIndividualList(string source, string from, string to, ObservableCollection<Item> itemList)
+        void PopulateIndividualList(string source, string from, string to, List<Item> itemList)
         {
             string[] splitValues = Helper.StringBetween(source, from, to).Split('\n');
 

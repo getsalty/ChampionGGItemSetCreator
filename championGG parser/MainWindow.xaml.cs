@@ -79,7 +79,7 @@ namespace championGG_parser
         {
             ListBox tmpListBox = sender as ListBox;
             Champion tmpChamp = tmpListBox.SelectedItem as Champion;
-            itemSet2.ItemsSource = tmpChamp.positions;
+            itemSet.ItemsSource = tmpChamp.positions;
 
         }
 

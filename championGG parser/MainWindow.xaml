@@ -28,40 +28,54 @@
             </ListBox.ItemTemplate>
         </ListBox>
         <ListBox x:Name="itemSet" HorizontalAlignment="Left" Height="469" Padding="10,10,10,10" Margin="190,88,0,0" VerticalAlignment="Top" Width="509" SelectionChanged="itemSet_SelectionChanged">
-            <!--<ListBox.ItemTemplate>-->
-            <ItemsControl  x:Name="itemSet2" ItemsSource="{Binding popularItemList}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        
-                        <!--<StackPanel Margin="10,2,30,2" Orientation="Vertical">
+            <ListBox.ItemTemplate>
+                <!--<ItemsControl  x:Name="itemSet2" ItemsSource="{Binding popularItemList}">
+                <ItemsControl.ItemTemplate>-->
+                <DataTemplate>
+
+                    <!--<StackPanel Margin="10,2,30,2" Orientation="Vertical">
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock x:Name="itemSetPosition" Text="{Binding name}" FontSize="20" Width="140px"  FontWeight="Bold" />
                                 <TextBlock x:Name="itemSetPosition2" Text="{Binding patch}" FontSize="20" Width="140px"  FontWeight="Bold" />
                             </StackPanel>-->
-                            
-                            
-                            <StackPanel Orientation="Vertical" Margin="30,10,10,10">
 
-                                <ItemsControl x:Name="testing123" ItemsSource="{Binding popularItemList}">
-                                    <ItemsControl.ItemTemplate>
-                                        <DataTemplate>
-                                            <StackPanel Orientation="Horizontal">
-                                                <TextBlock x:Name="itemSetPosition3" Text="{Binding name}" FontSize="20" Width="125px"  FontWeight="Bold" />
-                                            </StackPanel>
-                                        </DataTemplate>
-                                    </ItemsControl.ItemTemplate>
-                                </ItemsControl>                              
 
-                            </StackPanel>
-                            
-                            
-                        <!--</StackPanel>-->
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-            <!--</ListBox.ItemTemplate>-->         
+                    <StackPanel Orientation="Vertical" Margin="30,10,10,10">
+                        <ItemsControl  x:Name="testing123" ItemsSource="{Binding popularItemList}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="{Binding id}" FontSize="20" Width="50px" FontWeight="Bold" Margin="0,0,20,0"/>
+                                        <TextBlock Text="{Binding name}" FontSize="20" Width="250px" FontWeight="Bold" />
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>  
+                        </ItemsControl>
+                    </StackPanel>
 
+
+                    <!--</StackPanel>-->
+                </DataTemplate>
+                <!--</ItemsControl.ItemTemplate>
+            </ItemsControl>-->
+            </ListBox.ItemTemplate>           
         </ListBox>
+        
+        
+        
+        <!--<ListBox x:Name="testing123" ItemsSource="{Binding popularItemList}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock DataContext="{Binding SelectedItem, ElementName=testing123}" Text="{Binding id}" 
+                                   FontSize="20" Width="50px" Height="30px" FontWeight="Bold" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>-->
+        
+        
+        
 
         <Button x:Name="buttonClearTextHTML" Content="Clear Stored HTML" HorizontalAlignment="Left" Margin="577,40,0,0" VerticalAlignment="Top" Width="122" Height="43" IsEnabled="False" Click="buttonClearTextHTML_Click"/>
         <Button x:Name="buttonGetData" Content="Get Data" HorizontalAlignment="Left" Margin="25,42,0,0" VerticalAlignment="Top" Width="123" Height="41" Click="buttonGetData_Click"/>

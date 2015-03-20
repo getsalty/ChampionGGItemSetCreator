@@ -8,21 +8,24 @@
 
 namespace championGG_parser
 {
-    class Item
+    public class Item
     {
+        private short _id;
+        private string _name;
+
         /// <summary>
         /// Id of the item.
         /// </summary>
         public short id
         {
-            get;
-            set;
+            get { return _id; }
+            set { _id = value; }
         }
 
         public string name
         {
-            get;
-            set;
+            get { return _name; }
+            set { _name = value; }
         }
 
     }
