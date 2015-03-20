@@ -156,6 +156,17 @@ namespace championGG_parser
             Console.Write(itemSet);
         }
 
-
+        private void Image_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            Image test = sender as Image;
+            foreach (var item in Helper.gameItems)
+            {
+                if (test.Source.ToString().Contains(item.Key.ToString()))
+                {
+                    test.ToolTip = item.Value;
+                    return;
+                }
+            }
+        }
     }
 }
