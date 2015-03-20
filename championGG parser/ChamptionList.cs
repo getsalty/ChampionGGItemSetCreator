@@ -126,7 +126,7 @@ namespace championGG_parser
             champions.Add(new Champion("Urgot", new string[] { Helper.Top }));
             champions.Add(new Champion("Varus", new string[] { Helper.ADC }));
             champions.Add(new Champion("Vayne", new string[] { Helper.ADC }));
-            champions.Add(new Champion("Veigar", new string[] { Helper.Support, Helper.Middle }));
+            champions.Add(new Champion("Veigar", new string[] { Helper.Middle })); // support
             champions.Add(new Champion("Velkoz", new string[] { Helper.Support, Helper.Middle }));
             champions.Add(new Champion("Vi", new string[] { Helper.Jungle }));
             champions.Add(new Champion("Viktor", new string[] { Helper.Middle }));

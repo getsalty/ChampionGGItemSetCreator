@@ -35,3 +35,17 @@ E:\workspace\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG par
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Debug\championGG parser.exe.config
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.exe
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.pdb
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Debug\Resources\ajax-loader.gif
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Debug\Resources\G.ico
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Debug\championGG parser.exe
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Debug\championGG parser.pdb
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.csprojResolveAssemblyReference.cache
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\MainWindow.baml
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\SettingsWindow.baml
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\MainWindow.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\SettingsWindow.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\App.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser_MarkupCompile.cache
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.g.resources
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG_parser.Properties.Resources.resources
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser.csproj.GenerateResource.Cache
