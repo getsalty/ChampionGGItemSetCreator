@@ -32,17 +32,15 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
 
-
                     <Border CornerRadius="5" BorderBrush="Gray" Background="LightGray" BorderThickness="2" Margin="0,10,0,10">
                         <StackPanel Orientation="Vertical" Margin="30,5,10,10">
                             <TextBlock Text="{Binding name}" HorizontalAlignment="Left" FontSize="20" Width="150px" FontWeight="Bold" />
-
                             <TextBlock Text="Popular Items" HorizontalAlignment="Left" FontSize="17" Width="150px" FontWeight="Bold" Margin="10,10,0,0"/>
                             <StackPanel Orientation="Horizontal">
-                                <ItemsControl x:Name="testing123" ItemsSource="{Binding popularItemList}" Margin="25,5,0,0">
+                                <ItemsControl x:Name="testing123" ItemsSource="{Binding popularItemList}" Margin="25,5,0,0" >
                                     <ItemsControl.ItemTemplate>
                                         <DataTemplate>
-                                            <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
+                                            <StackPanel Orientation="Horizontal" Margin="0,3,0,0" >
                                                 <Image HorizontalAlignment="Left" Height="35" Width="35" Source="{Binding img}" Margin="0,0,10,0" MouseEnter="Image_MouseEnter"/>
                                                 <!--<TextBlock VerticalAlignment="Center" Text="{Binding name}" FontSize="15" Width="250px" FontWeight="Normal" />-->
                                             </StackPanel>
@@ -73,7 +71,6 @@
                             </ItemsControl>
                         </StackPanel>
                     </Border>
-
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>

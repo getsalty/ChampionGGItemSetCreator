@@ -80,7 +80,6 @@ namespace championGG_parser
             ListBox tmpListBox = sender as ListBox;
             Champion tmpChamp = tmpListBox.SelectedItem as Champion;
             itemSet.ItemsSource = tmpChamp.positions;
-
         }
 
         private void buttonGetData_Click(object sender, RoutedEventArgs e)
@@ -92,12 +91,12 @@ namespace championGG_parser
 
             Thread thread1 = new Thread(() =>
             {
-                foreach (var item in ch.champions)
+                foreach (var champion in ch.champions)
                 {
-                    foreach (var item2 in item.positions)
+                    foreach (var position in champion.positions)
                     {
-                        item2.website.URL = "http://champion.gg/champion/" + item.name + "/" + item2.name;
-                        item2.PopulateItems();
+                        position.website.URL = "http://champion.gg/champion/" + champion.name + "/" + position.name;
+                        position.PopulateItems();
                     }
                     Application.Current.Dispatcher.Invoke((Action)(() =>
                     {
@@ -168,5 +167,8 @@ namespace championGG_parser
                 }
             }
         }
+
+
+
     }
 }
