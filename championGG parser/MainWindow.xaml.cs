@@ -97,6 +97,7 @@ namespace championGG_parser
                     {
                         position.website.URL = "http://champion.gg/champion/" + champion.name + "/" + position.name;
                         position.PopulateItems();
+                        //position.website.textHTML = "";
                     }
                     Application.Current.Dispatcher.Invoke((Action)(() =>
                     {
@@ -115,7 +116,6 @@ namespace championGG_parser
                     buttonClearTextHTML.IsEnabled = true;
                     itemSet.Items.Refresh();
                 }));
-
             });
             thread1.Start();
         }

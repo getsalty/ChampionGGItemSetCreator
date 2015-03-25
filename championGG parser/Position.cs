@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Text;
 
 namespace championGG_parser
 {
@@ -20,17 +21,10 @@ namespace championGG_parser
         public List<Item> highestWinItemList { get; set; }
         public List<Item> popularStarterList { get; set; }
         public List<Item> highestWinStarterList { get; set; }
+        public string patch { get; set; }
+        public string name { get; set; }
+        public string skillOrder { get; set; }
         public Website website;
-        public string patch
-        {
-            get;
-            set;
-        }
-        public string name
-        {
-            get;
-            set;
-        }
 
         #region constructors
         public Position(string name)
@@ -212,7 +206,7 @@ namespace championGG_parser
             output += "               { \"count\": 1, \"id\": \"3341\" }," + System.Environment.NewLine + "";
             output += "               { \"count\": 1, \"id\": \"3342\" }" + System.Environment.NewLine + "";
             output += "           ]," + System.Environment.NewLine + "";
-            output += "           \"type\": \"Vision\"" + System.Environment.NewLine + "";
+            output += "           \"type\": \"Vision    " + skillOrder + "\"" + System.Environment.NewLine + "";
             output += "       }" + System.Environment.NewLine + "";
             #endregion
 
@@ -346,15 +340,15 @@ namespace championGG_parser
         /// <param name="from">The starting point of where to parse.</param>
         /// <param name="to">The ending point of where to parse.</param>
         /// <param name="itemList">The list in which the items will be stored.</param>
-        void PopulateIndividualList(string source, string from, string to, List<Item> itemList)
+        void PopulateIndividualList(ref string source, string from, string to, List<Item> itemList)
         {
-            string[] splitValues = Helper.StringBetween(source, from, to).Split('\n');
+            string[] splitValues = Helper.StringBetween(ref source, from, to, true).Split('\n');
 
-            foreach (var item in splitValues)
+            for (int i = 0; i < splitValues.Length; i++)
             {
                 string findFrom = ("/img/item/").ToLower();
                 string findTo = (".png").ToLower();
-                string itemID = Helper.StringBetween(item, findFrom, findTo);
+                string itemID = Helper.StringBetween(ref splitValues[i], findFrom, findTo, true);
                 if (itemID != "")
                 {
                     if (itemID == "2010")
@@ -372,26 +366,80 @@ namespace championGG_parser
         /// </summary>
         public void PopulateItems()
         {
-            string findFrom = ("<h2 class=\"champion-stats\">Most Frequent Core Build</h2>").ToLower();
-            string findTo = ("<h2 class=\"champion-stats\"  style=\"margin-top:40px\">Highest Win % Core Build</h2>").ToLower();
-            PopulateIndividualList(website.textHTML, findFrom, findTo, popularItemList);
+            string websiteText = website.textHTML;
 
-            findFrom = ("<h2 class=\"champion-stats\"  style=\"margin-top:40px\">Highest Win % Core Build</h2>").ToLower();
-            findTo = ("<div class=\"col-xs-12 col-sm-12 col-md-5 counter-column\">").ToLower();
-            PopulateIndividualList(website.textHTML, findFrom, findTo, highestWinItemList);
+            #region Populate Item Lists
+            string findFrom = ("<h2 class=\"champion-stats\">Most Frequent Core Build</h2>").Replace(" ", "").ToLower();
+            string findTo = ("<h2 class=\"champion-stats\"  style=\"margin-top:40px\">Highest Win % Core Build</h2>").Replace(" ", "").ToLower();
+            PopulateIndividualList(ref websiteText, findFrom, findTo, popularItemList);
+            website.textHTML = websiteText;
 
-            findFrom = ("<h2 class=\"champion-stats\">Most Frequent Starters</h2>").ToLower();
-            findTo = ("<h2 class=\"champion-stats\" style=\"margin-top:40px\">Highest Win % Starters</h2>").ToLower();
-            PopulateIndividualList(website.textHTML, findFrom, findTo, popularStarterList);
+            findFrom = ("<h2 class=\"champion-stats\"  style=\"margin-top:40px\">Highest Win % Core Build</h2>").Replace(" ", "").ToLower();
+            findTo = ("<div class=\"col-xs-12 col-sm-12 col-md-5 counter-column\">").Replace(" ", "").ToLower();
+            PopulateIndividualList(ref websiteText, findFrom, findTo, highestWinItemList);
+            website.textHTML = websiteText;
 
-            findFrom = ("<h2 class=\"champion-stats\" style=\"margin-top:40px\">Highest Win % Starters</h2>").ToLower();
-            findTo = ("<h2 class=\"champion-stats\">Most Frequent Masteries</h2>").ToLower();
-            PopulateIndividualList(website.textHTML, findFrom, findTo, highestWinStarterList);
+            findFrom = ("<h2 class=\"champion-stats\">Most Frequent Starters</h2>").Replace(" ", "").ToLower();
+            findTo = ("<h2 class=\"champion-stats\" style=\"margin-top:40px\">Highest Win % Starters</h2>").Replace(" ", "").ToLower();
+            PopulateIndividualList(ref websiteText, findFrom, findTo, popularStarterList);
+            website.textHTML = websiteText;
 
-            findFrom = ("<small>Patch <strong>").ToLower();
-            findTo = ("</strong> <span class=\"spacer\">|</span> Games Analyzed").ToLower();
-            string[] splitValues = Helper.StringBetween(website.textHTML, findFrom, findTo).Split('\n');
+            findFrom = ("<h2 class=\"champion-stats\" style=\"margin-top:40px\">Highest Win % Starters</h2>").Replace(" ", "").ToLower();
+            findTo = ("<h2 class=\"champion-stats\">Most Frequent Masteries</h2>").Replace(" ", "").ToLower();
+            PopulateIndividualList(ref websiteText, findFrom, findTo, highestWinStarterList);
+            website.textHTML = websiteText;
+            #endregion
+
+            #region Find Patch
+            findFrom = ("<small>patch<strong>");
+            findTo = ("</strong><spanclass=\"spacer\">|</span>gam");
+            string[] splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
             patch = splitValues[0] ?? "";
+            website.textHTML = websiteText;
+            #endregion
+
+            #region Find Skill Order
+            StringBuilder skillOrder = new StringBuilder("000000000000000000");
+            findFrom = ("<div class=\"skill-selections\">").Replace(" ", "").ToLower();
+            findTo = ("</div>\n\n</div>").ToLower();
+            splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
+            website.textHTML = websiteText;
+            splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
+            website.textHTML = websiteText;
+            var test = splitValues.Select(o => o).Where(o => o.Contains("span")).ToList();
+            for (int i = 0; i < 18; i++)
+            {
+                skillOrder[i] = test[i].Contains("<span>q</span>") ? 'Q' : skillOrder[i];
+            }
+            splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
+            website.textHTML = websiteText;
+            test = splitValues.Select(o => o).Where(o => o.Contains("span")).ToList();
+            for (int i = 0; i < 18; i++)
+            {
+                skillOrder[i] = test[i].Contains("<span>w</span>") ? 'W' : skillOrder[i];
+            }
+            splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
+            website.textHTML = websiteText;
+            test = splitValues.Select(o => o).Where(o => o.Contains("span")).ToList();
+            for (int i = 0; i < 18; i++)
+            {
+                skillOrder[i] = test[i].Contains("<span>e</span>") ? 'E' : skillOrder[i];
+            }
+            splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
+            website.textHTML = websiteText;
+            test = splitValues.Select(o => o).Where(o => o.Contains("span")).ToList();
+            for (int i = 0; i < 18; i++)
+            {
+                skillOrder[i] = test[i].Contains("<span>r</span>") ? 'R' : skillOrder[i];
+            }
+            for (int i = 0; i < 18; i++)
+            {
+                skillOrder.Insert(i * 2 + 1, "-");
+            }
+            skillOrder.Remove(skillOrder.Length - 1, 1);
+            this.skillOrder = skillOrder.ToString();
+            skillOrder.Clear();
+            #endregion
         }
         #endregion
     }

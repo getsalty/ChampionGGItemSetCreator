@@ -25,19 +25,29 @@ namespace championGG_parser
         /// <param name="source">The source that will be parsed.</param>
         /// <param name="from">The starting string for the parsing.</param>
         /// <param name="to">The ending string for the parsing.</param>
+        /// <param name="remove">Do you want to remove the substring.</param>
         /// <returns>The substring between "from" and "to".</returns>
-        public static string StringBetween(string source, string from, string to)
+        public static string StringBetween(ref string source, string from, string to, bool remove)
         {
             int start = source.IndexOf(from);
             int finish = start > -1 ? source.IndexOf(to, start + from.Length) : -1;
 
+            string returnString = "";
+
             if (start < 0 || finish < 0)
             {
-                return "";
+                return returnString;
             }
             else
             {
-                return source.Substring(start + from.Length, finish - start - from.Length);
+                returnString = source.Substring(start + from.Length, finish - start - from.Length);
+                if (remove)
+                {
+                    int i = source.Length;
+                    source = source.Remove(start, finish - start);
+                    i = source.Length;
+                }
+                return returnString;
             }
         }
 
