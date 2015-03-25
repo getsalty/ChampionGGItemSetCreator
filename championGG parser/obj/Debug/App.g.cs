@@ -60,7 +60,7 @@ namespace championGG_parser {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            SplashScreen splashScreen = new SplashScreen("resources/loading2.png");
+            SplashScreen splashScreen = new SplashScreen("resources/loading.png");
             splashScreen.Show(true);
             championGG_parser.App app = new championGG_parser.App();
             app.InitializeComponent();
