@@ -29,7 +29,11 @@ namespace championGG_parser
             Helper.LoadItems();
 
             ch = new ChampionList();
-            dynamic test = JsonConvert.DeserializeObject(File.ReadAllText(@".\Resources\championData.json"));
+            dynamic test = "";
+            if (File.Exists(@".\Resources\championData.json"))
+            {
+                test = JsonConvert.DeserializeObject(File.ReadAllText(@".\Resources\championData.json"));
+            }
 
             InitializeComponent();
             listbox1.ItemsSource = ch.champions;
