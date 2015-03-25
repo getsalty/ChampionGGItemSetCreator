@@ -1,7 +1,7 @@
 ﻿<Window x:Class="championGG_parser.AboutWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="AboutWindow" Height="300" Width="300">
+        Title="About" Height="300" Width="300" Icon="pack://siteoforigin:,,,/Resources/G.ico" ResizeMode="NoResize">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="51,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="204"><Run FontSize="20" Text="Champion.gg "/><Run FontSize="20" Text="Parser"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="71,71,0,0" TextWrapping="Wrap" Text="Created By: Garrett Long" VerticalAlignment="Top" Height="28" Width="157" FontSize="14"/>
