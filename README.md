@@ -9,6 +9,12 @@
 ####Why was this created?
 I got annoyed by the reddit posts giving away item sets but not releasing the source code for the script.  I went and created this nice little GUI application that does everything for me. I am releasing it (even though it is not fully finished as far as GUI goes) because it might help others.
 
+####Features
+* Custom item sets for each champion based on Champion.gg statistics
+* Popular skill order is shown on the item sets (vision tab).
+* GUI to view all item sets and skill orders. **Doesn't look good enough for my liking yet.
+* Exporting all champions' item sets or select specific champions to export. **Not done yet.
+
 ####How To Install
 
 * Binaries: download folder "Debug" from championGG_parser/bin/ 
@@ -16,8 +22,12 @@ I got annoyed by the reddit posts giving away item sets but not releasing the so
 
 ####How To Use
 1. When loaded, you should go to the options screen and pick which settings are right for you. 
-2. Once settings are saved, click the "Get Data" button. Click it and it will retrieve the data from Champion.gg for all champions.
+2. Once settings are saved, click the "Update Data" button. This button will update all the current data and save it locally on your computer. It will only need to be pressed once per patch, or as often as you  want the latest and greatest data.
 3. Once it is done loading, click the "Export Data" button. This will export all item sets to your league directory.
 
 ####License     
 * GPLv3: http://www.gnu.org/copyleft/gpl.html
+
+####Screenshots (March 25, 2005)
+![home screen](http://puu.sh/gPi8O/96cd7383b2.png "Home screen")
+![settings screen](http://puu.sh/gPify/28b6fad08f.png "settings screen")
