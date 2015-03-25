@@ -7,6 +7,7 @@
     <Grid>
         <Menu IsMainMenu="True" BorderThickness="1">
             <MenuItem Header="File">
+                <MenuItem Header="About" Click="MenuItem_Click_2"/>
                 <MenuItem Header="Close" Click="MenuItem_Click_1"/>
             </MenuItem>
             <MenuItem Header="Application" >

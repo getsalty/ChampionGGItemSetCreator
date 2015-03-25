@@ -170,6 +170,12 @@ namespace championGG_parser
         {
             Application.Current.Shutdown();
         }
+        private void MenuItem_Click_2(object sender, RoutedEventArgs e)
+        {
+            AboutWindow sw = new AboutWindow();
+            sw.Show();
+            sw.ChangeWindowLocation(this.ActualWidth, this.ActualHeight, this.Left, this.Top);
+        }
 
         private void itemSet_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
