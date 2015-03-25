@@ -34,7 +34,10 @@
 
                     <Border CornerRadius="5" BorderBrush="Gray" Background="LightGray" BorderThickness="2" Margin="0,10,0,10">
                         <StackPanel Orientation="Vertical" Margin="30,5,10,10">
-                            <TextBlock Text="{Binding name}" HorizontalAlignment="Left" FontSize="20" Width="150px" FontWeight="Bold" />
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding name}" HorizontalAlignment="Left" FontSize="20" Width="90px" FontWeight="Bold" />
+                                <TextBlock Text="{Binding skillOrder}" Margin="0,5,0,0" HorizontalAlignment="Left" FontSize="15" Width="320px" FontWeight="Bold" />
+                            </StackPanel >
                             <TextBlock Text="Popular Items" HorizontalAlignment="Left" FontSize="17" Width="150px" FontWeight="Bold" Margin="10,10,0,0"/>
                             <StackPanel Orientation="Horizontal">
                                 <ItemsControl x:Name="testing123" ItemsSource="{Binding popularItemList}" Margin="25,5,0,0" >
