@@ -17,7 +17,7 @@ namespace championGG_parser
         /// <summary>
         /// Loads all the champion info. 
         /// </summary>
-        public void LoadChampions()
+        public bool LoadChampions(dynamic previousData)
         {
             champions.Add(new Champion("Aatrox", new string[] { Helper.Top, Helper.Jungle }));
             champions.Add(new Champion("Ahri", new string[] { Helper.Middle }));
@@ -143,6 +143,42 @@ namespace championGG_parser
             champions.Add(new Champion("Ziggs", new string[] { Helper.Middle }));
             champions.Add(new Champion("Zilean", new string[] { Helper.Support, Helper.Middle }));
             champions.Add(new Champion("Zyra", new string[] { Helper.Support, Helper.Middle }));
+
+            try
+            {
+                for (int i = 0; i < champions.Count; i++)
+                {
+                    for (int a = 0; a < previousData.champions[i].positions.Count; a++)
+                    {
+                        champions[i].positions[a].patch = previousData.champions[i].positions[a].patch;
+                        champions[i].positions[a].skillOrder = previousData.champions[i].positions[a].skillOrder;
+                        foreach (var hwiList in previousData.champions[i].positions[a].highestWinItemList)
+                        {
+                            champions[i].positions[a].highestWinItemList.Add(new Item() { id = (short)hwiList.id, name = hwiList.name });
+                        }
+
+                        foreach (var popList in previousData.champions[i].positions[a].popularItemList)
+                        {
+                            champions[i].positions[a].popularItemList.Add(new Item() { id = (short)popList.id, name = popList.name });
+                        }
+
+                        foreach (var hwiSList in previousData.champions[i].positions[a].highestWinStarterList)
+                        {
+                            champions[i].positions[a].highestWinStarterList.Add(new Item() { id = (short)hwiSList.id, name = hwiSList.name });
+                        }
+
+                        foreach (var popSList in previousData.champions[i].positions[a].popularStarterList)
+                        {
+                            champions[i].positions[a].popularStarterList.Add(new Item() { id = (short)popSList.id, name = popSList.name });
+                        }
+                    }
+                }
+            }
+            catch (System.Exception)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

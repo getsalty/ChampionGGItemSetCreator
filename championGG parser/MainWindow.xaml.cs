@@ -6,7 +6,9 @@
 //MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 //You should have received a copy of the GNU General Public License along with ChampionGG Item Set Creator. If not, see http://www.gnu.org/licenses/.
 
+using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 using System.Windows;
@@ -27,11 +29,17 @@ namespace championGG_parser
             Helper.LoadItems();
 
             ch = new ChampionList();
-            ch.LoadChampions();
-
+            dynamic test = JsonConvert.DeserializeObject(File.ReadAllText(@".\Resources\championData.json"));
 
             InitializeComponent();
             listbox1.ItemsSource = ch.champions;
+
+            if (ch.LoadChampions(test))
+            {
+                dropdownExportFiles.IsEnabled = true;
+                ParserButton.IsEnabled = true;
+            }
+
         }
 
         private void ParserButton_Click(object sender, RoutedEventArgs e)
@@ -73,6 +81,7 @@ namespace championGG_parser
                 }));
             });
             thread1.Start();
+
         }
 
         private void listbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -97,7 +106,7 @@ namespace championGG_parser
                     {
                         position.website.URL = "http://champion.gg/champion/" + champion.name + "/" + position.name;
                         position.PopulateItems();
-                        //position.website.textHTML = "";
+                        position.website.textHTML = "";
                     }
                     Application.Current.Dispatcher.Invoke((Action)(() =>
                     {
@@ -108,6 +117,7 @@ namespace championGG_parser
                 {
                     loadingGif.Visibility = Visibility.Hidden;
                     dataLoadingBarForeground.Visibility = Visibility.Hidden;
+                    dataLoadingBarForeground.Width = 0;
                     dataLoadingBarBackground.Visibility = Visibility.Hidden;
                     dropdownClearHTML.IsEnabled = true;
                     dropdownExportFiles.IsEnabled = true;
@@ -116,6 +126,13 @@ namespace championGG_parser
                     buttonClearTextHTML.IsEnabled = true;
                     itemSet.Items.Refresh();
                 }));
+                string json = JsonConvert.SerializeObject(ch, Formatting.Indented);
+
+                using (StreamWriter outfile = new StreamWriter(@".\Resources\championData.json"))
+                {
+                    outfile.Write(json);
+                }
+
             });
             thread1.Start();
         }
@@ -167,8 +184,6 @@ namespace championGG_parser
                 }
             }
         }
-
-
 
     }
 }

@@ -37,6 +37,5 @@ namespace championGG_parser
         {
             get { return _img; }
         }
-
     }
 }

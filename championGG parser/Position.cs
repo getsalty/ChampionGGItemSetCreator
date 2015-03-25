@@ -369,21 +369,25 @@ namespace championGG_parser
             string websiteText = website.textHTML;
 
             #region Populate Item Lists
+            popularItemList.Clear();
             string findFrom = ("<h2 class=\"champion-stats\">Most Frequent Core Build</h2>").Replace(" ", "").ToLower();
             string findTo = ("<h2 class=\"champion-stats\"  style=\"margin-top:40px\">Highest Win % Core Build</h2>").Replace(" ", "").ToLower();
             PopulateIndividualList(ref websiteText, findFrom, findTo, popularItemList);
             website.textHTML = websiteText;
 
+            highestWinItemList.Clear();
             findFrom = ("<h2 class=\"champion-stats\"  style=\"margin-top:40px\">Highest Win % Core Build</h2>").Replace(" ", "").ToLower();
             findTo = ("<div class=\"col-xs-12 col-sm-12 col-md-5 counter-column\">").Replace(" ", "").ToLower();
             PopulateIndividualList(ref websiteText, findFrom, findTo, highestWinItemList);
             website.textHTML = websiteText;
 
+            popularStarterList.Clear();
             findFrom = ("<h2 class=\"champion-stats\">Most Frequent Starters</h2>").Replace(" ", "").ToLower();
             findTo = ("<h2 class=\"champion-stats\" style=\"margin-top:40px\">Highest Win % Starters</h2>").Replace(" ", "").ToLower();
             PopulateIndividualList(ref websiteText, findFrom, findTo, popularStarterList);
             website.textHTML = websiteText;
 
+            highestWinStarterList.Clear();
             findFrom = ("<h2 class=\"champion-stats\" style=\"margin-top:40px\">Highest Win % Starters</h2>").Replace(" ", "").ToLower();
             findTo = ("<h2 class=\"champion-stats\">Most Frequent Masteries</h2>").Replace(" ", "").ToLower();
             PopulateIndividualList(ref websiteText, findFrom, findTo, highestWinStarterList);

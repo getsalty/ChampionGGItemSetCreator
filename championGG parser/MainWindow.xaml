@@ -10,8 +10,9 @@
                 <MenuItem Header="Close" Click="MenuItem_Click_1"/>
             </MenuItem>
             <MenuItem Header="Application" >
+                <MenuItem x:Name="dropdownUpdateData" Header="Update Data" Click="buttonGetData_Click" IsEnabled="True"/>
                 <MenuItem x:Name="dropdownExportFiles" Header="Export Files" Click="ParserButton_Click" IsEnabled="False"/>
-                <MenuItem x:Name="dropdownClearHTML" Header="Clear Leftover HTML" Click="buttonClearTextHTML_Click" IsEnabled="False"/>
+                <MenuItem x:Name="dropdownClearHTML" Header="Clear Leftover HTML" Click="buttonClearTextHTML_Click" IsEnabled="False"/>        
                 <MenuItem Header="Options" Click="MenuItem_Click"/>
             </MenuItem>
         </Menu>
@@ -80,11 +81,8 @@
 
 
 
-
-
-
         <Button x:Name="buttonClearTextHTML" Content="Clear Stored HTML" HorizontalAlignment="Left" Margin="577,40,0,0" VerticalAlignment="Top" Width="122" Height="43" IsEnabled="False" Click="buttonClearTextHTML_Click"/>
-        <Button x:Name="buttonGetData" Content="Get Data" HorizontalAlignment="Left" Margin="25,42,0,0" VerticalAlignment="Top" Width="123" Height="41" Click="buttonGetData_Click"/>
+        <Button x:Name="buttonGetData" Content="Update Data" HorizontalAlignment="Left" Margin="25,42,0,0" VerticalAlignment="Top" Width="123" Height="41" Click="buttonGetData_Click"/>
         <MediaElement x:Name="loadingGif" HorizontalAlignment="Left" Height="25" Margin="200,40,0,0" VerticalAlignment="Top" Width="30" Source="Resources/ajax-loader.gif" LoadedBehavior="Play" RenderTransformOrigin="0.433,0.56" MediaEnded="loadingGif_MediaEnded" Visibility="Hidden"/>
         <Image x:Name="checkmarkImage" HorizontalAlignment="Left" Height="26" Margin="464,53,0,0" VerticalAlignment="Top" Width="28" Source="Resources/checkmark.png" RenderTransformOrigin="0.464,0.5" Visibility="Hidden"/>
         <Image x:Name="dataLoadingBarBackground" HorizontalAlignment="Left" Height="11" Margin="154,70,0,0" VerticalAlignment="Top" Width="125" Source="Resources/LoadingBarBackground.png" Visibility="Hidden"/>
