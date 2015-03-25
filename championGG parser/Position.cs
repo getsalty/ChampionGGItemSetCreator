@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Linq;
 
 namespace championGG_parser
 {
@@ -74,18 +75,19 @@ namespace championGG_parser
                 output += "       {" + System.Environment.NewLine + "";
                 output += "           \"items\": [" + System.Environment.NewLine + "";
 
-                for (int i = 0; i < popularStarterList.Count; i++)
+                var countedItems = popularStarterList.GroupBy(o => o.id)
+                    .Select(c => new
+                    {
+                        Id = c.Key,
+                        Count = c.Count()
+                    });
+
+                foreach (var item in countedItems)
                 {
-                    if (i != popularStarterList.Count - 1)
-                    {
-                        output += "               { \"count\": 1, \"id\": \"" + popularStarterList[i].id + "\" }," + System.Environment.NewLine + "";
-                    }
-                    else
-                    {
-                        output += "               { \"count\": 1, \"id\": \"" + popularStarterList[i].id + "\" }" + System.Environment.NewLine + "";
-                    }
+                    output += "               { \"count\": " + item.Count + ", \"id\": \"" + item.Id + "\" }," + System.Environment.NewLine + "";
                 }
 
+                output += "               { \"count\": 1, \"id\": \"3340\" }" + System.Environment.NewLine + "";
                 output += "           ]," + System.Environment.NewLine + "";
                 output += "           \"type\": \"Popular Starters\"" + System.Environment.NewLine + "";
                 output += "       }," + System.Environment.NewLine + "";
@@ -98,18 +100,20 @@ namespace championGG_parser
                 output += "       {" + System.Environment.NewLine + "";
                 output += "           \"items\": [" + System.Environment.NewLine + "";
 
-                for (int i = 0; i < highestWinStarterList.Count; i++)
+
+                var countedItems = highestWinStarterList.GroupBy(o => o.id)
+                    .Select(c => new
+                    {
+                        Id = c.Key,
+                        Count = c.Count()
+                    });
+
+                foreach (var item in countedItems)
                 {
-                    if (i != highestWinStarterList.Count - 1)
-                    {
-                        output += "               { \"count\": 1, \"id\": \"" + highestWinStarterList[i].id + "\" }," + System.Environment.NewLine + "";
-                    }
-                    else
-                    {
-                        output += "               { \"count\": 1, \"id\": \"" + highestWinStarterList[i].id + "\" }" + System.Environment.NewLine + "";
-                    }
+                    output += "               { \"count\": " + item.Count + ", \"id\": \"" + item.Id + "\" }," + System.Environment.NewLine + "";
                 }
 
+                output += "               { \"count\": 1, \"id\": \"3340\" }" + System.Environment.NewLine + "";
                 output += "           ]," + System.Environment.NewLine + "";
                 output += "           \"type\": \"Highest Win Rate Starters\"" + System.Environment.NewLine + "";
                 output += "       }," + System.Environment.NewLine + "";
@@ -122,15 +126,25 @@ namespace championGG_parser
                 output += "       {" + System.Environment.NewLine + "";
                 output += "           \"items\": [" + System.Environment.NewLine + "";
 
-                for (int i = 0; i < popularItemList.Count; i++)
-                {
-                    if (i != popularItemList.Count - 1)
+                var countedItems = popularItemList.GroupBy(o => o.id)
+                    .Select(c => new
                     {
-                        output += "               { \"count\": 1, \"id\": \"" + popularItemList[i].id + "\" }," + System.Environment.NewLine + "";
+                        Id = c.Key,
+                        Count = c.Count()
+                    });
+
+                for (int i = 0; i < countedItems.Count(); i++)
+                {
+                    short id = countedItems.ElementAt(i).Id;
+                    int count = countedItems.ElementAt(i).Count;
+
+                    if (i != countedItems.Count() - 1)
+                    {
+                        output += "               { \"count\": " + count + ", \"id\": \"" + id + "\" }," + System.Environment.NewLine + "";
                     }
                     else
                     {
-                        output += "               { \"count\": 1, \"id\": \"" + popularItemList[i].id + "\" }" + System.Environment.NewLine + "";
+                        output += "               { \"count\": " + count + ", \"id\": \"" + id + "\" }" + System.Environment.NewLine + "";
                     }
                 }
 
@@ -147,15 +161,25 @@ namespace championGG_parser
                 output += "       {" + System.Environment.NewLine + "";
                 output += "           \"items\": [" + System.Environment.NewLine + "";
 
-                for (int i = 0; i < highestWinItemList.Count; i++)
-                {
-                    if (i != highestWinItemList.Count - 1)
+                var countedItems = highestWinItemList.GroupBy(o => o.id)
+                    .Select(c => new
                     {
-                        output += "               { \"count\": 1, \"id\": \"" + highestWinItemList[i].id + "\" }," + System.Environment.NewLine + "";
+                        Id = c.Key,
+                        Count = c.Count()
+                    });
+
+                for (int i = 0; i < countedItems.Count(); i++)
+                {
+                    short id = countedItems.ElementAt(i).Id;
+                    int count = countedItems.ElementAt(i).Count;
+
+                    if (i != countedItems.Count() - 1)
+                    {
+                        output += "               { \"count\": " + count + ", \"id\": \"" + id + "\" }," + System.Environment.NewLine + "";
                     }
                     else
                     {
-                        output += "               { \"count\": 1, \"id\": \"" + highestWinItemList[i].id + "\" }" + System.Environment.NewLine + "";
+                        output += "               { \"count\": " + count + ", \"id\": \"" + id + "\" }" + System.Environment.NewLine + "";
                     }
                 }
 
@@ -304,7 +328,7 @@ namespace championGG_parser
 
             Debug.WriteLine("   ],");
             Debug.WriteLine("   \"associatedChampions\": [ ],");
-            Debug.WriteLine("   \"title\": \"Middle " + patch + "\",\n");                     // NEED TO GET TITLES WORKING AND PATCH
+            Debug.WriteLine("   \"title\": \"" + name + " " + patch + "\",");
             Debug.WriteLine("   \"priority\": false,");
             Debug.WriteLine("   \"mode\": \"any\",");
             Debug.WriteLine("   \"isGlobalForMaps\": true,");
