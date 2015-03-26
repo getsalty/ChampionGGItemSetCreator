@@ -13,6 +13,7 @@ using System.IO;
 using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
+using System.Linq;
 
 namespace championGG_parser
 {
@@ -42,6 +43,7 @@ namespace championGG_parser
             {
                 dropdownExportFiles.IsEnabled = true;
                 ParserButton.IsEnabled = true;
+                buttonDeletePreviousData.IsEnabled = true;
             }
 
         }
@@ -61,7 +63,6 @@ namespace championGG_parser
                 System.IO.Directory.CreateDirectory(pathString3);
                 string pathString4 = System.IO.Path.Combine(pathString3, "Recommended");
                 System.IO.Directory.CreateDirectory(pathString4);
-
 
                 foreach (var item2 in item.positions)
                 {
@@ -85,8 +86,44 @@ namespace championGG_parser
                 }));
             });
             thread1.Start();
-
         }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            string folderName = Properties.Settings.Default["OutputDirectory"].ToString();
+            System.IO.Directory.CreateDirectory(folderName);
+            string pathString = System.IO.Path.Combine(folderName, "Config");
+            System.IO.Directory.CreateDirectory(pathString);
+            string pathString2 = System.IO.Path.Combine(pathString, "Champions");
+            System.IO.Directory.CreateDirectory(pathString2);
+
+            foreach (var item in ch.champions)
+            {
+                string pathString3 = System.IO.Path.Combine(pathString2, item.name);
+                System.IO.Directory.CreateDirectory(pathString3);
+                string pathString4 = System.IO.Path.Combine(pathString3, "Recommended");
+                System.IO.Directory.CreateDirectory(pathString4);
+
+
+                var contains = Directory.EnumerateFiles(pathString4).Where(f => f.Contains("_5_"));
+                foreach (var item2 in contains)
+                {
+                    File.Delete(item2);
+                }
+            }
+
+            checkmarkImage.Visibility = Visibility.Visible;
+            Thread thread1 = new Thread(() =>
+            {
+                Thread.Sleep(800);
+                Application.Current.Dispatcher.Invoke((Action)(() =>
+                {
+                    checkmarkImage.Visibility = Visibility.Hidden;
+                }));
+            });
+            thread1.Start();
+        }
+
 
         private void listbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -127,7 +164,7 @@ namespace championGG_parser
                     dropdownExportFiles.IsEnabled = true;
                     ParserButton.IsEnabled = true;
                     buttonGetData.IsEnabled = true;
-                    buttonClearTextHTML.IsEnabled = true;
+                    buttonDeletePreviousData.IsEnabled = true;
                     itemSet.Items.Refresh();
                 }));
                 string json = JsonConvert.SerializeObject(ch, Formatting.Indented);
@@ -170,6 +207,7 @@ namespace championGG_parser
         {
             Application.Current.Shutdown();
         }
+
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
             AboutWindow sw = new AboutWindow();
@@ -179,7 +217,7 @@ namespace championGG_parser
 
         private void itemSet_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Console.Write(itemSet);
+            //Console.Write(itemSet);
         }
 
         private void Image_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)

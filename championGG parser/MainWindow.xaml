@@ -78,22 +78,22 @@
                     </Border>
                 </DataTemplate>
             </ListBox.ItemTemplate>
-            <ListBox.ItemContainerStyle>
-                <Style TargetType="ListBoxItem">
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="ListBoxItem">
-                                <ContentPresenter/>
-                            </ControlTemplate>
-                        </Setter.Value>
-                    </Setter>
-                </Style>
-            </ListBox.ItemContainerStyle>
+                <ListBox.ItemContainerStyle>
+        <Style TargetType="ListBoxItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </ListBox.ItemContainerStyle>
         </ListBox>
 
 
 
-        <Button x:Name="buttonClearTextHTML" Content="Clear Stored HTML" HorizontalAlignment="Left" Margin="577,40,0,0" VerticalAlignment="Top" Width="122" Height="43" IsEnabled="False" Click="buttonClearTextHTML_Click"/>
+        <Button x:Name="buttonDeletePreviousData" Content="Delete Item Sets" HorizontalAlignment="Left" Margin="577,40,0,0" VerticalAlignment="Top" Width="122" Height="43" IsEnabled="False" Click="DeleteButton_Click"/>
         <Button x:Name="buttonGetData" Content="Update Data" HorizontalAlignment="Left" Margin="25,42,0,0" VerticalAlignment="Top" Width="123" Height="41" Click="buttonGetData_Click"/>
         <MediaElement x:Name="loadingGif" HorizontalAlignment="Left" Height="25" Margin="200,40,0,0" VerticalAlignment="Top" Width="30" Source="Resources/ajax-loader.gif" LoadedBehavior="Play" RenderTransformOrigin="0.433,0.56" MediaEnded="loadingGif_MediaEnded" Visibility="Hidden"/>
         <Image x:Name="checkmarkImage" HorizontalAlignment="Left" Height="26" Margin="464,53,0,0" VerticalAlignment="Top" Width="28" Source="Resources/checkmark.png" RenderTransformOrigin="0.464,0.5" Visibility="Hidden"/>
