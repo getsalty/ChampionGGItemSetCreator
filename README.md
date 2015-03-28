@@ -28,6 +28,6 @@ I got annoyed by the reddit posts giving away item sets but not releasing the so
 ####License     
 * GPLv3: http://www.gnu.org/copyleft/gpl.html
 
-####Screenshots (March 25, 2005)
-![home screen](http://puu.sh/gPi8O/96cd7383b2.png "Home screen")
+####Screenshots (March 28, 2005)
+![home screen](http://puu.sh/gTnVI/e3d1a29754.png "Home screen")
 ![settings screen](http://puu.sh/gPify/28b6fad08f.png "settings screen")
