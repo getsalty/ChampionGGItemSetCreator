@@ -12,7 +12,7 @@ using System.Collections.Generic;
 
 namespace championGG_parser
 {
-    class Champion
+    public class Champion
     {
         #region variables
         public List<Position> positions;

@@ -6,13 +6,36 @@
 //MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 //You should have received a copy of the GNU General Public License along with ChampionGG Item Set Creator. If not, see http://www.gnu.org/licenses/.
 
+using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.IO;
+using System.Runtime.CompilerServices;
 
 namespace championGG_parser
 {
-    class ChampionList
+    public class ChampionList : INotifyPropertyChanged
     {
-        public List<Champion> champions = new List<Champion>();
+        public List<Champion> champions { get; set; }
+
+        /// <summary>
+        /// Main Constructor. Loads the champion list and then sends back enableItems bool.
+        /// </summary>
+        /// <param name="enableItems">Returns true if there is a json file with champion data already on computer.</param>
+        public ChampionList(ref bool enableItems)
+        {
+            champions = new List<Champion>();
+
+            dynamic test = "";
+            if (File.Exists(@".\Resources\championData.json"))
+            {
+                test = JsonConvert.DeserializeObject(File.ReadAllText(@".\Resources\championData.json"));
+            }
+            if (LoadChampions(test))
+            {
+                enableItems = true;
+            }
+        }
 
         /// <summary>
         /// Loads all the champion info. 
@@ -179,6 +202,16 @@ namespace championGG_parser
                 return false;
             }
             return true;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void OnPropertyChanged([CallerMemberName]string propertyName = "")
+        {
+            var handler = PropertyChanged;
+            if (handler != null)
+            {
+                handler(this, new PropertyChangedEventArgs(propertyName));
+            }
         }
     }
 }

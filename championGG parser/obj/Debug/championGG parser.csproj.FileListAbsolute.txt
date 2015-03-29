@@ -53,3 +53,5 @@ E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Debug\
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Debug\Newtonsoft.Json.xml
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\AboutWindow.baml
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\AboutWindow.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\championGG parser_MarkupCompile.lref
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Debug\GeneratedInternalTypeHelper.g.cs

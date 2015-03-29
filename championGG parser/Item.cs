@@ -27,12 +27,18 @@ namespace championGG_parser
             }
         }
 
+        /// <summary>
+        /// Name of the item.
+        /// </summary>
         public string name
         {
             get { return _name; }
             set { _name = value; }
         }
 
+        /// <summary>
+        /// Img icon for the item.
+        /// </summary>
         public string img
         {
             get { return _img; }

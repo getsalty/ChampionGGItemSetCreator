@@ -1,52 +1,56 @@
 ﻿<Window x:Class="championGG_parser.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:championGG_parser"
         Title="Champion.gg Parser" Height="606" Width="726" ResizeMode="NoResize" Icon="pack://siteoforigin:,,,/Resources/G.ico">
 
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
 
     <Grid>
         <Menu IsMainMenu="True" BorderThickness="1">
             <MenuItem Header="File">
-                <MenuItem Header="About" Click="MenuItem_Click_2"/>
-                <MenuItem Header="Close" Click="MenuItem_Click_1"/>
+                <MenuItem Header="About" Click="ShowAboutWindow"/>
+                <MenuItem Header="Close" Click="ShutdownApplication"/>
             </MenuItem>
             <MenuItem Header="Application" >
-                <MenuItem x:Name="dropdownUpdateData" Header="Update Data" Click="buttonGetData_Click" IsEnabled="True"/>
-                <MenuItem x:Name="dropdownExportFiles" Header="Export Files" Click="ParserButton_Click" IsEnabled="False"/>
-                <MenuItem x:Name="dropdownClearHTML" Header="Clear Leftover HTML" Click="buttonClearTextHTML_Click" IsEnabled="False"/>        
-                <MenuItem Header="Options" Click="MenuItem_Click"/>
+                <MenuItem x:Name="dropdownUpdateData" Header="Update Data" Command="{Binding Path=Command_GetData}" IsEnabled="{Binding Path=Enable_DropDown_GetData}"/>
+                <MenuItem x:Name="dropdownExportFiles" Header="Export Files" Command="{Binding Path=Command_ExportData}" IsEnabled="{Binding Path=Enable_DropDown_ExportFiles}"/>
+                <MenuItem x:Name="dropdownClearHTML" Header="Clear Leftover HTML" Command="{Binding Path=Command_ClearHTML}" IsEnabled="{Binding Path=Enable_DropDown_ClearHTML}"/>
+                <MenuItem Header="Options" Click="ShowSettingsWindow"/>
             </MenuItem>
         </Menu>
-        <Button x:Name="ParserButton" Content="Export Data" HorizontalAlignment="Left" Margin="300,41,0,0" VerticalAlignment="Top" Width="159" Height="42" Click="ParserButton_Click" IsEnabled="False"/>
-        <ListBox x:Name="listbox1" HorizontalAlignment="Left" Height="469" Padding="0,0,1,0" Margin="10,88,0,0" VerticalAlignment="Top" Width="175" SelectionChanged="listbox1_SelectionChanged">
+
+        <ListBox x:Name="listbox1" ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged, Path=ChampionList.champions}" SelectedIndex="{Binding Path=SelectedIndex}" HorizontalAlignment="Left" Height="469" Padding="0,0,1,0" Margin="10,88,0,0" VerticalAlignment="Top" Width="175" >
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Margin="3,2,0,2">
                         <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="{Binding name}" FontSize="20" Width="140"  FontWeight="Bold" />
+                            <TextBlock Text="{Binding Path=name}" FontSize="20" Width="140"  FontWeight="Bold" />
                         </StackPanel>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
         <ListBox x:Name="itemSet" HorizontalAlignment="Left" Height="469" Padding="10,10,10,10" 
-                 Margin="190,88,0,0" VerticalAlignment="Top" Width="509" SelectionChanged="itemSet_SelectionChanged">
+                 Margin="190,88,0,0" VerticalAlignment="Top" Width="509" ItemsSource="{Binding UpdateSourceTrigger=PropertyChanged, Path=PositionSource}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
 
                     <Border CornerRadius="5" BorderBrush="Gray" Background="LightGray" BorderThickness="2" Margin="0,10,0,10">
                         <StackPanel Orientation="Vertical" Margin="30,5,10,10">
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="{Binding name}" HorizontalAlignment="Left" FontSize="20" Width="90px" FontWeight="Bold" />
-                                <TextBlock Text="{Binding skillOrder}" Margin="0,5,0,0" HorizontalAlignment="Left" FontSize="15" Width="320px" FontWeight="Bold" />
+                                <TextBlock Text="{Binding Path=name}" HorizontalAlignment="Left" FontSize="20" Width="90px" FontWeight="Bold" />
+                                <TextBlock Text="{Binding Path=skillOrder}" Margin="0,5,0,0" HorizontalAlignment="Left" FontSize="15" Width="320px" FontWeight="Bold" />
                             </StackPanel >
                             <TextBlock Text="Popular Items" HorizontalAlignment="Left" FontSize="17" Width="150px" FontWeight="Bold" Margin="10,10,0,0"/>
                             <StackPanel Orientation="Horizontal">
-                                <ItemsControl x:Name="testing123" ItemsSource="{Binding popularItemList}" Margin="25,5,0,0" >
+                                <ItemsControl x:Name="testing123" ItemsSource="{Binding Path=popularItemList}" Margin="25,5,0,0" >
                                     <ItemsControl.ItemTemplate>
                                         <DataTemplate>
                                             <StackPanel Orientation="Horizontal" Margin="0,3,0,0" >
-                                                <Image HorizontalAlignment="Left" Height="35" Width="35" Source="{Binding img}" Margin="0,0,10,0" MouseEnter="Image_MouseEnter"/>
+                                                <Image HorizontalAlignment="Left" Height="35" Width="35" Source="{Binding Path=img}" Margin="0,0,10,0" MouseEnter="ShowToolTips"/>
                                                 <!--<TextBlock VerticalAlignment="Center" Text="{Binding name}" FontSize="15" Width="250px" FontWeight="Normal" />-->
                                             </StackPanel>
                                         </DataTemplate>
@@ -59,11 +63,11 @@
                                 </ItemsControl>
                             </StackPanel>
                             <TextBlock Text="Highest Win Rate Items" HorizontalAlignment="Left" FontSize="17" Width="200px" FontWeight="Bold" Margin="10,10,0,0"/>
-                            <ItemsControl  x:Name="testing1234" ItemsSource="{Binding highestWinItemList}" Margin="25,5,0,0">
+                            <ItemsControl  x:Name="testing1234" ItemsSource="{Binding Path=highestWinItemList}" Margin="25,5,0,0">
                                 <ItemsControl.ItemTemplate>
                                     <DataTemplate>
                                         <StackPanel Orientation="Horizontal" Margin="0,3,0,0">
-                                            <Image HorizontalAlignment="Left" Height="35" Width="35" Source="{Binding img}" Margin="0,0,10,0"  MouseEnter="Image_MouseEnter"/>
+                                            <Image HorizontalAlignment="Left" Height="35" Width="35" Source="{Binding Path=img}" Margin="0,0,10,0"  MouseEnter="ShowToolTips"/>
                                             <!--<TextBlock VerticalAlignment="Center" Text="{Binding name}" FontSize="15" Width="250px" FontWeight="Normal" />-->
                                         </StackPanel>
                                     </DataTemplate>
@@ -78,26 +82,26 @@
                     </Border>
                 </DataTemplate>
             </ListBox.ItemTemplate>
-                <ListBox.ItemContainerStyle>
-        <Style TargetType="ListBoxItem">
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="ListBoxItem">
-                        <ContentPresenter/>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-    </ListBox.ItemContainerStyle>
+            <ListBox.ItemContainerStyle>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+                                <ContentPresenter/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListBox.ItemContainerStyle>
         </ListBox>
 
 
-
-        <Button x:Name="buttonDeletePreviousData" Content="Delete Item Sets" HorizontalAlignment="Left" Margin="577,40,0,0" VerticalAlignment="Top" Width="122" Height="43" IsEnabled="False" Click="DeleteButton_Click"/>
-        <Button x:Name="buttonGetData" Content="Update Data" HorizontalAlignment="Left" Margin="25,42,0,0" VerticalAlignment="Top" Width="123" Height="41" Click="buttonGetData_Click"/>
-        <MediaElement x:Name="loadingGif" HorizontalAlignment="Left" Height="25" Margin="200,40,0,0" VerticalAlignment="Top" Width="30" Source="Resources/ajax-loader.gif" LoadedBehavior="Play" RenderTransformOrigin="0.433,0.56" MediaEnded="loadingGif_MediaEnded" Visibility="Hidden"/>
-        <Image x:Name="checkmarkImage" HorizontalAlignment="Left" Height="26" Margin="464,53,0,0" VerticalAlignment="Top" Width="28" Source="Resources/checkmark.png" RenderTransformOrigin="0.464,0.5" Visibility="Hidden"/>
-        <Image x:Name="dataLoadingBarBackground" HorizontalAlignment="Left" Height="11" Margin="154,70,0,0" VerticalAlignment="Top" Width="125" Source="Resources/LoadingBarBackground.png" Visibility="Hidden"/>
-        <Image x:Name="dataLoadingBarForeground" HorizontalAlignment="Left" Height="9" Margin="155,71,0,0" VerticalAlignment="Top" Width="0" Source="Resources/LoadingBarForeground.png" Stretch="Fill" Visibility="Hidden"/>
+        <Button x:Name="ParserButton" Content="Export Data" HorizontalAlignment="Left" Margin="300,41,0,0" VerticalAlignment="Top" Width="159" Height="42" Command="{Binding Path=Command_ExportData}" IsEnabled="{Binding Path=Enable_Button_Export}"/>
+        <Button x:Name="buttonDeletePreviousData" Content="Delete Item Sets" HorizontalAlignment="Left" Margin="577,40,0,0" VerticalAlignment="Top" Width="122" Height="43" Command="{Binding Path=Command_DeleteItemSets}" IsEnabled="{Binding Path=Enable_Button_DeletePrev}"/>
+        <Button x:Name="buttonGetData" Content="Update Data" HorizontalAlignment="Left" Margin="25,42,0,0" VerticalAlignment="Top" Width="123" Height="41" Command="{Binding Path=Command_GetData}" IsEnabled="{Binding Path=Enable_Button_GetData}"/>
+        <MediaElement x:Name="loadingGif" Visibility="{Binding Path=Vis_LoadingGif}" HorizontalAlignment="Left" Height="25" Margin="200,40,0,0" VerticalAlignment="Top" Width="30" Source="Resources/ajax-loader.gif" LoadedBehavior="Play" RenderTransformOrigin="0.433,0.56" MediaEnded="LoadingGif_MediaEnded" />
+        <Image x:Name="checkmarkImage" Visibility="{Binding Path=Vis_CheckMark}" HorizontalAlignment="Left" Height="26" Margin="464,53,0,0" VerticalAlignment="Top" Width="28" Source="Resources/checkmark.png" RenderTransformOrigin="0.464,0.5"/>
+        <Image x:Name="dataLoadingBarBackground" Visibility="{Binding Path=Vis_DataLoadingBarBackground}" HorizontalAlignment="Left" Height="11" Margin="154,70,0,0" VerticalAlignment="Top" Width="125" Source="Resources/LoadingBarBackground.png" />
+        <Image x:Name="dataLoadingBarForeground" Visibility="{Binding Path=Vis_DataLoadingBarForeground}" Width="{Binding Path=Width_DataLoadingBarForeground}" HorizontalAlignment="Left" Height="9" Margin="155,71,0,0" VerticalAlignment="Top"  Source="Resources/LoadingBarForeground.png" Stretch="Fill" />
     </Grid>
 </Window>

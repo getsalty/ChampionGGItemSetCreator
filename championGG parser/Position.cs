@@ -15,7 +15,7 @@ using System.Text;
 
 namespace championGG_parser
 {
-    class Position
+    public class Position
     {
         public List<Item> popularItemList { get; set; }
         public List<Item> highestWinItemList { get; set; }

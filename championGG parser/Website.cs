@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 
 namespace championGG_parser
 {
-    class Website
+    public class Website
     {
         #region variables
         private string _URL;

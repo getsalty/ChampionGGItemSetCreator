@@ -87,8 +87,10 @@
     </Compile>
     <Compile Include="Champion.cs" />
     <Compile Include="ChamptionList.cs" />
+    <Compile Include="DelegateCommand.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="MainViewModel.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="SettingsWindow.xaml.cs">
       <DependentUpon>SettingsWindow.xaml</DependentUpon>
