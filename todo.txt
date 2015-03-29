@@ -3,7 +3,7 @@ TODO:
 
 
  - Make interface display item sets. ** Content done, need better design
- - Create delete item sets function to remove previous item sets. 
+ - Create delete item sets function to remove previous item sets. ** DONE
  - Allow individual item set download in interface. 
  - Clean up code and structure of program.
  - Finish automated item parser so all new items will automatically be stored.
