@@ -7,7 +7,6 @@
 //You should have received a copy of the GNU General Public License along with ChampionGG Item Set Creator. If not, see http://www.gnu.org/licenses/.
 
 using System.Net;
-using System.Text.RegularExpressions;
 
 namespace championGG_parser
 {
