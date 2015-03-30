@@ -14,7 +14,7 @@ using System.Runtime.CompilerServices;
 
 namespace championGG_parser
 {
-    public class ChampionList : INotifyPropertyChanged
+    public class ChampionList 
     {
         public List<Champion> champions { get; set; }
 
@@ -40,7 +40,7 @@ namespace championGG_parser
         /// <summary>
         /// Loads all the champion info. 
         /// </summary>
-        public bool LoadChampions(dynamic previousData)
+        private bool LoadChampions(dynamic previousData)
         {
             champions.Add(new Champion("Aatrox", new string[] { Helper.Top, Helper.Jungle }));
             champions.Add(new Champion("Ahri", new string[] { Helper.Middle }));
@@ -204,14 +204,5 @@ namespace championGG_parser
             return true;
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        private void OnPropertyChanged([CallerMemberName]string propertyName = "")
-        {
-            var handler = PropertyChanged;
-            if (handler != null)
-            {
-                handler(this, new PropertyChangedEventArgs(propertyName));
-            }
-        }
     }
 }
