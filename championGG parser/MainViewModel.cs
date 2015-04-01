@@ -287,6 +287,7 @@ namespace championGG_parser
                 }
 
             });
+            thread1.IsBackground = true;
             thread1.Start();
         }
 
@@ -327,6 +328,7 @@ namespace championGG_parser
                     Vis_CheckMark = Visibility.Hidden;
                 }));
             });
+            thread1.IsBackground = true;
             thread1.Start();
 
         }
@@ -364,6 +366,7 @@ namespace championGG_parser
                     Vis_CheckMark = Visibility.Hidden;
                 }));
             });
+            thread1.IsBackground = true;
             thread1.Start();
         }
 
