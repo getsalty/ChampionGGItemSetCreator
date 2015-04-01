@@ -251,7 +251,9 @@ namespace championGG_parser
             Vis_DataLoadingBarForeground = Visibility.Visible;
             Vis_DataLoadingBarBackground = Visibility.Visible;
             Enable_Button_GetData = false;
+            Enable_Button_Export = false;
             Enable_DropDown_GetData = false;
+            Enable_DropDown_ExportFiles = false;
 
             Thread thread1 = new Thread(() =>
             {
