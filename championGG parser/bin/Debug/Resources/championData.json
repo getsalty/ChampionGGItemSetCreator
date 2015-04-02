@@ -97,6 +97,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-W-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         },
         {
@@ -204,6 +205,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         }
       ],
@@ -316,6 +318,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -453,6 +456,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -590,6 +594,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -722,6 +727,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -834,6 +840,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "E-W-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         }
       ],
@@ -946,6 +953,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -1058,6 +1066,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -1175,6 +1184,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -1277,6 +1287,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -1389,6 +1400,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -1480,6 +1492,7 @@
           "highestWinStarterList": [],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -1612,6 +1625,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -1749,6 +1763,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -1861,6 +1876,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         },
         {
@@ -1983,6 +1999,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -2115,6 +2132,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -2217,6 +2235,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -2329,6 +2348,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -2436,6 +2456,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -2548,6 +2569,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         },
         {
@@ -2655,6 +2677,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         },
         {
@@ -2762,6 +2785,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "E-Q-W-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -2864,6 +2888,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -2986,6 +3011,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -3103,6 +3129,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -3210,6 +3237,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-Q-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -3317,6 +3345,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -3419,6 +3448,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -3526,6 +3556,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-Q-W-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -3633,6 +3664,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -3745,6 +3777,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -3857,6 +3890,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -3959,6 +3993,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -4061,6 +4096,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -4163,6 +4199,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-E-W-Q-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -4290,6 +4327,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "W-Q-E-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         }
       ],
@@ -4407,6 +4445,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         },
         {
@@ -4524,6 +4563,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         },
         {
@@ -4636,6 +4676,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -4748,6 +4789,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -4839,6 +4881,7 @@
           "highestWinStarterList": [],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -4873,6 +4916,7 @@
           "highestWinStarterList": [],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -4995,6 +5039,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -5117,6 +5162,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -5239,6 +5285,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -5351,6 +5398,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -5458,6 +5506,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -5560,6 +5609,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -5692,6 +5742,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -5799,6 +5850,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -5911,6 +5963,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -6018,6 +6071,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -6150,6 +6204,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-W-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         }
       ],
@@ -6277,6 +6332,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "E-Q-W-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         }
       ],
@@ -6389,6 +6445,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "E-Q-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -6506,6 +6563,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -6618,6 +6676,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-W-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         },
         {
@@ -6725,6 +6784,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -6837,6 +6897,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -6944,6 +7005,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-Q-W-Q-W-Q-W-Q-W-W-E-E-E-E-R-R-R"
         }
       ],
@@ -7046,6 +7108,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -7148,6 +7211,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -7280,6 +7344,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -7387,6 +7452,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -7499,6 +7565,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -7606,6 +7673,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -7723,6 +7791,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -7840,6 +7909,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -7977,6 +8047,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -8089,6 +8160,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -8196,6 +8268,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -8303,6 +8376,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -8420,6 +8494,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -8532,6 +8607,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -8644,6 +8720,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-0-R-W-E-E-0-E-R"
         }
       ],
@@ -8746,6 +8823,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "W-E-W-Q-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         },
         {
@@ -8853,6 +8931,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-W-E-Q-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -8965,6 +9044,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -9077,6 +9157,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -9209,6 +9290,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-E-W-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -9321,6 +9403,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -9428,6 +9511,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -9530,6 +9614,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -9662,6 +9747,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -9769,6 +9855,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -9876,6 +9963,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -9988,6 +10076,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -10110,6 +10199,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -10242,6 +10332,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -10349,6 +10440,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "E-W-E-Q-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         }
       ],
@@ -10461,6 +10553,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -10578,6 +10671,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -10685,6 +10779,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "E-Q-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -10797,6 +10892,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -10899,6 +10995,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -11021,6 +11118,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -11128,6 +11226,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -11245,6 +11344,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-Q-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -11362,6 +11462,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -11494,6 +11595,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -11601,6 +11703,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "W-Q-W-E-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -11738,6 +11841,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "W-Q-E-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         }
       ],
@@ -11870,6 +11974,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -11982,6 +12087,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         },
         {
@@ -12109,6 +12215,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "E-Q-W-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         }
       ],
@@ -12221,6 +12328,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -12328,6 +12436,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -12435,6 +12544,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -12547,6 +12657,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -12664,6 +12775,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -12776,6 +12888,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -12883,6 +12996,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -12995,6 +13109,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -13107,6 +13222,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -13224,6 +13340,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -13346,6 +13463,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -13375,6 +13493,7 @@
           "highestWinStarterList": [],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -13477,6 +13596,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -13574,6 +13694,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -13686,6 +13807,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-Q-E-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         }
       ],
@@ -13798,6 +13920,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -13910,6 +14033,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -14022,6 +14146,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -14119,6 +14244,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -14231,6 +14357,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -14348,6 +14475,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -14444,6 +14572,7 @@
           "highestWinStarterList": [],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -14556,6 +14685,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -14668,6 +14798,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         }
       ],
@@ -14780,6 +14911,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-Q-E-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -14897,6 +15029,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         }
       ],
@@ -15019,6 +15152,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -15048,6 +15182,7 @@
           "highestWinStarterList": [],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -15160,6 +15295,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         },
         {
@@ -15257,6 +15393,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         }
       ],
@@ -15374,6 +15511,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -15491,6 +15629,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "W-E-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         },
         {
@@ -15598,6 +15737,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -15700,6 +15840,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -15812,6 +15953,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -15949,6 +16091,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -16076,6 +16219,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -16188,6 +16332,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -16295,6 +16440,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -16407,6 +16553,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -16529,6 +16676,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -16661,6 +16809,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -16773,6 +16922,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -16880,6 +17030,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-Q-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -17017,6 +17168,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -17119,6 +17271,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -17221,6 +17374,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -17328,6 +17482,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -17450,6 +17605,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-Q-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -17557,6 +17713,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -17674,6 +17831,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -17776,6 +17934,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "E-W-E-Q-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -17893,6 +18052,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "R-W-R-E-R-W-R-W-R-W-W-E-E-E-E-Q-Q-Q"
         }
       ],
@@ -18005,6 +18165,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -18112,6 +18273,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -18209,6 +18371,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -18311,6 +18474,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -18413,6 +18577,7 @@
           ],
           "patch": "5.6",
           "name": "ADC",
+          "lowerName": "adc",
           "skillOrder": "Q-W-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -18525,6 +18690,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -18652,6 +18818,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -18759,6 +18926,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E"
         }
       ],
@@ -18871,6 +19039,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-E-Q-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -18983,6 +19152,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "E-Q-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         }
       ],
@@ -19100,6 +19270,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -19232,6 +19403,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -19344,6 +19516,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         },
         {
@@ -19461,6 +19634,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "W-Q-E-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q"
         }
       ],
@@ -19563,6 +19737,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-Q-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         },
         {
@@ -19670,6 +19845,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -19782,6 +19958,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -19894,6 +20071,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-Q-E-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W"
         },
         {
@@ -20001,6 +20179,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -20103,6 +20282,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -20200,6 +20380,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -20322,6 +20503,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "E-W-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         }
       ],
@@ -20434,6 +20616,7 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "lowerName": "jungle",
           "skillOrder": "W-Q-E-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q"
         },
         {
@@ -20531,6 +20714,7 @@
           ],
           "patch": "5.6",
           "name": "Top",
+          "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -20653,6 +20837,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -20765,6 +20950,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],
@@ -20892,6 +21078,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-W-Q-E-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -20921,6 +21108,7 @@
           "highestWinStarterList": [],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],
@@ -21048,6 +21236,7 @@
           ],
           "patch": "5.6",
           "name": "Support",
+          "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         },
         {
@@ -21155,6 +21344,7 @@
           ],
           "patch": "5.6",
           "name": "Middle",
+          "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W"
         }
       ],

@@ -16,6 +16,7 @@ using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media;
 
 namespace championGG_parser
 {
@@ -230,7 +231,6 @@ namespace championGG_parser
         {
             bool enableItems = false;
             ChampionList = new ChampionList(ref enableItems);
-
             Vis_LoadingGif = Visibility.Hidden;
             Vis_DataLoadingBarForeground = Visibility.Hidden;
             Vis_DataLoadingBarBackground = Visibility.Hidden;
@@ -261,6 +261,7 @@ namespace championGG_parser
             Vis_LoadingGif = Visibility.Visible;
             Vis_DataLoadingBarForeground = Visibility.Visible;
             Vis_DataLoadingBarBackground = Visibility.Visible;
+            Vis_UpdateDataLabel = Visibility.Hidden;
             Enable_Button_GetData = false;
             Enable_Button_Export = false;
             Enable_DropDown_GetData = false;

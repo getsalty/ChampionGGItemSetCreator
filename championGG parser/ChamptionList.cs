@@ -43,6 +43,7 @@ namespace championGG_parser
         /// </summary>
         private bool LoadChampions(dynamic previousData)
         {
+            #region Add Champoions
             champions.Add(new Champion("Aatrox"));
             champions.Add(new Champion("Ahri"));
             champions.Add(new Champion("Akali"));
@@ -167,10 +168,11 @@ namespace championGG_parser
             champions.Add(new Champion("Ziggs"));
             champions.Add(new Champion("Zilean"));
             champions.Add(new Champion("Zyra"));
-
+            #endregion
 
             Website tmpWeb = new Website("http://champion.gg/");
             string tmpStr = tmpWeb.textHTML;
+            string patchString = Helper.StringBetween(ref tmpStr, "<small>patch", "</strong>", true);
             string[] splitValues = Helper.StringBetween(ref tmpStr, "col-md-9", "col-md-3", true).Split('\n');
 
             foreach (var champion in champions)
@@ -209,6 +211,11 @@ namespace championGG_parser
                 {
                     for (int a = 0; a < previousData.champions[i].positions.Count; a++)
                     {
+                        string patch = previousData.champions[i].positions[a].patch;
+                        if (!(patchString.Contains(patch)))
+                        {
+                            return false;
+                        }
                         champions[i].positions[a].patch = previousData.champions[i].positions[a].patch;
                         champions[i].positions[a].skillOrder = previousData.champions[i].positions[a].skillOrder;
                         string name = previousData.champions[i].positions[a].name;

@@ -16,12 +16,23 @@ namespace championGG_parser
 {
     public class Position
     {
+        private string _name;
+
         public List<Item> popularItemList { get; set; }
         public List<Item> highestWinItemList { get; set; }
         public List<Item> popularStarterList { get; set; }
         public List<Item> highestWinStarterList { get; set; }
         public string patch { get; set; }
-        public string name { get; set; }
+        public string name
+        {
+            get { return _name; }
+            set
+            {
+                _name = value;
+                lowerName = value.ToLower();
+            }
+        }
+        public string lowerName { get; set; }
         public string skillOrder { get; set; }
         public Website website;
 
