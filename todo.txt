@@ -5,7 +5,7 @@ TODO:
  - Make interface display item sets. ** Content done, need better design
  - Create delete item sets function to remove previous item sets. ** DONE
  - Allow individual item set download in interface. 
- - Clean up code and structure of program.
+ - Clean up code and structure of program.   ** Done, but this can always use more work.
  - Finish automated item parser so all new items will automatically be stored.
  - Add more properties to item object (i.e. icon). ** I think I am done with this, but that could change.
 
