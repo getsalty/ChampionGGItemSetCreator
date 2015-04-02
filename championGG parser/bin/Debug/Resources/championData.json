@@ -5248,113 +5248,6 @@
       "positions": [
         {
           "website": {
-            "URL": "http://champion.gg/champion/Gragas/Top",
-            "textHTML": ""
-          },
-          "popularItemList": [
-            {
-              "id": 3027,
-              "name": "Rod of Ages",
-              "img": "Resources/Item Images/3027.png"
-            },
-            {
-              "id": 3020,
-              "name": "Sorcerer's Shoes",
-              "img": "Resources/Item Images/3020.png"
-            },
-            {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
-            },
-            {
-              "id": 3100,
-              "name": "Lich Bane",
-              "img": "Resources/Item Images/3100.png"
-            },
-            {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
-            },
-            {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
-            }
-          ],
-          "highestWinItemList": [
-            {
-              "id": 3027,
-              "name": "Rod of Ages",
-              "img": "Resources/Item Images/3027.png"
-            },
-            {
-              "id": 3025,
-              "name": "Iceborn Gauntlet",
-              "img": "Resources/Item Images/3025.png"
-            },
-            {
-              "id": 3020,
-              "name": "Sorcerer's Shoes",
-              "img": "Resources/Item Images/3020.png"
-            },
-            {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
-            },
-            {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
-            },
-            {
-              "id": 3068,
-              "name": "Sunfire Cape",
-              "img": "Resources/Item Images/3068.png"
-            }
-          ],
-          "popularStarterList": [
-            {
-              "id": 1056,
-              "name": "Doran's Ring",
-              "img": "Resources/Item Images/1056.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            }
-          ],
-          "highestWinStarterList": [
-            {
-              "id": 1056,
-              "name": "Doran's Ring",
-              "img": "Resources/Item Images/1056.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            }
-          ],
-          "patch": "5.6",
-          "name": "Top",
-          "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
-        },
-        {
-          "website": {
             "URL": "http://champion.gg/champion/Gragas/Jungle",
             "textHTML": ""
           },
@@ -5458,6 +5351,113 @@
           ],
           "patch": "5.6",
           "name": "Jungle",
+          "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
+        },
+        {
+          "website": {
+            "URL": "http://champion.gg/champion/Gragas/Top",
+            "textHTML": ""
+          },
+          "popularItemList": [
+            {
+              "id": 3027,
+              "name": "Rod of Ages",
+              "img": "Resources/Item Images/3027.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
+            },
+            {
+              "id": 3100,
+              "name": "Lich Bane",
+              "img": "Resources/Item Images/3100.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
+            },
+            {
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3027,
+              "name": "Rod of Ages",
+              "img": "Resources/Item Images/3027.png"
+            },
+            {
+              "id": 3025,
+              "name": "Iceborn Gauntlet",
+              "img": "Resources/Item Images/3025.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
+            },
+            {
+              "id": 3068,
+              "name": "Sunfire Cape",
+              "img": "Resources/Item Images/3068.png"
+            }
+          ],
+          "popularStarterList": [
+            {
+              "id": 1056,
+              "name": "Doran's Ring",
+              "img": "Resources/Item Images/1056.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "highestWinStarterList": [
+            {
+              "id": 1056,
+              "name": "Doran's Ring",
+              "img": "Resources/Item Images/1056.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "5.6",
+          "name": "Top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E"
         }
       ],

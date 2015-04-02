@@ -33,6 +33,11 @@ namespace championGG_parser
                 this.positions.Add(new Position(item));
             }
         }
+        public Champion(string name)
+        {
+            this.positions = new List<Position>();
+            this.name = name;
+        }
         #endregion
     }
 }

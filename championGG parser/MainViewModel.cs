@@ -34,6 +34,7 @@ namespace championGG_parser
         private Visibility _vis_DataLoadingBarForeground;
         private Visibility _vis_DataLoadingBarBackground;
         private Visibility _vis_CheckMark;
+        private Visibility _vis_UpdateDataLabel;
 
         private bool _enable_Button_GetData;
         private bool _enable_Button_Export;
@@ -103,6 +104,15 @@ namespace championGG_parser
             set
             {
                 _vis_CheckMark = value;
+                OnPropertyChanged();
+            }
+        }
+        public Visibility Vis_UpdateDataLabel
+        {
+            get { return _vis_UpdateDataLabel; }
+            set
+            {
+                _vis_UpdateDataLabel = value;
                 OnPropertyChanged();
             }
         }
@@ -225,6 +235,7 @@ namespace championGG_parser
             Vis_DataLoadingBarForeground = Visibility.Hidden;
             Vis_DataLoadingBarBackground = Visibility.Hidden;
             Vis_CheckMark = Visibility.Hidden;
+            Vis_UpdateDataLabel = enableItems ? Visibility.Hidden : Visibility.Visible;
             Enable_Button_GetData = true;
             Enable_Button_Export = enableItems ? true : false;
             Enable_Button_DeletePrev = enableItems ? true : false;
@@ -257,6 +268,40 @@ namespace championGG_parser
 
             Thread thread1 = new Thread(() =>
             {
+                Website tmpWeb = new Website("http://champion.gg/");
+                string tmpStr = tmpWeb.textHTML;
+                string[] splitValues = Helper.StringBetween(ref tmpStr, "col-md-9", "col-md-3", true).Split('\n');
+
+                foreach (var champion in ChampionList.champions)
+                {
+                    champion.positions.Clear();
+                    string championString = "/champion/" + champion.name.ToLower() + "/";
+                    var positionStrings = splitValues.Where(i => i.Contains(championString));
+                    foreach (var posStr in positionStrings)
+                    {
+                        if (posStr.Contains("top"))
+                        {
+                            champion.positions.Add(new Position(Helper.Top));
+                        }
+                        else if (posStr.Contains("jungle"))
+                        {
+                            champion.positions.Add(new Position(Helper.Jungle));
+                        }
+                        else if (posStr.Contains("middle"))
+                        {
+                            champion.positions.Add(new Position(Helper.Middle));
+                        }
+                        else if (posStr.Contains("adc"))
+                        {
+                            champion.positions.Add(new Position(Helper.ADC));
+                        }
+                        else if (posStr.Contains("support"))
+                        {
+                            champion.positions.Add(new Position(Helper.Support));
+                        }
+                    }
+                }
+
                 foreach (var champion in ChampionList.champions)
                 {
                     foreach (var position in champion.positions)
