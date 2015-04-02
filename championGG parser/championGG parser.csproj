@@ -285,6 +285,13 @@
   <ItemGroup>
     <SplashScreen Include="Resources\loading.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3023.png" />
+    <Resource Include="Resources\Item Images\3025.png" />
+    <Resource Include="Resources\Item Images\3056.png" />
+    <Resource Include="Resources\Item Images\3091.png" />
+    <Resource Include="Resources\Item Images\3717.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
