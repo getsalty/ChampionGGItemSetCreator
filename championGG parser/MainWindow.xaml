@@ -49,7 +49,6 @@
 
                             <TextBlock Text="Popular Items" HorizontalAlignment="Left" FontSize="17" Width="150px" FontWeight="Bold" Margin="10,10,0,0"/>
                             <StackPanel Orientation="Horizontal">
-
                                 <ItemsControl x:Name="testing123" ItemsSource="{Binding Path=popularItemList}" Margin="25,5,0,0" >
                                     <ItemsControl.ItemTemplate>
                                         <DataTemplate>
@@ -67,7 +66,6 @@
                                         </ItemsPanelTemplate>
                                     </ItemsControl.ItemsPanel>
                                 </ItemsControl>
-
                             </StackPanel>
                             <TextBlock Text="Highest Win Rate Items" HorizontalAlignment="Left" FontSize="17" Width="200px" FontWeight="Bold" Margin="10,10,0,0"/>
                             <ItemsControl  x:Name="testing1234" ItemsSource="{Binding Path=highestWinItemList}" Margin="25,5,0,0">

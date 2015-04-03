@@ -38,12 +38,8 @@ namespace championGG_parser
 
         #region constructors
         public Position(string name)
+            : this()
         {
-            popularItemList = new List<Item>();
-            highestWinItemList = new List<Item>();
-            popularStarterList = new List<Item>();
-            highestWinStarterList = new List<Item>();
-            website = new Website();
             this.name = name;
         }
 

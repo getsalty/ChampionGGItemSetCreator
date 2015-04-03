@@ -174,6 +174,8 @@ namespace championGG_parser
             string tmpStr = tmpWeb.textHTML;
             string patchString = Helper.StringBetween(ref tmpStr, "<small>patch", "</strong>", true);
             string[] splitValues = Helper.StringBetween(ref tmpStr, "col-md-9", "col-md-3", true).Split('\n');
+            tmpStr = "";
+            tmpWeb = new Website();
 
             foreach (var champion in champions)
             {

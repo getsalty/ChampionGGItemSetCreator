@@ -40,7 +40,6 @@ namespace championGG_parser
         {
             this.URL = URL;
             LoadWebsite();
-
         }
 
         public Website() { }
