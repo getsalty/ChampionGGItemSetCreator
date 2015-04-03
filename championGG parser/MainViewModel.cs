@@ -48,6 +48,7 @@ namespace championGG_parser
         private int _width_DataLoadingBarForeground;
         private List<Position> _positionSource;
         private ChampionList _championList;
+
         #endregion
 
         #region Public Wrappers
@@ -70,6 +71,7 @@ namespace championGG_parser
                 OnPropertyChanged();
             }
         }
+
 
         #region Visibility Variables
         public Visibility Vis_LoadingGif

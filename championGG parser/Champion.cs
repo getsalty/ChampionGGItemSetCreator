@@ -25,14 +25,14 @@ namespace championGG_parser
 
         #region constructors
         public Champion(string name, string[] positions)
+            : this(name)
         {
-            this.positions = new List<Position>();
-            this.name = name;
             foreach (var item in positions)
             {
                 this.positions.Add(new Position(item));
             }
         }
+
         public Champion(string name)
         {
             this.positions = new List<Position>();

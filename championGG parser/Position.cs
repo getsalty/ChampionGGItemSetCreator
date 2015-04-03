@@ -16,7 +16,9 @@ namespace championGG_parser
 {
     public class Position
     {
+        #region Variables
         private string _name;
+        private string _color_Positions;
 
         public List<Item> popularItemList { get; set; }
         public List<Item> highestWinItemList { get; set; }
@@ -34,13 +36,43 @@ namespace championGG_parser
         }
         public string lowerName { get; set; }
         public string skillOrder { get; set; }
+        public string Color_Positions
+        {
+            get { return _color_Positions; }
+            set
+            {
+                _color_Positions = value;
+            }
+        }
         public Website website;
+        #endregion
 
         #region constructors
         public Position(string name)
             : this()
         {
             this.name = name;
+            switch (name)
+            {
+                case "Top":
+                    Color_Positions = "LightGreen";
+                    break;
+                case "Middle":
+                    Color_Positions = "LightPink";
+                    break;
+                case "Jungle":
+                    Color_Positions = "LightGray";
+                    break;
+                case "ADC":
+                    Color_Positions = "LightBlue";
+                    break;
+                case "Support":
+                    Color_Positions = "LightYellow";
+                    break;
+                default:
+                    break;
+
+            }
         }
 
         public Position()

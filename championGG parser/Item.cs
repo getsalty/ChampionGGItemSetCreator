@@ -10,10 +10,13 @@ namespace championGG_parser
 {
     public class Item
     {
+        #region Private Variables
         private short _id;
         private string _name;
         private string _img;
+        #endregion
 
+        #region Public Variable Masks
         /// <summary>
         /// Id of the item.
         /// </summary>
@@ -43,5 +46,6 @@ namespace championGG_parser
         {
             get { return _img; }
         }
+        #endregion
     }
 }
