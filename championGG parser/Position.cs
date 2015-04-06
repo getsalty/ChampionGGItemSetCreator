@@ -16,7 +16,7 @@ namespace championGG_parser
 {
     public class Position
     {
-        #region Variables
+        #region variables
         private string _name;
         private string _color_Positions;
 
@@ -69,9 +69,6 @@ namespace championGG_parser
                 case "Support":
                     Color_Positions = "LightYellow";
                     break;
-                default:
-                    break;
-
             }
         }
 

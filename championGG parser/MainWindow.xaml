@@ -46,7 +46,6 @@
                                 </TextBlock.Effect>
                             </TextBlock>
                             <TextBlock Text="{Binding Path=skillOrder}" Margin="0,5,0,10" HorizontalAlignment="Center" FontSize="15" FontWeight="Bold" />
-
                             <TextBlock Text="Popular Items" HorizontalAlignment="Left" FontSize="17" Width="150px" FontWeight="Bold" Margin="10,10,0,0"/>
                             <StackPanel Orientation="Horizontal">
                                 <ItemsControl x:Name="testing123" ItemsSource="{Binding Path=popularItemList}" Margin="25,5,0,0" >
