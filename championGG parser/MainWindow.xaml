@@ -14,7 +14,7 @@
                 <MenuItem Header="About" Click="ShowAboutWindow"/>
                 <MenuItem Header="Close" Click="ShutdownApplication"/>
             </MenuItem>
-            <MenuItem Header="Application" >
+            <MenuItem Header="Application">
                 <MenuItem x:Name="dropdownUpdateData" Header="Update Data" Command="{Binding Path=Command_GetData}" IsEnabled="{Binding Path=Enable_DropDown_GetData}"/>
                 <MenuItem x:Name="dropdownExportFiles" Header="Export Files" Command="{Binding Path=Command_ExportData}" IsEnabled="{Binding Path=Enable_DropDown_ExportFiles}"/>
                 <MenuItem x:Name="dropdownClearHTML" Header="Clear Leftover HTML" Command="{Binding Path=Command_ClearHTML}" IsEnabled="{Binding Path=Enable_DropDown_ClearHTML}"/>

@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System;
+using System.Reflection;
+using System.Windows;
 using System.Windows.Navigation;
 
 namespace championGG_parser
@@ -11,12 +13,18 @@ namespace championGG_parser
         public AboutWindow()
         {
             InitializeComponent();
+
+            Assembly thisAssem = typeof(MainWindow).Assembly;
+            AssemblyName thisAssemName = thisAssem.GetName();
+            Version ver = thisAssemName.Version;
+            Version.Text = ver.ToString();
         }
 
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             System.Diagnostics.Process.Start(e.Uri.ToString());
         }
+
         public void ChangeWindowLocation(double mainWindowWidth, double mainWindowHeight, double mainWindowLeft, double mainWindowTop)
         {
             double screenWidth = mainWindowWidth;

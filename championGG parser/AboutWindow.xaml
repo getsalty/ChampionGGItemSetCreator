@@ -4,17 +4,19 @@
         Title="About" Height="300" Width="300" Icon="pack://siteoforigin:,,,/Resources/G.ico" ResizeMode="NoResize">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="51,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="37" Width="204"><Run FontSize="20" Text="Champion.gg "/><Run FontSize="20" Text="Parser"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Margin="71,71,0,0" TextWrapping="Wrap" Text="Created By: Garrett Long" VerticalAlignment="Top" Height="28" Width="157" FontSize="14"/>
-        <TextBlock HorizontalAlignment="Left" Margin="71,104,0,0" TextWrapping="Wrap" Text="Email: xelfarcherdv@aol.com" VerticalAlignment="Top" Width="157" Height="28"/>
-        <TextBlock HorizontalAlignment="Left" Margin="71,132,0,0" TextWrapping="Wrap" Text="Reddit: Warrior3500" VerticalAlignment="Top" Width="157" Height="22"/>
-        <TextBlock HorizontalAlignment="Left" Margin="71,159,0,0" TextWrapping="Wrap" Text="League (NA):  ILoveNate" VerticalAlignment="Top" Width="157" Height="23"/>
-        <TextBlock HorizontalAlignment="Left" Margin="71,207,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"> 
+        <TextBlock HorizontalAlignment="Left" Margin="71,84,0,0" TextWrapping="Wrap" Text="Created By: Garrett Long" VerticalAlignment="Top" Height="28" Width="157" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="71,117,0,0" TextWrapping="Wrap" Text="Email: xelfarcherdv@aol.com" VerticalAlignment="Top" Width="157" Height="28"/>
+        <TextBlock HorizontalAlignment="Left" Margin="71,145,0,0" TextWrapping="Wrap" Text="Reddit: Warrior3500" VerticalAlignment="Top" Width="157" Height="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="71,172,0,0" TextWrapping="Wrap" Text="League (NA):  ILoveNate" VerticalAlignment="Top" Width="157" Height="23"/>
+        <TextBlock HorizontalAlignment="Left" Margin="71,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"> 
             <Hyperlink 
                 NavigateUri="https://github.com/getsalty/ChampionGGItemSetCreator/"
                 RequestNavigate="Hyperlink_RequestNavigate" FontSize="15" FontWeight="Bold" Block.TextAlignment="Center">
                 Git Hub Source
             </Hyperlink>
         </TextBlock>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="83,42,0,0" Width="56" RenderTransformOrigin="0.554,0.313" Height="18"><Run Text="Version: "/><LineBreak/><Run/></TextBlock>
+        <TextBlock x:Name="Version" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="130,42,0,0"/>
 
     </Grid>
 </Window>
