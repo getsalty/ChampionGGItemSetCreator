@@ -1,0 +1,22 @@
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Release\championGG parser.exe.config
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Release\Resources\ajax-loader.gif
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Release\Resources\G.ico
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Release\championGG parser.exe
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Release\championGG parser.pdb
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Release\Newtonsoft.Json.dll
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\bin\Release\Newtonsoft.Json.xml
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\AboutWindow.baml
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\SettingsWindow.baml
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\AboutWindow.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\MainWindow.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\SettingsWindow.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\App.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser_MarkupCompile.cache
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser_MarkupCompile.lref
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\MainWindow.baml
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser.g.resources
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG_parser.Properties.Resources.resources
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser.csproj.GenerateResource.Cache
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser.exe
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser.pdb
