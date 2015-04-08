@@ -17,7 +17,11 @@ I got annoyed by the reddit posts giving away item sets but not releasing the so
 
 ####How To Install
 
-* Binaries: download folder "Debug" from championGG_parser/bin/ 
+* Binaries: 
+1. Download zip (button on the right)
+2. Navigate to championGG_parser/bin/ 
+3. If you want a stable release, use the binaries in the release folder.  If you want the beta release, use the binaries in the debug.
+
 * Compile: download everything and open the Visual Studio Solution file. Compile from there.
 
 ####How To Use
