@@ -213,12 +213,6 @@ namespace championGG_parser {
             return;
             case 13:
             this.buttonGetData = ((System.Windows.Controls.Button)(target));
-            
-            #line 107 "..\..\MainWindow.xaml"
-            this.buttonGetData.Click += new System.Windows.RoutedEventHandler(this.buttonGetData_Click);
-            
-            #line default
-            #line hidden
             return;
             case 14:
             this.loadingGif = ((System.Windows.Controls.MediaElement)(target));

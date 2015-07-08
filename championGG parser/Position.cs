@@ -412,7 +412,7 @@ namespace championGG_parser
 
             highestWinItemList.Clear();
             findFrom = ("<h2 class=\"champion-stats\"  style=\"margin-top:40px\">Highest Win % Core Build</h2>").Replace(" ", "").ToLower();
-            findTo = ("<div class=\"col-xs-12 col-sm-12 col-md-5 counter-column\">").Replace(" ", "").ToLower();
+            findTo = ("<div class=\"col-xs-12 col-sm-12 col-md-5\">").Replace(" ", "").ToLower();
             PopulateIndividualList(ref websiteText, findFrom, findTo, highestWinItemList);
             website.textHTML = websiteText;
 
