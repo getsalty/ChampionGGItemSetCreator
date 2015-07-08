@@ -201,12 +201,6 @@ namespace championGG_parser {
             return;
             case 7:
             this.listbox1 = ((System.Windows.Controls.ListBox)(target));
-            
-            #line 25 "..\..\MainWindow.xaml"
-            this.listbox1.ContextMenuClosing += new System.Windows.Controls.ContextMenuEventHandler(this.listbox1_ContextMenuClosing);
-            
-            #line default
-            #line hidden
             return;
             case 8:
             this.itemSet = ((System.Windows.Controls.ListBox)(target));
@@ -219,6 +213,12 @@ namespace championGG_parser {
             return;
             case 13:
             this.buttonGetData = ((System.Windows.Controls.Button)(target));
+            
+            #line 107 "..\..\MainWindow.xaml"
+            this.buttonGetData.Click += new System.Windows.RoutedEventHandler(this.buttonGetData_Click);
+            
+            #line default
+            #line hidden
             return;
             case 14:
             this.loadingGif = ((System.Windows.Controls.MediaElement)(target));
