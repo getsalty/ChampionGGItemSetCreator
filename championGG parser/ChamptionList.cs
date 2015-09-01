@@ -65,6 +65,7 @@ namespace championGG_parser
             champions.Add(new Champion("Diana"));
             champions.Add(new Champion("Draven"));
             champions.Add(new Champion("DrMundo"));
+            champions.Add(new Champion("Ekko"));
             champions.Add(new Champion("Elise"));
             champions.Add(new Champion("Evelynn"));
             champions.Add(new Champion("Ezreal"));
@@ -139,6 +140,7 @@ namespace championGG_parser
             champions.Add(new Champion("Soraka"));
             champions.Add(new Champion("Swain"));
             champions.Add(new Champion("Syndra"));
+            champions.Add(new Champion("TahmKench"));
             champions.Add(new Champion("Talon"));
             champions.Add(new Champion("Taric"));
             champions.Add(new Champion("Teemo"));

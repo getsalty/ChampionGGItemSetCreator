@@ -3355,6 +3355,234 @@
       "positions": [
         {
           "website": {
+            "URL": "http://champion.gg/champion/Ekko/Jungle",
+            "textHTML": ""
+          },
+          "popularItemList": [
+            {
+              "id": 3724,
+              "name": "Enchantment: Magus",
+              "img": "Resources/Item Images/3724.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
+            },
+            {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
+            },
+            {
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3724,
+              "name": "Enchantment: Magus",
+              "img": "Resources/Item Images/3724.png"
+            },
+            {
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
+            },
+            {
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
+            }
+          ],
+          "popularStarterList": [
+            {
+              "id": 1039,
+              "name": "Hunter's Machete",
+              "img": "Resources/Item Images/1039.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "highestWinStarterList": [
+            {
+              "id": 1039,
+              "name": "Hunter's Machete",
+              "img": "Resources/Item Images/1039.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "",
+          "name": "Jungle",
+          "lowerName": "jungle",
+          "skillOrder": "W-Q-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
+          "Color_Positions": "LightGray"
+        },
+        {
+          "website": {
+            "URL": "http://champion.gg/champion/Ekko/Middle",
+            "textHTML": ""
+          },
+          "popularItemList": [
+            {
+              "id": 3165,
+              "name": "Morellonomicon",
+              "img": "Resources/Item Images/3165.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3100,
+              "name": "Lich Bane",
+              "img": "Resources/Item Images/3100.png"
+            },
+            {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
+            },
+            {
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3100,
+              "name": "Lich Bane",
+              "img": "Resources/Item Images/3100.png"
+            },
+            {
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
+            }
+          ],
+          "popularStarterList": [
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2041,
+              "name": "Crystalline Flask",
+              "img": "Resources/Item Images/2041.png"
+            }
+          ],
+          "highestWinStarterList": [
+            {
+              "id": 1056,
+              "name": "Doran's Ring",
+              "img": "Resources/Item Images/1056.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "",
+          "name": "Middle",
+          "lowerName": "middle",
+          "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
+          "Color_Positions": "LightPink"
+        }
+      ],
+      "name": "Ekko"
+    },
+    {
+      "positions": [
+        {
+          "website": {
             "URL": "http://champion.gg/champion/Elise/Jungle",
             "textHTML": ""
           },
@@ -16028,6 +16256,343 @@
         }
       ],
       "name": "Syndra"
+    },
+    {
+      "positions": [
+        {
+          "website": {
+            "URL": "http://champion.gg/champion/TahmKench/Support",
+            "textHTML": ""
+          },
+          "popularItemList": [
+            {
+              "id": 2049,
+              "name": "Sightstone",
+              "img": "Resources/Item Images/2049.png"
+            },
+            {
+              "id": 3401,
+              "name": "Face of the Mountain",
+              "img": "Resources/Item Images/3401.png"
+            },
+            {
+              "id": 3009,
+              "name": "Boots of Swiftness",
+              "img": "Resources/Item Images/3009.png"
+            },
+            {
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
+            },
+            {
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
+            },
+            {
+              "id": 3068,
+              "name": "Sunfire Cape",
+              "img": "Resources/Item Images/3068.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3117,
+              "name": "Boots of Mobility",
+              "img": "Resources/Item Images/3117.png"
+            },
+            {
+              "id": 2049,
+              "name": "Sightstone",
+              "img": "Resources/Item Images/2049.png"
+            },
+            {
+              "id": 3401,
+              "name": "Face of the Mountain",
+              "img": "Resources/Item Images/3401.png"
+            },
+            {
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
+            },
+            {
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
+            },
+            {
+              "id": 3050,
+              "name": "Zeke's Herald",
+              "img": "Resources/Item Images/3050.png"
+            }
+          ],
+          "popularStarterList": [
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 3302,
+              "name": "Relic Shield",
+              "img": "Resources/Item Images/3302.png"
+            }
+          ],
+          "highestWinStarterList": [
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2044,
+              "name": "Stealth Ward",
+              "img": "Resources/Item Images/2044.png"
+            },
+            {
+              "id": 3302,
+              "name": "Relic Shield",
+              "img": "Resources/Item Images/3302.png"
+            }
+          ],
+          "patch": "",
+          "name": "Support",
+          "lowerName": "support",
+          "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
+          "Color_Positions": "LightYellow"
+        },
+        {
+          "website": {
+            "URL": "http://champion.gg/champion/TahmKench/Top",
+            "textHTML": ""
+          },
+          "popularItemList": [
+            {
+              "id": 3068,
+              "name": "Sunfire Cape",
+              "img": "Resources/Item Images/3068.png"
+            },
+            {
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
+            },
+            {
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3083,
+              "name": "Warmog's Armor",
+              "img": "Resources/Item Images/3083.png"
+            },
+            {
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
+            },
+            {
+              "id": 3748,
+              "name": "Titanic Hydra (Melee Only)",
+              "img": "Resources/Item Images/3748.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3068,
+              "name": "Sunfire Cape",
+              "img": "Resources/Item Images/3068.png"
+            },
+            {
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
+            },
+            {
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
+            },
+            {
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3083,
+              "name": "Warmog's Armor",
+              "img": "Resources/Item Images/3083.png"
+            },
+            {
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
+            }
+          ],
+          "popularStarterList": [
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2041,
+              "name": "Crystalline Flask",
+              "img": "Resources/Item Images/2041.png"
+            }
+          ],
+          "highestWinStarterList": [
+            {
+              "id": 2041,
+              "name": "Crystalline Flask",
+              "img": "Resources/Item Images/2041.png"
+            }
+          ],
+          "patch": "",
+          "name": "Top",
+          "lowerName": "top",
+          "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
+          "Color_Positions": "LightGreen"
+        },
+        {
+          "website": {
+            "URL": "http://champion.gg/champion/TahmKench/Jungle",
+            "textHTML": ""
+          },
+          "popularItemList": [
+            {
+              "id": 3709,
+              "name": "Enchantment: Cinderhulk",
+              "img": "Resources/Item Images/3709.png"
+            },
+            {
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
+            },
+            {
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
+            },
+            {
+              "id": 3512,
+              "name": "Zz'Rot Portal",
+              "img": "Resources/Item Images/3512.png"
+            },
+            {
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
+            },
+            {
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3709,
+              "name": "Enchantment: Cinderhulk",
+              "img": "Resources/Item Images/3709.png"
+            },
+            {
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
+            },
+            {
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
+            },
+            {
+              "id": 3512,
+              "name": "Zz'Rot Portal",
+              "img": "Resources/Item Images/3512.png"
+            },
+            {
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3083,
+              "name": "Warmog's Armor",
+              "img": "Resources/Item Images/3083.png"
+            }
+          ],
+          "popularStarterList": [
+            {
+              "id": 1039,
+              "name": "Hunter's Machete",
+              "img": "Resources/Item Images/1039.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "highestWinStarterList": [
+            {
+              "id": 1039,
+              "name": "Hunter's Machete",
+              "img": "Resources/Item Images/1039.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "",
+          "name": "Jungle",
+          "lowerName": "jungle",
+          "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
+          "Color_Positions": "LightGray"
+        }
+      ],
+      "name": "TahmKench"
     },
     {
       "positions": [
