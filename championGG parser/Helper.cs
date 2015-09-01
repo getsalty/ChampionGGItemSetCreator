@@ -124,6 +124,7 @@ namespace championGG_parser
             gameItems.Add(3046, "Phantom Dancer");
             gameItems.Add(3047, "Ninja Tabi");
             gameItems.Add(3050, "Zeke's Herald");
+            gameItems.Add(3053, "Sterak's Gage");
             gameItems.Add(3056, "Ohmwrecker");
             gameItems.Add(3057, "Sheen");
             gameItems.Add(3060, "Banner of Command");
@@ -285,6 +286,8 @@ namespace championGG_parser
             gameItems.Add(3724, "Enchantment: Magus");
             gameItems.Add(3725, "Enchantment: Cinderhulk");
             gameItems.Add(3726, "Enchantment: Devourer");
+            gameItems.Add(3742, "Dead Man's Plate");
+            gameItems.Add(3748, "Titanic Hydra (Melee Only)");
             gameItems.Add(3751, "Bami's Cinder");
             gameItems.Add(3800, "Righteous Glory");
             gameItems.Add(3801, "Crystalline Bracer");

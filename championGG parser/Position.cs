@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace championGG_parser
 {
@@ -430,7 +431,7 @@ namespace championGG_parser
             #endregion
 
             #region Find Patch
-            findFrom = ("<small>patch<strong>");
+            findFrom = ("patch<strong>");
             findTo = ("</strong><spanclass=\"spacer\">|</span>gam");
             string[] splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
             patch = splitValues[0] ?? "";
