@@ -18,7 +18,7 @@ I got annoyed by the reddit posts giving away item sets but not releasing the so
 * GUI to view all item sets and skill orders. **Still being revised
 * Delete all previous item sets created by this program.
 * Exporting all champions' item sets to game.
-* Exporting specific champions' item sets to game. **Not finished yet
+* Exporting specific champion's item sets to game. **Not finished yet
 
 ####How To Install
 
