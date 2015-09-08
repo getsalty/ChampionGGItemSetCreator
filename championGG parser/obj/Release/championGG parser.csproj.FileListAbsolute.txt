@@ -20,3 +20,4 @@ E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Releas
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser.csproj.GenerateResource.Cache
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser.exe
 E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser.pdb
+E:\workspace\ChampionGGGIT\ChampionGGItemSetCreator\championGG parser\obj\Release\championGG parser.csprojResolveAssemblyReference.cache
