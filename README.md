@@ -30,7 +30,7 @@ I got annoyed by the reddit posts giving away item sets but not releasing the so
 * Compile: download everything and open the Visual Studio Solution file. Compile from there.
 
 ####How To Use
-1. When loaded, you should go to the options screen and pick which settings are right for you. 
+1. When loaded, you should go to the options screen (Application->Options) and pick which settings are right for you. 
 2. Once settings are saved, click the "Update Data" button. This button will update all the current data and save it locally on your computer. It will only need to be pressed once per patch, or as often as you want the latest and greatest data.
 3. Once it is done loading, click the "Export Data" button. This will export all item sets to your league directory.
 
