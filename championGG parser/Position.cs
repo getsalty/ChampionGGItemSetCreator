@@ -431,10 +431,13 @@ namespace championGG_parser
             #endregion
 
             #region Find Patch
-            findFrom = ("patch<strong>");
-            findTo = ("</strong><spanclass=\"spacer\">|</span>gam");
+            findFrom = ("patch");
+            findTo = ("<spanclass=\"spacer\">|</span>");
             string[] splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
-            patch = splitValues[0] ?? "";
+            findFrom = ("<strong>");
+            findTo = ("</strong>");
+            string[] splitValues2 = Helper.StringBetween(ref splitValues[1], findFrom, findTo, true).Split('\n');
+            patch = splitValues2[0] ?? "";
             website.textHTML = websiteText;
             #endregion
 

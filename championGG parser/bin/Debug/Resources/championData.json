@@ -19,9 +19,9 @@
               "img": "Resources/Item Images/3047.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3074,
+              "name": "Ravenous Hydra (Melee Only)",
+              "img": "Resources/Item Images/3074.png"
             },
             {
               "id": 3065,
@@ -29,14 +29,14 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
+              "id": 3072,
+              "name": "The Bloodthirster",
+              "img": "Resources/Item Images/3072.png"
+            },
+            {
               "id": 3035,
               "name": "Last Whisper",
               "img": "Resources/Item Images/3035.png"
-            },
-            {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
             }
           ],
           "highestWinItemList": [
@@ -95,7 +95,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-W-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -150,14 +150,9 @@
               "img": "Resources/Item Images/3153.png"
             },
             {
-              "id": 3111,
-              "name": "Mercury's Treads",
-              "img": "Resources/Item Images/3111.png"
-            },
-            {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
             },
             {
               "id": 3143,
@@ -165,9 +160,14 @@
               "img": "Resources/Item Images/3143.png"
             },
             {
-              "id": 3074,
-              "name": "Ravenous Hydra (Melee Only)",
-              "img": "Resources/Item Images/3074.png"
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3083,
+              "name": "Warmog's Armor",
+              "img": "Resources/Item Images/3083.png"
             }
           ],
           "popularStarterList": [
@@ -204,7 +204,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -318,7 +318,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -437,7 +437,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -482,14 +482,14 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3146,
-              "name": "Hextech Gunblade",
-              "img": "Resources/Item Images/3146.png"
-            },
-            {
               "id": 3020,
               "name": "Sorcerer's Shoes",
               "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3146,
+              "name": "Hextech Gunblade",
+              "img": "Resources/Item Images/3146.png"
             },
             {
               "id": 3157,
@@ -497,19 +497,19 @@
               "img": "Resources/Item Images/3157.png"
             },
             {
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
+            },
+            {
               "id": 3100,
               "name": "Lich Bane",
               "img": "Resources/Item Images/3100.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
-            },
-            {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "popularStarterList": [
@@ -546,24 +546,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1001,
-              "name": "Boots of Speed",
-              "img": "Resources/Item Images/1001.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 1054,
+              "name": "Doran's Shield",
+              "img": "Resources/Item Images/1054.png"
             },
             {
               "id": 2003,
@@ -571,7 +556,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -695,17 +680,17 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
             },
             {
-              "id": 3301,
-              "name": "Ancient Coin",
-              "img": "Resources/Item Images/3301.png"
+              "id": 3302,
+              "name": "Relic Shield",
+              "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -780,9 +765,9 @@
               "img": "Resources/Item Images/3157.png"
             },
             {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "popularStarterList": [
@@ -819,7 +804,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "E-W-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -933,7 +918,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -976,9 +961,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
             }
           ],
           "highestWinItemList": [
@@ -1008,9 +993,9 @@
               "img": "Resources/Item Images/3157.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
+              "id": 3151,
+              "name": "Liandry's Torment",
+              "img": "Resources/Item Images/3151.png"
             }
           ],
           "popularStarterList": [
@@ -1047,7 +1032,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -1075,19 +1060,19 @@
               "img": "Resources/Item Images/3069.png"
             },
             {
-              "id": 3050,
-              "name": "Zeke's Herald",
-              "img": "Resources/Item Images/3050.png"
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
             },
             {
-              "id": 3060,
-              "name": "Banner of Command",
-              "img": "Resources/Item Images/3060.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3222,
-              "name": "Mikael's Crucible",
-              "img": "Resources/Item Images/3222.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "highestWinItemList": [
@@ -1097,29 +1082,29 @@
               "img": "Resources/Item Images/2049.png"
             },
             {
-              "id": 3027,
-              "name": "Rod of Ages",
-              "img": "Resources/Item Images/3027.png"
+              "id": 3117,
+              "name": "Boots of Mobility",
+              "img": "Resources/Item Images/3117.png"
             },
             {
-              "id": 3020,
-              "name": "Sorcerer's Shoes",
-              "img": "Resources/Item Images/3020.png"
+              "id": 3069,
+              "name": "Talisman of Ascension",
+              "img": "Resources/Item Images/3069.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "popularStarterList": [
@@ -1176,7 +1161,7 @@
               "img": "Resources/Item Images/3301.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -1280,7 +1265,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "W-Q-W-E-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -1394,7 +1379,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -1422,41 +1407,9 @@
               "img": "Resources/Item Images/3117.png"
             },
             {
-              "id": 3092,
-              "name": "Frost Queen's Claim",
-              "img": "Resources/Item Images/3092.png"
-            },
-            {
-              "id": 3190,
-              "name": "Locket of the Iron Solari",
-              "img": "Resources/Item Images/3190.png"
-            },
-            {
-              "id": 3110,
-              "name": "Frozen Heart",
-              "img": "Resources/Item Images/3110.png"
-            },
-            {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
-            }
-          ],
-          "highestWinItemList": [
-            {
-              "id": 2049,
-              "name": "Sightstone",
-              "img": "Resources/Item Images/2049.png"
-            },
-            {
               "id": 3069,
               "name": "Talisman of Ascension",
               "img": "Resources/Item Images/3069.png"
-            },
-            {
-              "id": 3117,
-              "name": "Boots of Mobility",
-              "img": "Resources/Item Images/3117.png"
             },
             {
               "id": 3050,
@@ -1464,14 +1417,46 @@
               "img": "Resources/Item Images/3050.png"
             },
             {
-              "id": 3060,
-              "name": "Banner of Command",
-              "img": "Resources/Item Images/3060.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
             },
             {
-              "id": 3115,
-              "name": "Nashor's Tooth",
-              "img": "Resources/Item Images/3115.png"
+              "id": 3222,
+              "name": "Mikael's Crucible",
+              "img": "Resources/Item Images/3222.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3117,
+              "name": "Boots of Mobility",
+              "img": "Resources/Item Images/3117.png"
+            },
+            {
+              "id": 2049,
+              "name": "Sightstone",
+              "img": "Resources/Item Images/2049.png"
+            },
+            {
+              "id": 3050,
+              "name": "Zeke's Herald",
+              "img": "Resources/Item Images/3050.png"
+            },
+            {
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
+            },
+            {
+              "id": 3222,
+              "name": "Mikael's Crucible",
+              "img": "Resources/Item Images/3222.png"
+            },
+            {
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
             }
           ],
           "popularStarterList": [
@@ -1503,6 +1488,16 @@
           ],
           "highestWinStarterList": [
             {
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
               "id": 2003,
               "name": "Health Potion",
               "img": "Resources/Item Images/2003.png"
@@ -1513,17 +1508,12 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2044,
-              "name": "Stealth Ward",
-              "img": "Resources/Item Images/2044.png"
-            },
-            {
-              "id": 3301,
-              "name": "Ancient Coin",
-              "img": "Resources/Item Images/3301.png"
+              "id": 3303,
+              "name": "Spellthief's Edge",
+              "img": "Resources/Item Images/3303.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -1652,7 +1642,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -1680,9 +1670,9 @@
               "img": "Resources/Item Images/3020.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             },
             {
               "id": 3089,
@@ -1690,14 +1680,14 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
+              "id": 3165,
+              "name": "Morellonomicon",
+              "img": "Resources/Item Images/3165.png"
             }
           ],
           "highestWinItemList": [
@@ -1766,7 +1756,7 @@
               "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -1811,6 +1801,16 @@
           ],
           "highestWinItemList": [
             {
+              "id": 2049,
+              "name": "Sightstone",
+              "img": "Resources/Item Images/2049.png"
+            },
+            {
+              "id": 3151,
+              "name": "Liandry's Torment",
+              "img": "Resources/Item Images/3151.png"
+            },
+            {
               "id": 3020,
               "name": "Sorcerer's Shoes",
               "img": "Resources/Item Images/3020.png"
@@ -1821,24 +1821,14 @@
               "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
-            },
-            {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
             },
             {
               "id": 3135,
               "name": "Void Staff",
               "img": "Resources/Item Images/3135.png"
-            },
-            {
-              "id": 3165,
-              "name": "Morellonomicon",
-              "img": "Resources/Item Images/3165.png"
             }
           ],
           "popularStarterList": [
@@ -1870,9 +1860,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
             },
             {
               "id": 2003,
@@ -1890,7 +1880,7 @@
               "img": "Resources/Item Images/3303.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -2024,7 +2014,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -2099,9 +2089,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3139,
+              "name": "Mercurial Scimitar",
+              "img": "Resources/Item Images/3139.png"
             }
           ],
           "popularStarterList": [
@@ -2128,7 +2118,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -2161,14 +2151,14 @@
               "img": "Resources/Item Images/3003.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
-            },
-            {
               "id": 3089,
               "name": "Rabadon's Deathcap",
               "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             },
             {
               "id": 3157,
@@ -2178,14 +2168,9 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
-            },
-            {
-              "id": 3003,
-              "name": "Archangel's Staff",
-              "img": "Resources/Item Images/3003.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             },
             {
               "id": 3020,
@@ -2193,19 +2178,24 @@
               "img": "Resources/Item Images/3020.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
-            },
-            {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
+              "id": 3003,
+              "name": "Archangel's Staff",
+              "img": "Resources/Item Images/3003.png"
             },
             {
               "id": 3157,
               "name": "Zhonya's Hourglass",
               "img": "Resources/Item Images/3157.png"
+            },
+            {
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             }
           ],
           "popularStarterList": [
@@ -2242,7 +2232,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -2287,6 +2277,11 @@
           ],
           "highestWinItemList": [
             {
+              "id": 3003,
+              "name": "Archangel's Staff",
+              "img": "Resources/Item Images/3003.png"
+            },
+            {
               "id": 3020,
               "name": "Sorcerer's Shoes",
               "img": "Resources/Item Images/3020.png"
@@ -2297,14 +2292,9 @@
               "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3003,
-              "name": "Archangel's Staff",
-              "img": "Resources/Item Images/3003.png"
-            },
-            {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             },
             {
               "id": 3089,
@@ -2312,9 +2302,9 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             }
           ],
           "popularStarterList": [
@@ -2351,7 +2341,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -2394,9 +2384,9 @@
               "img": "Resources/Item Images/3143.png"
             },
             {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
             }
           ],
           "highestWinItemList": [
@@ -2421,9 +2411,9 @@
               "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             },
             {
               "id": 3143,
@@ -2460,12 +2450,12 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -2574,7 +2564,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -2617,9 +2607,9 @@
               "img": "Resources/Item Images/3031.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "highestWinItemList": [
@@ -2678,7 +2668,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -2711,19 +2701,19 @@
               "img": "Resources/Item Images/3742.png"
             },
             {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
-            },
-            {
               "id": 3053,
               "name": "Sterak's Gage",
               "img": "Resources/Item Images/3053.png"
             },
             {
-              "id": 3083,
-              "name": "Warmog's Armor",
-              "img": "Resources/Item Images/3083.png"
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3748,
+              "name": "Titanic Hydra (Melee Only)",
+              "img": "Resources/Item Images/3748.png"
             }
           ],
           "highestWinItemList": [
@@ -2782,9 +2772,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1036,
-              "name": "Long Sword",
-              "img": "Resources/Item Images/1036.png"
+              "id": 1029,
+              "name": "Cloth Armor",
+              "img": "Resources/Item Images/1029.png"
             },
             {
               "id": 2003,
@@ -2797,12 +2787,22 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2004,
-              "name": "Mana Potion",
-              "img": "Resources/Item Images/2004.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -2877,9 +2877,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             }
           ],
           "popularStarterList": [
@@ -2921,7 +2921,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -2971,9 +2971,9 @@
               "img": "Resources/Item Images/3708.png"
             },
             {
-              "id": 3115,
-              "name": "Nashor's Tooth",
-              "img": "Resources/Item Images/3115.png"
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             },
             {
               "id": 3020,
@@ -2981,19 +2981,19 @@
               "img": "Resources/Item Images/3020.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             }
           ],
           "popularStarterList": [
@@ -3030,7 +3030,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -3090,14 +3090,14 @@
               "img": "Resources/Item Images/3006.png"
             },
             {
-              "id": 3072,
-              "name": "The Bloodthirster",
-              "img": "Resources/Item Images/3072.png"
-            },
-            {
               "id": 3046,
               "name": "Phantom Dancer",
               "img": "Resources/Item Images/3046.png"
+            },
+            {
+              "id": 3072,
+              "name": "The Bloodthirster",
+              "img": "Resources/Item Images/3072.png"
             },
             {
               "id": 3035,
@@ -3134,7 +3134,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -3177,9 +3177,9 @@
               "img": "Resources/Item Images/3075.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "highestWinItemList": [
@@ -3238,11 +3238,42 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
           "Color_Positions": "LightGreen"
+        },
+        {
+          "website": {
+            "URL": "http://champion.gg/champion/DrMundo/Jungle",
+            "textHTML": ""
+          },
+          "popularItemList": [],
+          "highestWinItemList": [],
+          "popularStarterList": [
+            {
+              "id": 1039,
+              "name": "Hunter's Machete",
+              "img": "Resources/Item Images/1039.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "highestWinStarterList": [],
+          "patch": "5.17",
+          "name": "Jungle",
+          "lowerName": "jungle",
+          "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
+          "Color_Positions": "LightGray"
         }
       ],
       "name": "DrMundo"
@@ -3352,7 +3383,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -3417,14 +3448,14 @@
               "img": "Resources/Item Images/3157.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
-            },
-            {
               "id": 3089,
               "name": "Rabadon's Deathcap",
               "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             }
           ],
           "popularStarterList": [
@@ -3476,7 +3507,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -3546,14 +3577,14 @@
               "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             }
           ],
           "popularStarterList": [
@@ -3590,7 +3621,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -3633,9 +3664,9 @@
               "img": "Resources/Item Images/3102.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3748,
+              "name": "Titanic Hydra (Melee Only)",
+              "img": "Resources/Item Images/3748.png"
             }
           ],
           "highestWinItemList": [
@@ -3704,7 +3735,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -3808,7 +3839,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -3846,9 +3877,9 @@
               "img": "Resources/Item Images/3153.png"
             },
             {
-              "id": 3508,
-              "name": "Essence Reaver",
-              "img": "Resources/Item Images/3508.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "highestWinItemList": [
@@ -3907,7 +3938,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -3945,14 +3976,14 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "highestWinItemList": [
@@ -4011,12 +4042,17 @@
               "img": "Resources/Item Images/1039.png"
             },
             {
-              "id": 2044,
-              "name": "Stealth Ward",
-              "img": "Resources/Item Images/2044.png"
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
+            },
+            {
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-E-W-Q-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -4066,14 +4102,19 @@
               "img": "Resources/Item Images/2049.png"
             },
             {
-              "id": 3117,
-              "name": "Boots of Mobility",
-              "img": "Resources/Item Images/3117.png"
-            },
-            {
               "id": 3157,
               "name": "Zhonya's Hourglass",
               "img": "Resources/Item Images/3157.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3092,
+              "name": "Frost Queen's Claim",
+              "img": "Resources/Item Images/3092.png"
             },
             {
               "id": 3116,
@@ -4081,14 +4122,9 @@
               "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
-            },
-            {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3165,
+              "name": "Morellonomicon",
+              "img": "Resources/Item Images/3165.png"
             }
           ],
           "popularStarterList": [
@@ -4119,7 +4155,7 @@
             }
           ],
           "highestWinStarterList": [],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -4223,7 +4259,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -4342,7 +4378,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "E-W-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -4446,7 +4482,7 @@
               "img": "Resources/Item Images/1056.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -4496,14 +4532,14 @@
               "img": "Resources/Item Images/3078.png"
             },
             {
-              "id": 3158,
-              "name": "Ionian Boots of Lucidity",
-              "img": "Resources/Item Images/3158.png"
-            },
-            {
               "id": 3153,
               "name": "Blade of the Ruined King",
               "img": "Resources/Item Images/3153.png"
+            },
+            {
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
             },
             {
               "id": 3110,
@@ -4511,14 +4547,14 @@
               "img": "Resources/Item Images/3110.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             }
           ],
           "popularStarterList": [
@@ -4545,9 +4581,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 1056,
+              "name": "Doran's Ring",
+              "img": "Resources/Item Images/1056.png"
             },
             {
               "id": 2003,
@@ -4555,17 +4591,12 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2004,
-              "name": "Mana Potion",
-              "img": "Resources/Item Images/2004.png"
-            },
-            {
-              "id": 2041,
-              "name": "Crystalline Flask",
-              "img": "Resources/Item Images/2041.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -4603,14 +4634,14 @@
               "img": "Resources/Item Images/3157.png"
             },
             {
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
+            },
+            {
               "id": 3065,
               "name": "Spirit Visage",
               "img": "Resources/Item Images/3065.png"
-            },
-            {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
             }
           ],
           "highestWinItemList": [
@@ -4674,12 +4705,12 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -4724,14 +4755,14 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3174,
-              "name": "Athene's Unholy Grail",
-              "img": "Resources/Item Images/3174.png"
-            },
-            {
               "id": 3111,
               "name": "Mercury's Treads",
               "img": "Resources/Item Images/3111.png"
+            },
+            {
+              "id": 3174,
+              "name": "Athene's Unholy Grail",
+              "img": "Resources/Item Images/3174.png"
             },
             {
               "id": 3001,
@@ -4739,19 +4770,19 @@
               "img": "Resources/Item Images/3001.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
-            },
-            {
               "id": 3065,
               "name": "Spirit Visage",
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
+            },
+            {
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "popularStarterList": [
@@ -4772,11 +4803,52 @@
             }
           ],
           "highestWinStarterList": [],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
           "Color_Positions": "LightGreen"
+        },
+        {
+          "website": {
+            "URL": "http://champion.gg/champion/Galio/Support",
+            "textHTML": ""
+          },
+          "popularItemList": [],
+          "highestWinItemList": [],
+          "popularStarterList": [
+            {
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 3302,
+              "name": "Relic Shield",
+              "img": "Resources/Item Images/3302.png"
+            }
+          ],
+          "highestWinStarterList": [],
+          "patch": "5.17",
+          "name": "Support",
+          "lowerName": "support",
+          "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
+          "Color_Positions": "LightYellow"
         }
       ],
       "name": "Galio"
@@ -4805,6 +4877,11 @@
               "img": "Resources/Item Images/3031.png"
             },
             {
+              "id": 3142,
+              "name": "Youmuu's Ghostblade",
+              "img": "Resources/Item Images/3142.png"
+            },
+            {
               "id": 3035,
               "name": "Last Whisper",
               "img": "Resources/Item Images/3035.png"
@@ -4813,11 +4890,6 @@
               "id": 3072,
               "name": "The Bloodthirster",
               "img": "Resources/Item Images/3072.png"
-            },
-            {
-              "id": 3142,
-              "name": "Youmuu's Ghostblade",
-              "img": "Resources/Item Images/3142.png"
             }
           ],
           "highestWinItemList": [
@@ -4842,14 +4914,14 @@
               "img": "Resources/Item Images/3142.png"
             },
             {
-              "id": 3035,
-              "name": "Last Whisper",
-              "img": "Resources/Item Images/3035.png"
+              "id": 3031,
+              "name": "Infinity Edge",
+              "img": "Resources/Item Images/3031.png"
             },
             {
-              "id": 3072,
-              "name": "The Bloodthirster",
-              "img": "Resources/Item Images/3072.png"
+              "id": 3087,
+              "name": "Statikk Shiv",
+              "img": "Resources/Item Images/3087.png"
             }
           ],
           "popularStarterList": [
@@ -4886,7 +4958,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -4980,9 +5052,14 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1036,
-              "name": "Long Sword",
-              "img": "Resources/Item Images/1036.png"
+              "id": 1001,
+              "name": "Boots of Speed",
+              "img": "Resources/Item Images/1001.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             },
             {
               "id": 2003,
@@ -5000,7 +5077,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -5114,7 +5191,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -5157,9 +5234,9 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             }
           ],
           "highestWinItemList": [
@@ -5228,7 +5305,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -5332,7 +5409,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -5375,9 +5452,9 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3071,
-              "name": "The Black Cleaver",
-              "img": "Resources/Item Images/3071.png"
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
             }
           ],
           "highestWinItemList": [
@@ -5446,7 +5523,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -5484,9 +5561,9 @@
               "img": "Resources/Item Images/3742.png"
             },
             {
-              "id": 3035,
-              "name": "Last Whisper",
-              "img": "Resources/Item Images/3035.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             }
           ],
           "highestWinItemList": [
@@ -5516,9 +5593,9 @@
               "img": "Resources/Item Images/3742.png"
             },
             {
-              "id": 3035,
-              "name": "Last Whisper",
-              "img": "Resources/Item Images/3035.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             }
           ],
           "popularStarterList": [
@@ -5550,7 +5627,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -5664,7 +5741,7 @@
               "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -5729,14 +5806,14 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
-            },
-            {
               "id": 3116,
               "name": "Rylai's Crystal Scepter",
               "img": "Resources/Item Images/3116.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             }
           ],
           "popularStarterList": [
@@ -5768,12 +5845,12 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -5897,7 +5974,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-W-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -5952,9 +6029,9 @@
               "img": "Resources/Item Images/2049.png"
             },
             {
-              "id": 3041,
-              "name": "Mejai's Soulstealer",
-              "img": "Resources/Item Images/3041.png"
+              "id": 3069,
+              "name": "Talisman of Ascension",
+              "img": "Resources/Item Images/3069.png"
             },
             {
               "id": 3117,
@@ -5962,14 +6039,14 @@
               "img": "Resources/Item Images/3117.png"
             },
             {
-              "id": 3069,
-              "name": "Talisman of Ascension",
-              "img": "Resources/Item Images/3069.png"
-            },
-            {
               "id": 3050,
               "name": "Zeke's Herald",
               "img": "Resources/Item Images/3050.png"
+            },
+            {
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
             },
             {
               "id": 3222,
@@ -6021,17 +6098,12 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
               "id": 3301,
               "name": "Ancient Coin",
               "img": "Resources/Item Images/3301.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "E-Q-W-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -6145,7 +6217,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "E-Q-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -6264,7 +6336,7 @@
               "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -6339,9 +6411,9 @@
               "img": "Resources/Item Images/3102.png"
             },
             {
-              "id": 3053,
-              "name": "Sterak's Gage",
-              "img": "Resources/Item Images/3053.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "popularStarterList": [
@@ -6378,7 +6450,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-W-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -6406,11 +6478,6 @@
               "img": "Resources/Item Images/3111.png"
             },
             {
-              "id": 3078,
-              "name": "Trinity Force",
-              "img": "Resources/Item Images/3078.png"
-            },
-            {
               "id": 3143,
               "name": "Randuin's Omen",
               "img": "Resources/Item Images/3143.png"
@@ -6419,6 +6486,11 @@
               "id": 3102,
               "name": "Banshee's Veil",
               "img": "Resources/Item Images/3102.png"
+            },
+            {
+              "id": 3053,
+              "name": "Sterak's Gage",
+              "img": "Resources/Item Images/3053.png"
             }
           ],
           "highestWinItemList": [
@@ -6443,14 +6515,14 @@
               "img": "Resources/Item Images/3078.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3053,
+              "name": "Sterak's Gage",
+              "img": "Resources/Item Images/3053.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3748,
+              "name": "Titanic Hydra (Melee Only)",
+              "img": "Resources/Item Images/3748.png"
             }
           ],
           "popularStarterList": [
@@ -6487,7 +6559,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -6562,9 +6634,9 @@
               "img": "Resources/Item Images/3072.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "popularStarterList": [
@@ -6601,7 +6673,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-W-Q-W-Q-W-Q-W-W-E-E-E-E-E",
@@ -6671,9 +6743,9 @@
               "img": "Resources/Item Images/3142.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "popularStarterList": [
@@ -6710,7 +6782,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-W-Q-W-Q-W-Q-W-W-E-E-E-E-E",
@@ -6785,9 +6857,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3139,
+              "name": "Mercurial Scimitar",
+              "img": "Resources/Item Images/3139.png"
             }
           ],
           "popularStarterList": [
@@ -6814,7 +6886,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -6918,7 +6990,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "W-E-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -7027,24 +7099,24 @@
           ],
           "highestWinStarterList": [
             {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
               "id": 2004,
               "name": "Mana Potion",
               "img": "Resources/Item Images/2004.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
             },
             {
               "id": 3303,
@@ -7052,7 +7124,7 @@
               "img": "Resources/Item Images/3303.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -7117,9 +7189,9 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3174,
-              "name": "Athene's Unholy Grail",
-              "img": "Resources/Item Images/3174.png"
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             },
             {
               "id": 3135,
@@ -7161,7 +7233,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -7216,14 +7288,14 @@
               "img": "Resources/Item Images/3027.png"
             },
             {
-              "id": 3020,
-              "name": "Sorcerer's Shoes",
-              "img": "Resources/Item Images/3020.png"
-            },
-            {
               "id": 3003,
               "name": "Archangel's Staff",
               "img": "Resources/Item Images/3003.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
             },
             {
               "id": 3089,
@@ -7236,9 +7308,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             }
           ],
           "popularStarterList": [
@@ -7275,42 +7347,11 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
           "Color_Positions": "LightPink"
-        },
-        {
-          "website": {
-            "URL": "http://champion.gg/champion/Karthus/Top",
-            "textHTML": ""
-          },
-          "popularItemList": [],
-          "highestWinItemList": [],
-          "popularStarterList": [
-            {
-              "id": 1056,
-              "name": "Doran's Ring",
-              "img": "Resources/Item Images/1056.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            }
-          ],
-          "highestWinStarterList": [],
-          "patch": "",
-          "name": "Top",
-          "lowerName": "top",
-          "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
-          "Color_Positions": "LightGreen"
         }
       ],
       "name": "Karthus"
@@ -7430,7 +7471,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -7569,7 +7610,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -7612,9 +7653,9 @@
               "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             }
           ],
           "highestWinItemList": [
@@ -7644,9 +7685,9 @@
               "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
+              "id": 3091,
+              "name": "Wit's End",
+              "img": "Resources/Item Images/3091.png"
             }
           ],
           "popularStarterList": [
@@ -7683,7 +7724,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -7721,9 +7762,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3091,
-              "name": "Wit's End",
-              "img": "Resources/Item Images/3091.png"
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             }
           ],
           "highestWinItemList": [
@@ -7792,7 +7833,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -7837,14 +7878,14 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3115,
-              "name": "Nashor's Tooth",
-              "img": "Resources/Item Images/3115.png"
-            },
-            {
               "id": 3020,
               "name": "Sorcerer's Shoes",
               "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3115,
+              "name": "Nashor's Tooth",
+              "img": "Resources/Item Images/3115.png"
             },
             {
               "id": 3089,
@@ -7857,14 +7898,14 @@
               "img": "Resources/Item Images/3085.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
+              "id": 3124,
+              "name": "Guinsoo's Rageblade",
+              "img": "Resources/Item Images/3124.png"
             },
             {
-              "id": 3100,
-              "name": "Lich Bane",
-              "img": "Resources/Item Images/3100.png"
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             }
           ],
           "popularStarterList": [
@@ -7884,8 +7925,24 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "highestWinStarterList": [],
-          "patch": "",
+          "highestWinStarterList": [
+            {
+              "id": 1056,
+              "name": "Doran's Ring",
+              "img": "Resources/Item Images/1056.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -7945,14 +8002,9 @@
               "img": "Resources/Item Images/3157.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
-            },
-            {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
             },
             {
               "id": 3135,
@@ -7960,9 +8012,14 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
+              "id": 3151,
+              "name": "Liandry's Torment",
+              "img": "Resources/Item Images/3151.png"
+            },
+            {
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             }
           ],
           "popularStarterList": [
@@ -8009,7 +8066,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -8037,19 +8094,19 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
-            },
-            {
               "id": 3135,
               "name": "Void Staff",
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3152,
-              "name": "Will of the Ancients",
-              "img": "Resources/Item Images/3152.png"
+              "id": 3151,
+              "name": "Liandry's Torment",
+              "img": "Resources/Item Images/3151.png"
+            },
+            {
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             }
           ],
           "highestWinItemList": [
@@ -8079,9 +8136,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
             }
           ],
           "popularStarterList": [
@@ -8098,24 +8155,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1001,
-              "name": "Boots of Speed",
-              "img": "Resources/Item Images/1001.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 1052,
+              "name": "Amplifying Tome",
+              "img": "Resources/Item Images/1052.png"
             },
             {
               "id": 2003,
@@ -8123,7 +8165,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -8242,12 +8284,17 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
               "id": 3303,
               "name": "Spellthief's Edge",
               "img": "Resources/Item Images/3303.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -8361,7 +8408,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-0-R-W-E-E-0-E-R",
@@ -8404,9 +8451,9 @@
               "img": "Resources/Item Images/3031.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3046,
+              "name": "Phantom Dancer",
+              "img": "Resources/Item Images/3046.png"
             }
           ],
           "highestWinItemList": [
@@ -8465,7 +8512,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "W-E-W-Q-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -8493,9 +8540,9 @@
               "img": "Resources/Item Images/3003.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             },
             {
               "id": 3135,
@@ -8503,9 +8550,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
             }
           ],
           "highestWinItemList": [
@@ -8574,7 +8621,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -8624,11 +8671,6 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3165,
-              "name": "Morellonomicon",
-              "img": "Resources/Item Images/3165.png"
-            },
-            {
               "id": 3285,
               "name": "Luden's Echo",
               "img": "Resources/Item Images/3285.png"
@@ -8644,14 +8686,19 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
+            },
+            {
               "id": 3135,
               "name": "Void Staff",
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3027,
+              "name": "Rod of Ages",
+              "img": "Resources/Item Images/3027.png"
             }
           ],
           "popularStarterList": [
@@ -8693,7 +8740,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -8807,7 +8854,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -8941,7 +8988,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -9011,14 +9058,14 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             }
           ],
           "popularStarterList": [
@@ -9055,7 +9102,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -9093,9 +9140,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3174,
-              "name": "Athene's Unholy Grail",
-              "img": "Resources/Item Images/3174.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             }
           ],
           "highestWinItemList": [
@@ -9164,7 +9211,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -9239,9 +9286,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3139,
-              "name": "Mercurial Scimitar",
-              "img": "Resources/Item Images/3139.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "popularStarterList": [
@@ -9268,7 +9315,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -9392,7 +9439,7 @@
               "img": "Resources/Item Images/3301.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -9442,11 +9489,6 @@
               "img": "Resources/Item Images/3165.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
-            },
-            {
               "id": 3020,
               "name": "Sorcerer's Shoes",
               "img": "Resources/Item Images/3020.png"
@@ -9457,14 +9499,19 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             },
             {
-              "id": 3504,
-              "name": "Ardent Censer",
-              "img": "Resources/Item Images/3504.png"
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
+            },
+            {
+              "id": 3222,
+              "name": "Mikael's Crucible",
+              "img": "Resources/Item Images/3222.png"
             }
           ],
           "popularStarterList": [
@@ -9501,7 +9548,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -9529,19 +9576,19 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
-            },
-            {
               "id": 3285,
               "name": "Luden's Echo",
               "img": "Resources/Item Images/3285.png"
             },
             {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
+            },
+            {
+              "id": 3100,
+              "name": "Lich Bane",
+              "img": "Resources/Item Images/3100.png"
             }
           ],
           "highestWinItemList": [
@@ -9610,7 +9657,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -9724,7 +9771,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -9789,19 +9836,19 @@
               "img": "Resources/Item Images/3110.png"
             },
             {
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
+            },
+            {
               "id": 3075,
               "name": "Thornmail",
               "img": "Resources/Item Images/3075.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
-            },
-            {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "popularStarterList": [
@@ -9858,7 +9905,7 @@
               "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -9896,9 +9943,9 @@
               "img": "Resources/Item Images/3075.png"
             },
             {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "highestWinItemList": [
@@ -9918,19 +9965,19 @@
               "img": "Resources/Item Images/3047.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
+            },
+            {
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             },
             {
               "id": 3102,
               "name": "Banshee's Veil",
               "img": "Resources/Item Images/3102.png"
-            },
-            {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
             }
           ],
           "popularStarterList": [
@@ -9967,7 +10014,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -10010,9 +10057,9 @@
               "img": "Resources/Item Images/3151.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             }
           ],
           "highestWinItemList": [
@@ -10022,9 +10069,9 @@
               "img": "Resources/Item Images/3027.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
             },
             {
               "id": 3020,
@@ -10032,19 +10079,19 @@
               "img": "Resources/Item Images/3020.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
-            },
-            {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
+              "id": 3151,
+              "name": "Liandry's Torment",
+              "img": "Resources/Item Images/3151.png"
             },
             {
               "id": 3116,
               "name": "Rylai's Crystal Scepter",
               "img": "Resources/Item Images/3116.png"
+            },
+            {
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
             }
           ],
           "popularStarterList": [
@@ -10081,7 +10128,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -10104,9 +10151,9 @@
               "img": "Resources/Item Images/3027.png"
             },
             {
-              "id": 3047,
-              "name": "Ninja Tabi",
-              "img": "Resources/Item Images/3047.png"
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
             },
             {
               "id": 3110,
@@ -10119,14 +10166,14 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             },
             {
-              "id": 3068,
-              "name": "Sunfire Cape",
-              "img": "Resources/Item Images/3068.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
             }
           ],
           "highestWinItemList": [
@@ -10195,7 +10242,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -10245,14 +10292,19 @@
               "img": "Resources/Item Images/3725.png"
             },
             {
+              "id": 3117,
+              "name": "Boots of Mobility",
+              "img": "Resources/Item Images/3117.png"
+            },
+            {
               "id": 3800,
               "name": "Righteous Glory",
               "img": "Resources/Item Images/3800.png"
             },
             {
-              "id": 3111,
-              "name": "Mercury's Treads",
-              "img": "Resources/Item Images/3111.png"
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
             },
             {
               "id": 3110,
@@ -10260,14 +10312,9 @@
               "img": "Resources/Item Images/3110.png"
             },
             {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
-            },
-            {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
+              "id": 3083,
+              "name": "Warmog's Armor",
+              "img": "Resources/Item Images/3083.png"
             }
           ],
           "popularStarterList": [
@@ -10289,9 +10336,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1039,
-              "name": "Hunter's Machete",
-              "img": "Resources/Item Images/1039.png"
+              "id": 1056,
+              "name": "Doran's Ring",
+              "img": "Resources/Item Images/1056.png"
             },
             {
               "id": 2003,
@@ -10304,7 +10351,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "E-Q-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -10418,7 +10465,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -10461,9 +10508,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3046,
-              "name": "Phantom Dancer",
-              "img": "Resources/Item Images/3046.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "highestWinItemList": [
@@ -10522,7 +10569,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -10592,9 +10639,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3068,
+              "name": "Sunfire Cape",
+              "img": "Resources/Item Images/3068.png"
             },
             {
               "id": 3078,
@@ -10626,9 +10673,19 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1054,
-              "name": "Doran's Shield",
-              "img": "Resources/Item Images/1054.png"
+              "id": 1036,
+              "name": "Long Sword",
+              "img": "Resources/Item Images/1036.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             },
             {
               "id": 2003,
@@ -10636,7 +10693,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -10669,14 +10726,14 @@
               "img": "Resources/Item Images/3143.png"
             },
             {
-              "id": 3068,
-              "name": "Sunfire Cape",
-              "img": "Resources/Item Images/3068.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             },
             {
-              "id": 3156,
-              "name": "Maw of Malmortius",
-              "img": "Resources/Item Images/3156.png"
+              "id": 3053,
+              "name": "Sterak's Gage",
+              "img": "Resources/Item Images/3053.png"
             }
           ],
           "highestWinItemList": [
@@ -10745,7 +10802,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -10869,7 +10926,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "W-E-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -10958,24 +11015,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1001,
-              "name": "Boots of Speed",
-              "img": "Resources/Item Images/1001.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 1055,
+              "name": "Doran's Blade",
+              "img": "Resources/Item Images/1055.png"
             },
             {
               "id": 2003,
@@ -10983,7 +11025,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -11058,9 +11100,9 @@
               "img": "Resources/Item Images/3116.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             }
           ],
           "popularStarterList": [
@@ -11092,9 +11134,14 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1056,
-              "name": "Doran's Ring",
-              "img": "Resources/Item Images/1056.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             },
             {
               "id": 2003,
@@ -11107,12 +11154,12 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 3303,
-              "name": "Spellthief's Edge",
-              "img": "Resources/Item Images/3303.png"
+              "id": 3301,
+              "name": "Ancient Coin",
+              "img": "Resources/Item Images/3301.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -11150,9 +11197,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             }
           ],
           "highestWinItemList": [
@@ -11182,9 +11229,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             }
           ],
           "popularStarterList": [
@@ -11221,7 +11268,7 @@
               "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -11296,9 +11343,9 @@
               "img": "Resources/Item Images/3110.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
             }
           ],
           "popularStarterList": [
@@ -11345,17 +11392,17 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2004,
-              "name": "Mana Potion",
-              "img": "Resources/Item Images/2004.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 3303,
-              "name": "Spellthief's Edge",
-              "img": "Resources/Item Images/3303.png"
+              "id": 3301,
+              "name": "Ancient Coin",
+              "img": "Resources/Item Images/3301.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "W-Q-E-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -11393,14 +11440,14 @@
               "img": "Resources/Item Images/3078.png"
             },
             {
+              "id": 3053,
+              "name": "Sterak's Gage",
+              "img": "Resources/Item Images/3053.png"
+            },
+            {
               "id": 3742,
               "name": "Dead Man's Plate",
               "img": "Resources/Item Images/3742.png"
-            },
-            {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
             }
           ],
           "highestWinItemList": [
@@ -11474,7 +11521,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -11608,7 +11655,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "E-Q-W-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -11620,38 +11667,6 @@
             "textHTML": ""
           },
           "popularItemList": [
-            {
-              "id": 3717,
-              "name": "Enchantment: Cinderhulk",
-              "img": "Resources/Item Images/3717.png"
-            },
-            {
-              "id": 3117,
-              "name": "Boots of Mobility",
-              "img": "Resources/Item Images/3117.png"
-            },
-            {
-              "id": 3110,
-              "name": "Frozen Heart",
-              "img": "Resources/Item Images/3110.png"
-            },
-            {
-              "id": 3190,
-              "name": "Locket of the Iron Solari",
-              "img": "Resources/Item Images/3190.png"
-            },
-            {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
-            },
-            {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
-            }
-          ],
-          "highestWinItemList": [
             {
               "id": 3725,
               "name": "Enchantment: Cinderhulk",
@@ -11678,9 +11693,41 @@
               "img": "Resources/Item Images/3001.png"
             },
             {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3717,
+              "name": "Enchantment: Cinderhulk",
+              "img": "Resources/Item Images/3717.png"
+            },
+            {
+              "id": 3117,
+              "name": "Boots of Mobility",
+              "img": "Resources/Item Images/3117.png"
+            },
+            {
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
+            },
+            {
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
+            },
+            {
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
+            },
+            {
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
             }
           ],
           "popularStarterList": [
@@ -11717,7 +11764,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -11831,7 +11878,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-W-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -11945,7 +11992,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -12059,7 +12106,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -12109,19 +12156,19 @@
           ],
           "highestWinItemList": [
             {
+              "id": 2049,
+              "name": "Sightstone",
+              "img": "Resources/Item Images/2049.png"
+            },
+            {
               "id": 3725,
               "name": "Enchantment: Cinderhulk",
               "img": "Resources/Item Images/3725.png"
             },
             {
-              "id": 3117,
-              "name": "Boots of Mobility",
-              "img": "Resources/Item Images/3117.png"
-            },
-            {
-              "id": 3190,
-              "name": "Locket of the Iron Solari",
-              "img": "Resources/Item Images/3190.png"
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
             },
             {
               "id": 3110,
@@ -12129,9 +12176,9 @@
               "img": "Resources/Item Images/3110.png"
             },
             {
-              "id": 3800,
-              "name": "Righteous Glory",
-              "img": "Resources/Item Images/3800.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
             },
             {
               "id": 3075,
@@ -12173,7 +12220,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-E-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -12184,8 +12231,70 @@
             "URL": "http://champion.gg/champion/Nunu/Support",
             "textHTML": ""
           },
-          "popularItemList": [],
-          "highestWinItemList": [],
+          "popularItemList": [
+            {
+              "id": 2049,
+              "name": "Sightstone",
+              "img": "Resources/Item Images/2049.png"
+            },
+            {
+              "id": 3401,
+              "name": "Face of the Mountain",
+              "img": "Resources/Item Images/3401.png"
+            },
+            {
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
+            },
+            {
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
+            },
+            {
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
+            },
+            {
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 2049,
+              "name": "Sightstone",
+              "img": "Resources/Item Images/2049.png"
+            },
+            {
+              "id": 3401,
+              "name": "Face of the Mountain",
+              "img": "Resources/Item Images/3401.png"
+            },
+            {
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
+            },
+            {
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
+            },
+            {
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
+            },
+            {
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
+            }
+          ],
           "popularStarterList": [
             {
               "id": 2004,
@@ -12214,7 +12323,7 @@
             }
           ],
           "highestWinStarterList": [],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -12252,14 +12361,14 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
+            },
+            {
               "id": 3053,
               "name": "Sterak's Gage",
               "img": "Resources/Item Images/3053.png"
-            },
-            {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
             }
           ],
           "highestWinItemList": [
@@ -12328,7 +12437,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -12378,29 +12487,29 @@
               "img": "Resources/Item Images/3709.png"
             },
             {
-              "id": 3071,
-              "name": "The Black Cleaver",
-              "img": "Resources/Item Images/3071.png"
-            },
-            {
-              "id": 3047,
-              "name": "Ninja Tabi",
-              "img": "Resources/Item Images/3047.png"
-            },
-            {
               "id": 3742,
               "name": "Dead Man's Plate",
               "img": "Resources/Item Images/3742.png"
             },
             {
-              "id": 3053,
-              "name": "Sterak's Gage",
-              "img": "Resources/Item Images/3053.png"
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
             },
             {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
+              "id": 3748,
+              "name": "Titanic Hydra (Melee Only)",
+              "img": "Resources/Item Images/3748.png"
+            },
+            {
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
             }
           ],
           "popularStarterList": [
@@ -12437,7 +12546,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -12551,7 +12660,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -12589,14 +12698,14 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3035,
-              "name": "Last Whisper",
-              "img": "Resources/Item Images/3035.png"
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
             },
             {
-              "id": 3156,
-              "name": "Maw of Malmortius",
-              "img": "Resources/Item Images/3156.png"
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
             }
           ],
           "highestWinItemList": [
@@ -12621,14 +12730,14 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
             }
           ],
           "popularStarterList": [
@@ -12675,7 +12784,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -12784,7 +12893,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -12834,9 +12943,9 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3710,
+              "id": 3726,
               "name": "Enchantment: Devourer",
-              "img": "Resources/Item Images/3710.png"
+              "img": "Resources/Item Images/3726.png"
             },
             {
               "id": 3078,
@@ -12854,14 +12963,14 @@
               "img": "Resources/Item Images/3153.png"
             },
             {
-              "id": 3022,
-              "name": "Frozen Mallet",
-              "img": "Resources/Item Images/3022.png"
+              "id": 3172,
+              "name": "Zephyr",
+              "img": "Resources/Item Images/3172.png"
             },
             {
-              "id": 3146,
-              "name": "Hextech Gunblade",
-              "img": "Resources/Item Images/3146.png"
+              "id": 3748,
+              "name": "Titanic Hydra (Melee Only)",
+              "img": "Resources/Item Images/3748.png"
             }
           ],
           "popularStarterList": [
@@ -12898,7 +13007,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -13017,7 +13126,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -13035,14 +13144,14 @@
           },
           "popularItemList": [
             {
-              "id": 3031,
-              "name": "Infinity Edge",
-              "img": "Resources/Item Images/3031.png"
-            },
-            {
               "id": 3006,
               "name": "Berserker's Greaves",
               "img": "Resources/Item Images/3006.png"
+            },
+            {
+              "id": 3031,
+              "name": "Infinity Edge",
+              "img": "Resources/Item Images/3031.png"
             },
             {
               "id": 3087,
@@ -13060,9 +13169,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3139,
+              "name": "Mercurial Scimitar",
+              "img": "Resources/Item Images/3139.png"
             }
           ],
           "highestWinItemList": [
@@ -13121,7 +13230,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -13159,16 +13268,26 @@
               "img": "Resources/Item Images/3031.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3139,
+              "name": "Mercurial Scimitar",
+              "img": "Resources/Item Images/3139.png"
             }
           ],
           "highestWinItemList": [
             {
-              "id": 3153,
-              "name": "Blade of the Ruined King",
-              "img": "Resources/Item Images/3153.png"
+              "id": 3031,
+              "name": "Infinity Edge",
+              "img": "Resources/Item Images/3031.png"
+            },
+            {
+              "id": 3006,
+              "name": "Berserker's Greaves",
+              "img": "Resources/Item Images/3006.png"
+            },
+            {
+              "id": 3087,
+              "name": "Statikk Shiv",
+              "img": "Resources/Item Images/3087.png"
             },
             {
               "id": 3035,
@@ -13181,19 +13300,9 @@
               "img": "Resources/Item Images/3142.png"
             },
             {
-              "id": 3035,
-              "name": "Last Whisper",
-              "img": "Resources/Item Images/3035.png"
-            },
-            {
-              "id": 3142,
-              "name": "Youmuu's Ghostblade",
-              "img": "Resources/Item Images/3142.png"
-            },
-            {
-              "id": 3158,
-              "name": "Ionian Boots of Lucidity",
-              "img": "Resources/Item Images/3158.png"
+              "id": 3072,
+              "name": "The Bloodthirster",
+              "img": "Resources/Item Images/3072.png"
             }
           ],
           "popularStarterList": [
@@ -13220,7 +13329,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -13263,36 +13372,36 @@
               "img": "Resources/Item Images/3110.png"
             },
             {
-              "id": 3742,
-              "name": "Dead Man's Plate",
-              "img": "Resources/Item Images/3742.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "highestWinItemList": [
             {
-              "id": 3717,
+              "id": 3725,
               "name": "Enchantment: Cinderhulk",
-              "img": "Resources/Item Images/3717.png"
+              "img": "Resources/Item Images/3725.png"
             },
             {
-              "id": 3111,
-              "name": "Mercury's Treads",
-              "img": "Resources/Item Images/3111.png"
-            },
-            {
-              "id": 3742,
-              "name": "Dead Man's Plate",
-              "img": "Resources/Item Images/3742.png"
-            },
-            {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
             },
             {
               "id": 3075,
               "name": "Thornmail",
               "img": "Resources/Item Images/3075.png"
+            },
+            {
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
+            },
+            {
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             },
             {
               "id": 3053,
@@ -13334,7 +13443,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -13377,9 +13486,9 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3074,
-              "name": "Ravenous Hydra (Melee Only)",
-              "img": "Resources/Item Images/3074.png"
+              "id": 3172,
+              "name": "Zephyr",
+              "img": "Resources/Item Images/3172.png"
             }
           ],
           "highestWinItemList": [
@@ -13448,7 +13557,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -13518,14 +13627,14 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
             },
             {
-              "id": 3022,
-              "name": "Frozen Mallet",
-              "img": "Resources/Item Images/3022.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "popularStarterList": [
@@ -13562,7 +13671,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -13676,7 +13785,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -13746,9 +13855,9 @@
               "img": "Resources/Item Images/3031.png"
             },
             {
-              "id": 3078,
-              "name": "Trinity Force",
-              "img": "Resources/Item Images/3078.png"
+              "id": 3046,
+              "name": "Phantom Dancer",
+              "img": "Resources/Item Images/3046.png"
             }
           ],
           "popularStarterList": [
@@ -13795,7 +13904,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -13909,7 +14018,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -14018,7 +14127,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -14073,14 +14182,14 @@
               "img": "Resources/Item Images/3027.png"
             },
             {
-              "id": 3003,
-              "name": "Archangel's Staff",
-              "img": "Resources/Item Images/3003.png"
-            },
-            {
               "id": 3020,
               "name": "Sorcerer's Shoes",
               "img": "Resources/Item Images/3020.png"
+            },
+            {
+              "id": 3003,
+              "name": "Archangel's Staff",
+              "img": "Resources/Item Images/3003.png"
             },
             {
               "id": 3135,
@@ -14088,14 +14197,14 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3102,
-              "name": "Banshee's Veil",
-              "img": "Resources/Item Images/3102.png"
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
             }
           ],
           "popularStarterList": [
@@ -14132,7 +14241,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -14192,19 +14301,19 @@
               "img": "Resources/Item Images/3020.png"
             },
             {
-              "id": 3020,
-              "name": "Sorcerer's Shoes",
-              "img": "Resources/Item Images/3020.png"
-            },
-            {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             },
             {
               "id": 3135,
               "name": "Void Staff",
               "img": "Resources/Item Images/3135.png"
+            },
+            {
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
             }
           ],
           "popularStarterList": [
@@ -14224,8 +14333,24 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "highestWinStarterList": [],
-          "patch": "",
+          "highestWinStarterList": [
+            {
+              "id": 1056,
+              "name": "Doran's Ring",
+              "img": "Resources/Item Images/1056.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -14339,7 +14464,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -14389,34 +14514,34 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3707,
-              "name": "Enchantment: Warrior",
-              "img": "Resources/Item Images/3707.png"
-            },
-            {
-              "id": 3117,
-              "name": "Boots of Mobility",
-              "img": "Resources/Item Images/3117.png"
-            },
-            {
               "id": 3074,
               "name": "Ravenous Hydra (Melee Only)",
               "img": "Resources/Item Images/3074.png"
             },
             {
-              "id": 3087,
-              "name": "Statikk Shiv",
-              "img": "Resources/Item Images/3087.png"
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
             },
             {
-              "id": 3031,
-              "name": "Infinity Edge",
-              "img": "Resources/Item Images/3031.png"
+              "id": 3071,
+              "name": "The Black Cleaver",
+              "img": "Resources/Item Images/3071.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
+            },
+            {
+              "id": 3156,
+              "name": "Maw of Malmortius",
+              "img": "Resources/Item Images/3156.png"
+            },
+            {
+              "id": 3053,
+              "name": "Sterak's Gage",
+              "img": "Resources/Item Images/3053.png"
             }
           ],
           "popularStarterList": [
@@ -14453,7 +14578,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -14496,9 +14621,9 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3115,
-              "name": "Nashor's Tooth",
-              "img": "Resources/Item Images/3115.png"
+              "id": 3053,
+              "name": "Sterak's Gage",
+              "img": "Resources/Item Images/3053.png"
             }
           ],
           "highestWinItemList": [
@@ -14562,7 +14687,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -14622,19 +14747,19 @@
               "img": "Resources/Item Images/3401.png"
             },
             {
-              "id": 3068,
-              "name": "Sunfire Cape",
-              "img": "Resources/Item Images/3068.png"
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
             },
             {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
             },
             {
-              "id": 3512,
-              "name": "Zz'Rot Portal",
-              "img": "Resources/Item Images/3512.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
             }
           ],
           "popularStarterList": [
@@ -14691,7 +14816,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -14805,7 +14930,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -14843,17 +14968,27 @@
               "img": "Resources/Item Images/3075.png"
             },
             {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             },
             {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
+              "id": 3512,
+              "name": "Zz'Rot Portal",
+              "img": "Resources/Item Images/3512.png"
             }
           ],
           "highestWinItemList": [
+            {
+              "id": 3027,
+              "name": "Rod of Ages",
+              "img": "Resources/Item Images/3027.png"
+            },
+            {
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
+            },
             {
               "id": 3116,
               "name": "Rylai's Crystal Scepter",
@@ -14865,24 +15000,14 @@
               "img": "Resources/Item Images/3151.png"
             },
             {
-              "id": 3111,
-              "name": "Mercury's Treads",
-              "img": "Resources/Item Images/3111.png"
-            },
-            {
-              "id": 3742,
-              "name": "Dead Man's Plate",
-              "img": "Resources/Item Images/3742.png"
-            },
-            {
               "id": 3075,
               "name": "Thornmail",
               "img": "Resources/Item Images/3075.png"
             },
             {
-              "id": 3053,
-              "name": "Sterak's Gage",
-              "img": "Resources/Item Images/3053.png"
+              "id": 3001,
+              "name": "Abyssal Scepter",
+              "img": "Resources/Item Images/3001.png"
             }
           ],
           "popularStarterList": [
@@ -14924,7 +15049,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -14947,14 +15072,9 @@
               "img": "Resources/Item Images/3110.png"
             },
             {
-              "id": 3111,
-              "name": "Mercury's Treads",
-              "img": "Resources/Item Images/3111.png"
-            },
-            {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
             },
             {
               "id": 3742,
@@ -14962,14 +15082,19 @@
               "img": "Resources/Item Images/3742.png"
             },
             {
+              "id": 3068,
+              "name": "Sunfire Cape",
+              "img": "Resources/Item Images/3068.png"
+            },
+            {
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
+            },
+            {
               "id": 3102,
               "name": "Banshee's Veil",
               "img": "Resources/Item Images/3102.png"
-            },
-            {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
             }
           ],
           "highestWinItemList": [
@@ -15023,7 +15148,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -15053,8 +15178,24 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "highestWinStarterList": [],
-          "patch": "",
+          "highestWinStarterList": [
+            {
+              "id": 1039,
+              "name": "Hunter's Machete",
+              "img": "Resources/Item Images/1039.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -15158,7 +15299,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -15186,9 +15327,9 @@
               "img": "Resources/Item Images/3111.png"
             },
             {
-              "id": 3071,
-              "name": "The Black Cleaver",
-              "img": "Resources/Item Images/3071.png"
+              "id": 3078,
+              "name": "Trinity Force",
+              "img": "Resources/Item Images/3078.png"
             },
             {
               "id": 3742,
@@ -15196,14 +15337,14 @@
               "img": "Resources/Item Images/3742.png"
             },
             {
-              "id": 3053,
-              "name": "Sterak's Gage",
-              "img": "Resources/Item Images/3053.png"
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3078,
-              "name": "Trinity Force",
-              "img": "Resources/Item Images/3078.png"
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
             }
           ],
           "highestWinItemList": [
@@ -15233,9 +15374,9 @@
               "img": "Resources/Item Images/3025.png"
             },
             {
-              "id": 3053,
-              "name": "Sterak's Gage",
-              "img": "Resources/Item Images/3053.png"
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
             }
           ],
           "popularStarterList": [
@@ -15272,7 +15413,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -15310,14 +15451,14 @@
               "img": "Resources/Item Images/3100.png"
             },
             {
-              "id": 3050,
-              "name": "Zeke's Herald",
-              "img": "Resources/Item Images/3050.png"
+              "id": 3504,
+              "name": "Ardent Censer",
+              "img": "Resources/Item Images/3504.png"
             },
             {
-              "id": 3190,
-              "name": "Locket of the Iron Solari",
-              "img": "Resources/Item Images/3190.png"
+              "id": 3060,
+              "name": "Banner of Command",
+              "img": "Resources/Item Images/3060.png"
             }
           ],
           "highestWinItemList": [
@@ -15406,7 +15547,7 @@
               "img": "Resources/Item Images/3301.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -15456,9 +15597,9 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3069,
-              "name": "Talisman of Ascension",
-              "img": "Resources/Item Images/3069.png"
+              "id": 3117,
+              "name": "Boots of Mobility",
+              "img": "Resources/Item Images/3117.png"
             },
             {
               "id": 2049,
@@ -15466,9 +15607,9 @@
               "img": "Resources/Item Images/2049.png"
             },
             {
-              "id": 3158,
-              "name": "Ionian Boots of Lucidity",
-              "img": "Resources/Item Images/3158.png"
+              "id": 3069,
+              "name": "Talisman of Ascension",
+              "img": "Resources/Item Images/3069.png"
             },
             {
               "id": 3504,
@@ -15476,9 +15617,9 @@
               "img": "Resources/Item Images/3504.png"
             },
             {
-              "id": 3060,
-              "name": "Banner of Command",
-              "img": "Resources/Item Images/3060.png"
+              "id": 3050,
+              "name": "Zeke's Herald",
+              "img": "Resources/Item Images/3050.png"
             },
             {
               "id": 3050,
@@ -15530,17 +15671,12 @@
               "img": "Resources/Item Images/2004.png"
             },
             {
-              "id": 2004,
-              "name": "Mana Potion",
-              "img": "Resources/Item Images/2004.png"
-            },
-            {
               "id": 3301,
               "name": "Ancient Coin",
               "img": "Resources/Item Images/3301.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -15583,9 +15719,9 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             }
           ],
           "highestWinItemList": [
@@ -15654,7 +15790,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -15719,14 +15855,14 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             }
           ],
           "popularStarterList": [
@@ -15763,7 +15899,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -15813,19 +15949,19 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3174,
-              "name": "Athene's Unholy Grail",
-              "img": "Resources/Item Images/3174.png"
-            },
-            {
-              "id": 3020,
-              "name": "Sorcerer's Shoes",
-              "img": "Resources/Item Images/3020.png"
+              "id": 3165,
+              "name": "Morellonomicon",
+              "img": "Resources/Item Images/3165.png"
             },
             {
               "id": 3285,
               "name": "Luden's Echo",
               "img": "Resources/Item Images/3285.png"
+            },
+            {
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
             },
             {
               "id": 3089,
@@ -15877,7 +16013,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -15915,14 +16051,14 @@
               "img": "Resources/Item Images/3190.png"
             },
             {
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
+            },
+            {
               "id": 3068,
               "name": "Sunfire Cape",
               "img": "Resources/Item Images/3068.png"
-            },
-            {
-              "id": 3083,
-              "name": "Warmog's Armor",
-              "img": "Resources/Item Images/3083.png"
             }
           ],
           "highestWinItemList": [
@@ -15932,14 +16068,19 @@
               "img": "Resources/Item Images/2049.png"
             },
             {
+              "id": 3009,
+              "name": "Boots of Swiftness",
+              "img": "Resources/Item Images/3009.png"
+            },
+            {
               "id": 3401,
               "name": "Face of the Mountain",
               "img": "Resources/Item Images/3401.png"
             },
             {
-              "id": 3009,
-              "name": "Boots of Swiftness",
-              "img": "Resources/Item Images/3009.png"
+              "id": 3190,
+              "name": "Locket of the Iron Solari",
+              "img": "Resources/Item Images/3190.png"
             },
             {
               "id": 3800,
@@ -15950,11 +16091,6 @@
               "id": 3068,
               "name": "Sunfire Cape",
               "img": "Resources/Item Images/3068.png"
-            },
-            {
-              "id": 3110,
-              "name": "Frozen Heart",
-              "img": "Resources/Item Images/3110.png"
             }
           ],
           "popularStarterList": [
@@ -15991,9 +16127,14 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2044,
-              "name": "Stealth Ward",
-              "img": "Resources/Item Images/2044.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2004,
+              "name": "Mana Potion",
+              "img": "Resources/Item Images/2004.png"
             },
             {
               "id": 3302,
@@ -16001,7 +16142,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -16051,14 +16192,19 @@
               "img": "Resources/Item Images/3068.png"
             },
             {
-              "id": 3742,
-              "name": "Dead Man's Plate",
-              "img": "Resources/Item Images/3742.png"
-            },
-            {
               "id": 3111,
               "name": "Mercury's Treads",
               "img": "Resources/Item Images/3111.png"
+            },
+            {
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
             },
             {
               "id": 3083,
@@ -16066,14 +16212,9 @@
               "img": "Resources/Item Images/3083.png"
             },
             {
-              "id": 3053,
-              "name": "Sterak's Gage",
-              "img": "Resources/Item Images/3053.png"
-            },
-            {
-              "id": 3748,
-              "name": "Titanic Hydra (Melee Only)",
-              "img": "Resources/Item Images/3748.png"
+              "id": 3025,
+              "name": "Iceborn Gauntlet",
+              "img": "Resources/Item Images/3025.png"
             }
           ],
           "popularStarterList": [
@@ -16115,7 +16256,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -16224,7 +16365,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -16348,7 +16489,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -16398,14 +16539,14 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3401,
-              "name": "Face of the Mountain",
-              "img": "Resources/Item Images/3401.png"
-            },
-            {
               "id": 2049,
               "name": "Sightstone",
               "img": "Resources/Item Images/2049.png"
+            },
+            {
+              "id": 3401,
+              "name": "Face of the Mountain",
+              "img": "Resources/Item Images/3401.png"
             },
             {
               "id": 3047,
@@ -16413,19 +16554,19 @@
               "img": "Resources/Item Images/3047.png"
             },
             {
-              "id": 3110,
-              "name": "Frozen Heart",
-              "img": "Resources/Item Images/3110.png"
-            },
-            {
               "id": 3190,
               "name": "Locket of the Iron Solari",
               "img": "Resources/Item Images/3190.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
+            },
+            {
+              "id": 3025,
+              "name": "Iceborn Gauntlet",
+              "img": "Resources/Item Images/3025.png"
             }
           ],
           "popularStarterList": [
@@ -16467,9 +16608,9 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2044,
-              "name": "Stealth Ward",
-              "img": "Resources/Item Images/2044.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             },
             {
               "id": 3302,
@@ -16477,7 +16618,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "E-W-Q-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -16552,9 +16693,9 @@
               "img": "Resources/Item Images/3085.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "popularStarterList": [
@@ -16601,7 +16742,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -16646,19 +16787,14 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3020,
-              "name": "Sorcerer's Shoes",
-              "img": "Resources/Item Images/3020.png"
-            },
-            {
               "id": 3151,
               "name": "Liandry's Torment",
               "img": "Resources/Item Images/3151.png"
             },
             {
-              "id": 3115,
-              "name": "Nashor's Tooth",
-              "img": "Resources/Item Images/3115.png"
+              "id": 3020,
+              "name": "Sorcerer's Shoes",
+              "img": "Resources/Item Images/3020.png"
             },
             {
               "id": 3089,
@@ -16671,9 +16807,14 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
+            },
+            {
+              "id": 3115,
+              "name": "Nashor's Tooth",
+              "img": "Resources/Item Images/3115.png"
             }
           ],
           "popularStarterList": [
@@ -16694,7 +16835,7 @@
             }
           ],
           "highestWinStarterList": [],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "E-Q-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -16744,14 +16885,14 @@
           ],
           "highestWinItemList": [
             {
-              "id": 2049,
-              "name": "Sightstone",
-              "img": "Resources/Item Images/2049.png"
-            },
-            {
               "id": 3117,
               "name": "Boots of Mobility",
               "img": "Resources/Item Images/3117.png"
+            },
+            {
+              "id": 2049,
+              "name": "Sightstone",
+              "img": "Resources/Item Images/2049.png"
             },
             {
               "id": 3401,
@@ -16764,14 +16905,14 @@
               "img": "Resources/Item Images/3190.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
             },
             {
-              "id": 3222,
-              "name": "Mikael's Crucible",
-              "img": "Resources/Item Images/3222.png"
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
             }
           ],
           "popularStarterList": [
@@ -16828,7 +16969,7 @@
               "img": "Resources/Item Images/3302.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "E-Q-W-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -16932,7 +17073,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -16992,9 +17133,14 @@
               "img": "Resources/Item Images/3111.png"
             },
             {
-              "id": 3742,
-              "name": "Dead Man's Plate",
-              "img": "Resources/Item Images/3742.png"
+              "id": 3068,
+              "name": "Sunfire Cape",
+              "img": "Resources/Item Images/3068.png"
+            },
+            {
+              "id": 3748,
+              "name": "Titanic Hydra (Melee Only)",
+              "img": "Resources/Item Images/3748.png"
             },
             {
               "id": 3065,
@@ -17005,11 +17151,6 @@
               "id": 3053,
               "name": "Sterak's Gage",
               "img": "Resources/Item Images/3053.png"
-            },
-            {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
             }
           ],
           "popularStarterList": [
@@ -17046,7 +17187,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -17074,19 +17215,19 @@
               "img": "Resources/Item Images/3111.png"
             },
             {
-              "id": 3065,
-              "name": "Spirit Visage",
-              "img": "Resources/Item Images/3065.png"
-            },
-            {
               "id": 3143,
               "name": "Randuin's Omen",
               "img": "Resources/Item Images/3143.png"
             },
             {
-              "id": 3078,
-              "name": "Trinity Force",
-              "img": "Resources/Item Images/3078.png"
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
+            },
+            {
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
             }
           ],
           "highestWinItemList": [
@@ -17155,7 +17296,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -17198,9 +17339,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3172,
-              "name": "Zephyr",
-              "img": "Resources/Item Images/3172.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "highestWinItemList": [
@@ -17259,7 +17400,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-Q-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -17297,9 +17438,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3172,
-              "name": "Zephyr",
-              "img": "Resources/Item Images/3172.png"
+              "id": 3072,
+              "name": "The Bloodthirster",
+              "img": "Resources/Item Images/3072.png"
             }
           ],
           "highestWinItemList": [
@@ -17324,14 +17465,14 @@
               "img": "Resources/Item Images/3031.png"
             },
             {
+              "id": 3035,
+              "name": "Last Whisper",
+              "img": "Resources/Item Images/3035.png"
+            },
+            {
               "id": 3046,
               "name": "Phantom Dancer",
               "img": "Resources/Item Images/3046.png"
-            },
-            {
-              "id": 3142,
-              "name": "Youmuu's Ghostblade",
-              "img": "Resources/Item Images/3142.png"
             }
           ],
           "popularStarterList": [
@@ -17368,7 +17509,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -17492,7 +17633,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "W-Q-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -17567,9 +17708,9 @@
               "img": "Resources/Item Images/3035.png"
             },
             {
-              "id": 3026,
-              "name": "Guardian Angel",
-              "img": "Resources/Item Images/3026.png"
+              "id": 3072,
+              "name": "The Bloodthirster",
+              "img": "Resources/Item Images/3072.png"
             }
           ],
           "popularStarterList": [
@@ -17596,7 +17737,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "E-W-Q-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -17639,9 +17780,9 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3153,
-              "name": "Blade of the Ruined King",
-              "img": "Resources/Item Images/3153.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             }
           ],
           "highestWinItemList": [
@@ -17671,9 +17812,9 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3153,
-              "name": "Blade of the Ruined King",
-              "img": "Resources/Item Images/3153.png"
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
             }
           ],
           "popularStarterList": [
@@ -17715,7 +17856,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "R-W-R-E-R-W-R-W-R-W-W-E-E-E-E-Q-Q-Q",
@@ -17729,6 +17870,94 @@
         {
           "website": {
             "URL": "http://champion.gg/champion/Urgot/Top",
+            "textHTML": ""
+          },
+          "popularItemList": [
+            {
+              "id": 3004,
+              "name": "Manamune",
+              "img": "Resources/Item Images/3004.png"
+            },
+            {
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
+            },
+            {
+              "id": 3071,
+              "name": "The Black Cleaver",
+              "img": "Resources/Item Images/3071.png"
+            },
+            {
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
+            },
+            {
+              "id": 3035,
+              "name": "Last Whisper",
+              "img": "Resources/Item Images/3035.png"
+            },
+            {
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
+            }
+          ],
+          "highestWinItemList": [
+            {
+              "id": 3004,
+              "name": "Manamune",
+              "img": "Resources/Item Images/3004.png"
+            },
+            {
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
+            },
+            {
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
+            },
+            {
+              "id": 3035,
+              "name": "Last Whisper",
+              "img": "Resources/Item Images/3035.png"
+            },
+            {
+              "id": 3071,
+              "name": "The Black Cleaver",
+              "img": "Resources/Item Images/3071.png"
+            },
+            {
+              "id": 3156,
+              "name": "Maw of Malmortius",
+              "img": "Resources/Item Images/3156.png"
+            }
+          ],
+          "popularStarterList": [
+            {
+              "id": 1055,
+              "name": "Doran's Blade",
+              "img": "Resources/Item Images/1055.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "highestWinStarterList": [],
+          "patch": "5.17",
+          "name": "Top",
+          "lowerName": "top",
+          "skillOrder": "Q-E-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
+          "Color_Positions": "LightGreen"
+        },
+        {
+          "website": {
+            "URL": "http://champion.gg/champion/Urgot/ADC",
             "textHTML": ""
           },
           "popularItemList": [],
@@ -17746,11 +17975,11 @@
             }
           ],
           "highestWinStarterList": [],
-          "patch": "",
-          "name": "Top",
-          "lowerName": "top",
-          "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
-          "Color_Positions": "LightGreen"
+          "patch": "5.17",
+          "name": "ADC",
+          "lowerName": "adc",
+          "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
+          "Color_Positions": "LightBlue"
         }
       ],
       "name": "Urgot"
@@ -17850,7 +18079,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -17959,7 +18188,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -18063,7 +18292,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "ADC",
           "lowerName": "adc",
           "skillOrder": "Q-W-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -18133,14 +18362,14 @@
               "img": "Resources/Item Images/3135.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
-            },
-            {
               "id": 3285,
               "name": "Luden's Echo",
               "img": "Resources/Item Images/3285.png"
+            },
+            {
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             }
           ],
           "popularStarterList": [
@@ -18162,11 +18391,6 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1056,
-              "name": "Doran's Ring",
-              "img": "Resources/Item Images/1056.png"
-            },
-            {
               "id": 2003,
               "name": "Health Potion",
               "img": "Resources/Item Images/2003.png"
@@ -18175,12 +18399,22 @@
               "id": 2003,
               "name": "Health Potion",
               "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2041,
+              "name": "Crystalline Flask",
+              "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
-          "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
+          "skillOrder": "Q-E-Q-W-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
           "Color_Positions": "LightPink"
         }
       ],
@@ -18242,11 +18476,6 @@
               "img": "Resources/Item Images/3151.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
-            },
-            {
               "id": 3135,
               "name": "Void Staff",
               "img": "Resources/Item Images/3135.png"
@@ -18255,6 +18484,11 @@
               "id": 3089,
               "name": "Rabadon's Deathcap",
               "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             }
           ],
           "popularStarterList": [
@@ -18286,12 +18520,12 @@
               "img": "Resources/Item Images/2003.png"
             },
             {
-              "id": 2004,
-              "name": "Mana Potion",
-              "img": "Resources/Item Images/2004.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "W-Q-E-W-W-R-W-Q-W-Q-R-Q-Q-E-E-R-E-E",
@@ -18356,14 +18590,14 @@
               "img": "Resources/Item Images/3151.png"
             },
             {
-              "id": 3092,
-              "name": "Frost Queen's Claim",
-              "img": "Resources/Item Images/3092.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
+              "id": 3285,
+              "name": "Luden's Echo",
+              "img": "Resources/Item Images/3285.png"
             }
           ],
           "popularStarterList": [
@@ -18395,14 +18629,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 2004,
-              "name": "Mana Potion",
-              "img": "Resources/Item Images/2004.png"
-            },
-            {
-              "id": 2004,
-              "name": "Mana Potion",
-              "img": "Resources/Item Images/2004.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             },
             {
               "id": 2003,
@@ -18420,7 +18649,7 @@
               "img": "Resources/Item Images/3303.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-E-W-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -18534,7 +18763,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-E-Q-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -18648,7 +18877,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "E-Q-E-W-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -18691,9 +18920,9 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
+              "id": 3065,
+              "name": "Spirit Visage",
+              "img": "Resources/Item Images/3065.png"
             }
           ],
           "highestWinItemList": [
@@ -18708,24 +18937,24 @@
               "img": "Resources/Item Images/3158.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
-            },
-            {
               "id": 3157,
               "name": "Zhonya's Hourglass",
               "img": "Resources/Item Images/3157.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             },
             {
               "id": 3089,
               "name": "Rabadon's Deathcap",
               "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             }
           ],
           "popularStarterList": [
@@ -18767,7 +18996,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -18822,14 +19051,14 @@
               "img": "Resources/Item Images/3158.png"
             },
             {
-              "id": 3116,
-              "name": "Rylai's Crystal Scepter",
-              "img": "Resources/Item Images/3116.png"
-            },
-            {
               "id": 3157,
               "name": "Zhonya's Hourglass",
               "img": "Resources/Item Images/3157.png"
+            },
+            {
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
             },
             {
               "id": 3089,
@@ -18837,9 +19066,9 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
             }
           ],
           "popularStarterList": [
@@ -18901,7 +19130,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -19015,7 +19244,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -19048,26 +19277,26 @@
               "img": "Resources/Item Images/3075.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3083,
+              "name": "Warmog's Armor",
+              "img": "Resources/Item Images/3083.png"
             },
             {
-              "id": 3071,
-              "name": "The Black Cleaver",
-              "img": "Resources/Item Images/3071.png"
+              "id": 3102,
+              "name": "Banshee's Veil",
+              "img": "Resources/Item Images/3102.png"
             }
           ],
           "highestWinItemList": [
             {
+              "id": 3047,
+              "name": "Ninja Tabi",
+              "img": "Resources/Item Images/3047.png"
+            },
+            {
               "id": 3068,
               "name": "Sunfire Cape",
               "img": "Resources/Item Images/3068.png"
-            },
-            {
-              "id": 3111,
-              "name": "Mercury's Treads",
-              "img": "Resources/Item Images/3111.png"
             },
             {
               "id": 3065,
@@ -19075,19 +19304,19 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3742,
+              "name": "Dead Man's Plate",
+              "img": "Resources/Item Images/3742.png"
             },
             {
-              "id": 3083,
-              "name": "Warmog's Armor",
-              "img": "Resources/Item Images/3083.png"
+              "id": 3091,
+              "name": "Wit's End",
+              "img": "Resources/Item Images/3091.png"
             },
             {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
+              "id": 3053,
+              "name": "Sterak's Gage",
+              "img": "Resources/Item Images/3053.png"
             }
           ],
           "popularStarterList": [
@@ -19104,14 +19333,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1028,
-              "name": "Ruby Crystal",
-              "img": "Resources/Item Images/1028.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 1055,
+              "name": "Doran's Blade",
+              "img": "Resources/Item Images/1055.png"
             },
             {
               "id": 2003,
@@ -19119,7 +19343,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "W-E-Q-W-W-R-W-E-W-E-R-E-E-Q-Q-R-Q-Q",
@@ -19179,14 +19403,14 @@
               "img": "Resources/Item Images/3153.png"
             },
             {
-              "id": 3117,
-              "name": "Boots of Mobility",
-              "img": "Resources/Item Images/3117.png"
+              "id": 3111,
+              "name": "Mercury's Treads",
+              "img": "Resources/Item Images/3111.png"
             },
             {
-              "id": 3091,
-              "name": "Wit's End",
-              "img": "Resources/Item Images/3091.png"
+              "id": 3143,
+              "name": "Randuin's Omen",
+              "img": "Resources/Item Images/3143.png"
             },
             {
               "id": 3065,
@@ -19194,9 +19418,9 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
+              "id": 3026,
+              "name": "Guardian Angel",
+              "img": "Resources/Item Images/3026.png"
             }
           ],
           "popularStarterList": [
@@ -19228,7 +19452,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -19298,14 +19522,14 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
-            },
-            {
               "id": 3135,
               "name": "Void Staff",
               "img": "Resources/Item Images/3135.png"
+            },
+            {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             }
           ],
           "popularStarterList": [
@@ -19342,7 +19566,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -19385,9 +19609,9 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3742,
-              "name": "Dead Man's Plate",
-              "img": "Resources/Item Images/3742.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             }
           ],
           "highestWinItemList": [
@@ -19456,7 +19680,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-E-E-R-E-Q-E-Q-R-Q-Q-W-W-R-W-W",
@@ -19560,7 +19784,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -19649,19 +19873,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 1036,
-              "name": "Long Sword",
-              "img": "Resources/Item Images/1036.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
-            },
-            {
-              "id": 2003,
-              "name": "Health Potion",
-              "img": "Resources/Item Images/2003.png"
+              "id": 1055,
+              "name": "Doran's Blade",
+              "img": "Resources/Item Images/1055.png"
             },
             {
               "id": 2003,
@@ -19669,7 +19883,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -19697,24 +19911,24 @@
               "img": "Resources/Item Images/3111.png"
             },
             {
-              "id": 3078,
-              "name": "Trinity Force",
-              "img": "Resources/Item Images/3078.png"
-            },
-            {
               "id": 3065,
               "name": "Spirit Visage",
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3742,
-              "name": "Dead Man's Plate",
-              "img": "Resources/Item Images/3742.png"
+              "id": 3110,
+              "name": "Frozen Heart",
+              "img": "Resources/Item Images/3110.png"
             },
             {
               "id": 3053,
               "name": "Sterak's Gage",
               "img": "Resources/Item Images/3053.png"
+            },
+            {
+              "id": 3078,
+              "name": "Trinity Force",
+              "img": "Resources/Item Images/3078.png"
             }
           ],
           "highestWinItemList": [
@@ -19793,7 +20007,7 @@
               "img": "Resources/Item Images/2041.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "E-W-Q-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -19843,9 +20057,14 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3725,
+              "id": 3117,
+              "name": "Boots of Mobility",
+              "img": "Resources/Item Images/3117.png"
+            },
+            {
+              "id": 3709,
               "name": "Enchantment: Cinderhulk",
-              "img": "Resources/Item Images/3725.png"
+              "img": "Resources/Item Images/3709.png"
             },
             {
               "id": 3065,
@@ -19853,19 +20072,14 @@
               "img": "Resources/Item Images/3065.png"
             },
             {
-              "id": 3111,
-              "name": "Mercury's Treads",
-              "img": "Resources/Item Images/3111.png"
+              "id": 3800,
+              "name": "Righteous Glory",
+              "img": "Resources/Item Images/3800.png"
             },
             {
-              "id": 3143,
-              "name": "Randuin's Omen",
-              "img": "Resources/Item Images/3143.png"
-            },
-            {
-              "id": 3075,
-              "name": "Thornmail",
-              "img": "Resources/Item Images/3075.png"
+              "id": 3083,
+              "name": "Warmog's Armor",
+              "img": "Resources/Item Images/3083.png"
             },
             {
               "id": 3151,
@@ -19907,7 +20121,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Jungle",
           "lowerName": "jungle",
           "skillOrder": "W-Q-E-E-E-R-E-W-E-W-R-W-W-Q-Q-R-Q-Q",
@@ -19940,14 +20154,14 @@
               "img": "Resources/Item Images/3143.png"
             },
             {
-              "id": 3001,
-              "name": "Abyssal Scepter",
-              "img": "Resources/Item Images/3001.png"
+              "id": 3075,
+              "name": "Thornmail",
+              "img": "Resources/Item Images/3075.png"
             },
             {
-              "id": 3089,
-              "name": "Rabadon's Deathcap",
-              "img": "Resources/Item Images/3089.png"
+              "id": 3151,
+              "name": "Liandry's Torment",
+              "img": "Resources/Item Images/3151.png"
             }
           ],
           "highestWinItemList": [
@@ -19994,8 +20208,24 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "highestWinStarterList": [],
-          "patch": "",
+          "highestWinStarterList": [
+            {
+              "id": 1028,
+              "name": "Ruby Crystal",
+              "img": "Resources/Item Images/1028.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "5.17",
           "name": "Top",
           "lowerName": "top",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -20119,7 +20349,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -20189,14 +20419,14 @@
               "img": "Resources/Item Images/3089.png"
             },
             {
-              "id": 3157,
-              "name": "Zhonya's Hourglass",
-              "img": "Resources/Item Images/3157.png"
-            },
-            {
               "id": 3135,
               "name": "Void Staff",
               "img": "Resources/Item Images/3135.png"
+            },
+            {
+              "id": 3157,
+              "name": "Zhonya's Hourglass",
+              "img": "Resources/Item Images/3157.png"
             }
           ],
           "popularStarterList": [
@@ -20233,7 +20463,7 @@
               "img": "Resources/Item Images/2004.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-E-W-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -20308,9 +20538,9 @@
               "img": "Resources/Item Images/3157.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
             }
           ],
           "popularStarterList": [
@@ -20367,7 +20597,7 @@
               "img": "Resources/Item Images/3303.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -20397,8 +20627,24 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "highestWinStarterList": [],
-          "patch": "",
+          "highestWinStarterList": [
+            {
+              "id": 1056,
+              "name": "Doran's Ring",
+              "img": "Resources/Item Images/1056.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            },
+            {
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
+            }
+          ],
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-Q-E-Q-R-Q-W-Q-W-R-W-W-E-E-R-E-E",
@@ -20507,9 +20753,9 @@
           ],
           "highestWinStarterList": [
             {
-              "id": 2004,
-              "name": "Mana Potion",
-              "img": "Resources/Item Images/2004.png"
+              "id": 2003,
+              "name": "Health Potion",
+              "img": "Resources/Item Images/2003.png"
             },
             {
               "id": 2003,
@@ -20527,7 +20773,7 @@
               "img": "Resources/Item Images/3303.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Support",
           "lowerName": "support",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
@@ -20572,9 +20818,9 @@
           ],
           "highestWinItemList": [
             {
-              "id": 3165,
-              "name": "Morellonomicon",
-              "img": "Resources/Item Images/3165.png"
+              "id": 3151,
+              "name": "Liandry's Torment",
+              "img": "Resources/Item Images/3151.png"
             },
             {
               "id": 3020,
@@ -20582,24 +20828,24 @@
               "img": "Resources/Item Images/3020.png"
             },
             {
-              "id": 3151,
-              "name": "Liandry's Torment",
-              "img": "Resources/Item Images/3151.png"
-            },
-            {
-              "id": 3135,
-              "name": "Void Staff",
-              "img": "Resources/Item Images/3135.png"
-            },
-            {
               "id": 3157,
               "name": "Zhonya's Hourglass",
               "img": "Resources/Item Images/3157.png"
             },
             {
-              "id": 3285,
-              "name": "Luden's Echo",
-              "img": "Resources/Item Images/3285.png"
+              "id": 3089,
+              "name": "Rabadon's Deathcap",
+              "img": "Resources/Item Images/3089.png"
+            },
+            {
+              "id": 3116,
+              "name": "Rylai's Crystal Scepter",
+              "img": "Resources/Item Images/3116.png"
+            },
+            {
+              "id": 3135,
+              "name": "Void Staff",
+              "img": "Resources/Item Images/3135.png"
             }
           ],
           "popularStarterList": [
@@ -20636,7 +20882,7 @@
               "img": "Resources/Item Images/2003.png"
             }
           ],
-          "patch": "",
+          "patch": "5.17",
           "name": "Middle",
           "lowerName": "middle",
           "skillOrder": "Q-W-E-Q-Q-R-Q-E-Q-E-R-E-E-W-W-R-W-W",
