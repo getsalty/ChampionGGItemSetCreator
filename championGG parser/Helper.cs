@@ -291,6 +291,7 @@ namespace championGG_parser
             gameItems.Add(3751, "Bami's Cinder");
             gameItems.Add(3800, "Righteous Glory");
             gameItems.Add(3801, "Crystalline Bracer");
+            gameItems.Add(3902, "Death's Daughter");
         }
 
     }

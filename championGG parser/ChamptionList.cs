@@ -174,8 +174,17 @@ namespace championGG_parser
 
             Website tmpWeb = new Website("http://champion.gg/");
             string tmpStr = tmpWeb.textHTML;
-            string patchString = Helper.StringBetween(ref tmpStr, "<small>patch", "</strong>", true);
-            string[] splitValues = Helper.StringBetween(ref tmpStr, "col-md-9", "col-md-3", true).Split('\n');
+
+            string findFrom = ("patch");
+            string findTo = ("<spanclass=\"spacer\">|</span>");
+            string[] splitValues = Helper.StringBetween(ref tmpStr, findFrom, findTo, true).Split('\n');
+            findFrom = ("<strong>");
+            findTo = ("</strong>");
+            string[] splitValues2 = Helper.StringBetween(ref splitValues[1], findFrom, findTo, true).Split('\n');
+            string patchString = splitValues2[0] ?? "";
+
+            //string patchString = Helper.StringBetween(ref tmpStr, "<small>patch", "</strong>", true);
+            splitValues = Helper.StringBetween(ref tmpStr, "col-md-9", "col-md-3", true).Split('\n');
             tmpStr = "";
             tmpWeb = new Website();
 
