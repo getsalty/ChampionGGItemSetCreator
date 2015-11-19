@@ -318,6 +318,63 @@
   <ItemGroup>
     <Resource Include="Resources\Item Images\3902.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3036.png" />
+    <Resource Include="Resources\Item Images\3812.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1403.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\2031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1082.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3094.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\2033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1402.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1409.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1083.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1410.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1412.png" />
+    <Resource Include="Resources\Item Images\1415.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1408.png" />
+    <Resource Include="Resources\Item Images\2032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\1413.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Item Images\3124.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -70,7 +70,8 @@ namespace championGG_parser
             gameItems.Add(1036, "Long Sword");
             gameItems.Add(1037, "Pickaxe");
             gameItems.Add(1038, "B. F. Sword");
-            gameItems.Add(1039, "Hunter's Machete");
+            gameItems.Add(1039, "Hunter's Talisman");
+            gameItems.Add(1041, "Hunter's Machete");
             gameItems.Add(1042, "Dagger");
             gameItems.Add(1043, "Recurve Bow");
             gameItems.Add(1051, "Brawler's Gloves");
@@ -86,8 +87,23 @@ namespace championGG_parser
             gameItems.Add(1074, "Doran's Shield (Showdown)");
             gameItems.Add(1075, "Doran's Blade (Showdown)");
             gameItems.Add(1076, "Doran's Ring (Showdown)");
+            gameItems.Add(1082, "The Dark Seal");
+            gameItems.Add(1083, "Cull");
+            gameItems.Add(1400, "Enchantment: Warrior");
+            gameItems.Add(1401, "Enchantment: Cinderhulk");
+            gameItems.Add(1402, "Enchantment: Runeglaive");
+            gameItems.Add(1403, "Enchantment: Devourer");
+            gameItems.Add(1408, "Enchantment: Warrior");
+            gameItems.Add(1409, "Enchantment: Cinderhulk");
+            gameItems.Add(1410, "Enchantment: Runeglaive");
+            gameItems.Add(1412, "Enchantment: Warrior");
+            gameItems.Add(1413, "Enchantment: Cinderhulk");
+            gameItems.Add(1415, "Enchantment: Devourer");
             gameItems.Add(2003, "Health Potion");
             gameItems.Add(2004, "Mana Potion");
+            gameItems.Add(2031, "Refillable Potion");
+            gameItems.Add(2032, "Hunter's Potion");
+            gameItems.Add(2033, "Corrupting Potion");
             gameItems.Add(2041, "Crystalline Flask");
             gameItems.Add(2043, "Vision Ward");
             gameItems.Add(2044, "Stealth Ward");
@@ -118,7 +134,9 @@ namespace championGG_parser
             gameItems.Add(3028, "Chalice of Harmony");
             gameItems.Add(3029, "Rod of Ages (Crystal Scar)");
             gameItems.Add(3031, "Infinity Edge");
+            gameItems.Add(3033, "Mortal Reminder");
             gameItems.Add(3035, "Last Whisper");
+            gameItems.Add(3036, "Lord Dominik's Regards");
             gameItems.Add(3041, "Mejai's Soulstealer");
             gameItems.Add(3044, "Phage");
             gameItems.Add(3046, "Phantom Dancer");
@@ -151,6 +169,7 @@ namespace championGG_parser
             gameItems.Add(3091, "Wit's End");
             gameItems.Add(3092, "Frost Queen's Claim");
             gameItems.Add(3093, "Avarice Blade");
+            gameItems.Add(3094, "Rapid Firecannon");
             gameItems.Add(3096, "Nomad's Medallion");
             gameItems.Add(3097, "Targon's Brace");
             gameItems.Add(3098, "Frostfang");
@@ -291,6 +310,7 @@ namespace championGG_parser
             gameItems.Add(3751, "Bami's Cinder");
             gameItems.Add(3800, "Righteous Glory");
             gameItems.Add(3801, "Crystalline Bracer");
+            gameItems.Add(3812, "Death's Dance");
             gameItems.Add(3902, "Death's Daughter");
         }
 
