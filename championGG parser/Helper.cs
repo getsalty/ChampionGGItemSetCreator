@@ -98,6 +98,7 @@ namespace championGG_parser
             gameItems.Add(1410, "Enchantment: Runeglaive");
             gameItems.Add(1412, "Enchantment: Warrior");
             gameItems.Add(1413, "Enchantment: Cinderhulk");
+            gameItems.Add(1414, "Enchantment: Runeglaive");
             gameItems.Add(1415, "Enchantment: Devourer");
             gameItems.Add(2003, "Health Potion");
             gameItems.Add(2004, "Mana Potion");
@@ -202,6 +203,7 @@ namespace championGG_parser
             gameItems.Add(3144, "Bilgewater Cutlass");
             gameItems.Add(3145, "Hextech Revolver");
             gameItems.Add(3146, "Hextech Gunblade");
+            gameItems.Add(3147, "Duskblade of Draktharr");
             gameItems.Add(3151, "Liandry's Torment");
             gameItems.Add(3152, "Will of the Ancients");
             gameItems.Add(3153, "Blade of the Ruined King");

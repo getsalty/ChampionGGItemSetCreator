@@ -80,11 +80,13 @@ namespace championGG_parser
             champions.Add(new Champion("Graves"));
             champions.Add(new Champion("Hecarim"));
             champions.Add(new Champion("Heimerdinger"));
+            champions.Add(new Champion("Illaoi"));
             champions.Add(new Champion("Irelia"));
             champions.Add(new Champion("Janna"));
             champions.Add(new Champion("JarvanIV"));
             champions.Add(new Champion("Jax"));
             champions.Add(new Champion("Jayce"));
+            champions.Add(new Champion("Jhin"));
             champions.Add(new Champion("Jinx"));
             champions.Add(new Champion("Kalista"));
             champions.Add(new Champion("Karma"));
@@ -94,6 +96,7 @@ namespace championGG_parser
             champions.Add(new Champion("Kayle"));
             champions.Add(new Champion("Kennen"));
             champions.Add(new Champion("Khazix"));
+            champions.Add(new Champion("Kindred"));
             champions.Add(new Champion("KogMaw"));
             champions.Add(new Champion("Leblanc"));
             champions.Add(new Champion("LeeSin"));
