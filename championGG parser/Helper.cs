@@ -96,6 +96,7 @@ namespace championGG_parser
             gameItems.Add(1408, "Enchantment: Warrior");
             gameItems.Add(1409, "Enchantment: Cinderhulk");
             gameItems.Add(1410, "Enchantment: Runeglaive");
+            gameItems.Add(1411, "Enchantment: Devourer");
             gameItems.Add(1412, "Enchantment: Warrior");
             gameItems.Add(1413, "Enchantment: Cinderhulk");
             gameItems.Add(1414, "Enchantment: Runeglaive");

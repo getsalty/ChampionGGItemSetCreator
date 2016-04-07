@@ -12,6 +12,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Windows;
 
 namespace championGG_parser
 {
@@ -392,7 +393,16 @@ namespace championGG_parser
                         itemID = "2003";
                     }
                     short tmpID = Convert.ToInt16(itemID);
-                    itemList.Add(new Item() { id = tmpID, name = Helper.gameItems[tmpID] });
+                    try
+                    {
+                        itemList.Add(new Item() { id = tmpID, name = Helper.gameItems[tmpID] });
+
+                    }
+                    catch
+                    {
+                        MessageBox.Show("URL: " + website.URL + System.Environment.NewLine + "Item: " + tmpID);
+                        itemList.Add(new Item() { id = tmpID, name = "" });
+                    }
                 }
             }
         }
@@ -436,7 +446,8 @@ namespace championGG_parser
             string[] splitValues = Helper.StringBetween(ref websiteText, findFrom, findTo, true).Split('\n');
             findFrom = ("<strong>");
             findTo = ("</strong>");
-            string[] splitValues2 = Helper.StringBetween(ref splitValues[1], findFrom, findTo, true).Split('\n');
+            var patchString = splitValues.FirstOrDefault(o => o.Contains(findFrom));
+            string[] splitValues2 = Helper.StringBetween(ref patchString, findFrom, findTo, true).Split('\n');
             patch = splitValues2[0] ?? "";
             website.textHTML = websiteText;
             #endregion

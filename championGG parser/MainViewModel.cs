@@ -398,7 +398,7 @@ namespace championGG_parser
                 System.IO.Directory.CreateDirectory(recommendedDirectory);
 
 
-                var contains = Directory.EnumerateFiles(recommendedDirectory).Where(f => f.Contains("_5_"));
+                var contains = Directory.EnumerateFiles(recommendedDirectory).Where(f => f.Contains("_6_"));
                 foreach (var item2 in contains)
                 {
                     File.Delete(item2);
