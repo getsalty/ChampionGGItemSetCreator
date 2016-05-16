@@ -266,8 +266,10 @@ namespace championGG_parser
             Vis_UpdateDataLabel = Visibility.Hidden;
             Enable_Button_GetData = false;
             Enable_Button_Export = false;
+            Enable_Button_DeletePrev = false;
             Enable_DropDown_GetData = false;
             Enable_DropDown_ExportFiles = false;
+            Enable_DropDown_ClearHTML = false;
 
             Thread thread1 = new Thread(() =>
             {
@@ -305,6 +307,7 @@ namespace championGG_parser
                     }
                 }
 
+                int Curr_Champion = 0;
                 foreach (var champion in ChampionList.champions)
                 {
                     foreach (var position in champion.positions)
@@ -313,7 +316,8 @@ namespace championGG_parser
                         position.PopulateItems();
                         position.website.textHTML = "";
                     }
-                    Width_DataLoadingBarForeground++;
+                    Curr_Champion++;
+                    Width_DataLoadingBarForeground = Convert.ToInt32((124 * ((float)Curr_Champion / (float)ChampionList.champions.Count)));
                 }
 
                 Vis_LoadingGif = Visibility.Hidden;

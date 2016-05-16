@@ -101,6 +101,8 @@ namespace championGG_parser
             gameItems.Add(1413, "Enchantment: Cinderhulk");
             gameItems.Add(1414, "Enchantment: Runeglaive");
             gameItems.Add(1415, "Enchantment: Devourer");
+            gameItems.Add(1416, "Enchantment: Bloodrazor");
+            gameItems.Add(1419, "Enchantment: Bloodrazor");
             gameItems.Add(2003, "Health Potion");
             gameItems.Add(2004, "Mana Potion");
             gameItems.Add(2031, "Refillable Potion");
@@ -135,6 +137,7 @@ namespace championGG_parser
             gameItems.Add(3027, "Rod of Ages");
             gameItems.Add(3028, "Chalice of Harmony");
             gameItems.Add(3029, "Rod of Ages (Crystal Scar)");
+            gameItems.Add(3030, "Hextech GLP-800");
             gameItems.Add(3031, "Infinity Edge");
             gameItems.Add(3033, "Mortal Reminder");
             gameItems.Add(3035, "Last Whisper");
